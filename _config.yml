@@ -3,8 +3,8 @@ title: BSG Unified Rulebook
 email: jbiatek@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A unified rulebook for all of Battlestar Galactica and its expansions. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jbiatek.github.io/BSGRulebook/" # the base hostname & protocol for your site
+baseurl: "BSGRulebook/" # the subpath of your site, e.g. /blog/
+url: "http://jbiatek.github.io/" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
