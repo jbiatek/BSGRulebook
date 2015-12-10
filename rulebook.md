@@ -470,7 +470,7 @@ Hoshi's "Reluctant" weakness also applies to Movement actions on Skill cards (as
 
 Tom Zarek (Military)'s "Necessary Steps" applies to all players, even himself, and even applies at the start of the game when he draws a Mutiny card due to his "Disreputable" weakness. 
 
-Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "X Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
+Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "[Someone] Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
 
 Doc Cottle can use *abilities* on Engineering cards, just not Actions. As always, this restriction also applies to Movement actions.
 
