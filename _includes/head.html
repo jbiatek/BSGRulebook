@@ -9,4 +9,13 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.toc%}
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <script src="{{ site.baseurl }}/js/toc.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc();
+  });
+  </script>
+  {% endif %}
 </head>

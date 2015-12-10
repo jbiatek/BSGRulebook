@@ -1,6 +1,7 @@
 ---
 layout: page
 title: BSG Unified Rulebook
+toc: true
 ---
 
 ## Introduction
