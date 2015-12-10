@@ -1199,7 +1199,7 @@ The Mood Pool should always have the same number of tokens as there are players,
 
 #### Encountering an Ally
 
-When an Ally is encountered, draw and reveal a token from the Mood Pool. Resolve this result with the Ally, and remove the Ally from the game. The player who encountered the Ally takes the drawn token, adds it to their set of tokens, randomizes, and then contributes any 1 of their tokens back to the Mood Pool. 
+When an Ally is encountered, draw and reveal a token from the Mood Pool. Resolve this result with the Ally, and remove the Ally from the game. The player who encountered the Ally takes the drawn token, adds it to their set of tokens, randomizes, and secretly chooses one of their own tokens to put back into the Mood Pool. 
 
 #### Allies damaged or chosen after an execution
 
