@@ -192,9 +192,9 @@ When a deck runs out of cards, shuffle the discard pile to create a new deck.
 A human player's game turn consists of the following steps:
 
 1. If there is a Trauma token in the player's current location, they must draw it and place 1 Trauma token from the pool on that location to replace it.
-- Receive Skills: 
+1. Receive Skills: 
     - Human players receive cards according to their character sheet. 
-- Movement: 
+1. Movement: 
     - Player may move their character to a new location. In order to move to another ship, the player must first discard 1 skill card from their hand. If they have no cards to discard, they cannot move between ships.
         - The discard is completely resolved before the character moves. This is important for cards like "Sabotoge" which can trigger when a card is discarded. (For "Sabotage", this means that if the player's _starting_ location is damaged, they must move to Sickbay instead of their desired location. If their _destination_ location is damaged, the character is not there when it is damaged so they may still move there.)
         - If, after discarding, the move is no longer legal, the player does not move and their Movement step is over. 
@@ -203,9 +203,9 @@ A human player's game turn consists of the following steps:
     - A player piloting a viper may move their ship to an adjacent space area, or may discard a skill card to move to a location on any ship and return their viper to the Reserves. Neither of these moves is a viper activation.
     - Players may not choose to move to "hazardous" locations, they can only be sent there by a game effect that specifies that exact location.
     - Human players are not allowed to move to Cylon locations (and vice versa). 
-- At the end of the Movement step, if in a location with 1 or more Ally tokens, choose 1 ally to encounter and resolve it. 
+1. At the end of the Movement step, if in a location with 1 or more Ally tokens, choose 1 ally to encounter and resolve it. 
     - This is simultaneous with Ellen Tigh's "Politically Adroit" since both occur "at the end of your Movement step". As always, the current player (Ellen Tigh) may choose which order they are resolved in. If encountering an Ally causes a move, she may use "Adroit" in her new location if she hasn't already.
-- Action:
+1. Action:
     - Player may choose 1 action to perform ("Do Nothing" is always an available action as well). Unless otherwise noted, these are always printed on something with the word "Action:" in front of it. Actions can come from
         - Their current location
         - A Skill Card
@@ -214,10 +214,10 @@ A human player's game turn consists of the following steps:
         - A Quorum card
         - A Loyalty Card
         - While piloting a viper, the player may Activate the ship that they are piloting as an action.
-- Crisis: Unless otherwise indicated, the current player draws and resolves a Crisis card. 
-- Activate Cylon Ships as directed by the bottom left corner of Crisis card(s) played during this turn
-- Prepare for Jump for Crisis card(s) played during this turn
-- End turn. Discard Crisis cards. *All players* must discard Skill Cards down to the 10 card limit if necessary. If any resource is at 0 or lower, humans lose.
+1. Crisis: Unless otherwise indicated, the current player draws and resolves a Crisis card. 
+1. Activate Cylon Ships as directed by the bottom left corner of Crisis card(s) played during this turn
+1. Prepare for Jump for Crisis card(s) played during this turn
+1. End turn. Discard Crisis cards. *All players* must discard Skill Cards down to the 10 card limit if necessary. If any resource is at 0 or lower, humans lose.
 
 There is a subtle difference between a "move" and a "Movement:" action. A "move" is the act of moving a character token, whether that is within a ship, across ships (discarding 1 Skill card), piloting a viper to a new space area, or landing a viper (discarding 1 Skill card). When a card allows a player to move, or says that a player cannot move, these are what it is referring to. In contrast, a "Movement:" action is an action that players may take *only during the Movement step of their turn* instead of moving. If an effect grants a "move", like Executive Order, this does not allow the player to use a Movement action instead. Similarly, although the Brig forbids *moving*, players may still use Movement actions during their Movement step while in the Brig. 
 
@@ -264,12 +264,12 @@ To create the Destiny deck, take two of each type of Skill Card (including Treac
 ### Crisis card resolution
 
 1. Draw Crisis card 
-- Reveal Crisis card and read it
+1. Reveal Crisis card and read it
    - Starbuck's "Secret Destiny" takes place before Baltar's "Delusional Intuition" (Baltar's text should really say "after revealing")
-- Resolve "Player Chooses" event, if any
+1. Resolve "Player Chooses" event, if any
    - Lee Adama's "Choose a Different Path" adds a new choice that *may* be chosen
     - Helo’s "Moral Compass" forces a specific choice that *must* be chosen
-- Follow the Skill Check procedure if a Skill Check has been chosen
+1. Follow the Skill Check procedure if a Skill Check has been chosen
 
 When making a "Player Chooses" decision, unless specifically stated otherwise a player may select which box gets resolved even if they know that they will not be able to actually fulfill that option. For example, if the choice is between "lose 1 morale" and "the President discards 5 Skill cards", the second option can be chosen even if the President has no Skill cards.
 
@@ -305,11 +305,11 @@ Super Crisis cards are resolved like Crisis cards but they are not Crisis cards,
     - "Red Tape" and "Quick Thinking" refer to the printed value on the card only, not values after any modification.
 8. If the Skill Check was made Reckless, but the "Mutiny" Treachery deck from Daybreak is being used (which contains no Reckless Skill Check Abilities), do the following:
     1. Draw 1 Treachery card
-    - If it is strength 0:
+    1. If it is strength 0:
         - Draw 1 more Treachery card
         - Resolve both Skill Check Abilities, even if they are duplicates of other abilities that have already been resolved
         - Remove both cards from the check and discard them. They do not count toward the Skill check's strength.
-    - If it is not strength 0, it is discarded with no effects.
+    1. If it is not strength 0, it is discarded with no effects.
 9. Trigger Consequences, if any
     - Consequences are resolved if at "least 1 Skill Card with a Skill Check Ability icon was played into the check". They are indicated by a "Skill Check Ability" icon on the Crisis card, similar to the "Pass" and "Fail" results. 
 10. Total the net strength of the cards (positive minus negative), taking into account any effects that modified them
@@ -362,13 +362,13 @@ When "FTL Control" is used to jump, the current player (not the player who activ
 The procedure for jumping is:
 
 1. If the Demetrius is present, follow the instructions on the Active Mission space. 
-- All ships on the game board are removed and returned to their respective pile, the Reserves, etc. unless otherwise specified. Pilots who were flying ships move to the Hanger Deck. Centurions are *not* removed. 
+1. All ships on the game board are removed and returned to their respective pile, the Reserves, etc. unless otherwise specified. Pilots who were flying ships move to the Hanger Deck. Centurions are *not* removed. 
     - With the Cylon Fleet board, do *not* remove civilian ships, and Cylon ships do not go back to their piles, instead they are moved to the respective space area on the Cylon Fleet board. Basestar damage tokens are removed and returned to the unused pile. 
     - Pilots of assault raptors may choose to remain in space during this step. The current player may choose to keep unmanned assault raptors in space during this step. 
-- The Admiral draws 2 Destination cards, chooses 1, and places the other on the bottom of the Destination deck. 
-- Follow the instructions on the chosen Destination card. 
-- If the Objective card specifies something that happens at this new distance, resolve that event completely.
-- Reset the Jump Preparation track to the start. 
+1. The Admiral draws 2 Destination cards, chooses 1, and places the other on the bottom of the Destination deck. 
+1. Follow the instructions on the chosen Destination card. 
+1. If the Objective card specifies something that happens at this new distance, resolve that event completely.
+1. Reset the Jump Preparation track to the start. 
     - If the "Crossroads" phase was just resolved, skip this step.
 
 ### Character sheets
@@ -590,15 +590,15 @@ In addition, State of Emergency continues to execute even if the player who play
 Revealing as a Cylon is an Action, as described on the "You Are A Cylon" Loyalty card. It can also happen involuntarily, for example as the result of an execution. 
 
 1. Complete the Action listed on the "You Are a Cylon" card. Note that it says to only reveal "this" card, not others. Keep any other Loyalty cards secret!
-- Discard your hand of Skill cards down to 3. 
-- Discard any Quorum cards attached to your character (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and any Miracle tokens.
-- Lose any titles to the character highest in the line of succession for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded. 
-- Move to the Resurrection Ship location. If piloting a ship, that ship is returned to the Reserves.
-- Unless otherwise directed, receive a Super Crisis Card.
-- If you were the Mutineer, hand off the Mutineer card to the human player of your choice. They must follow the procedure for revealing the Mutineer card. 
-- If there is a "Cylon Locations" overlay on the board, and the fleet has traveled 6 or less distance, look at the rest of your Loyalty cards, if any. Hand them all, face down, to *one* human player of your choice. 
+1. Discard your hand of Skill cards down to 3. 
+1. Discard any Quorum cards attached to your character (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and any Miracle tokens.
+1. Lose any titles to the character highest in the line of succession for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded. 
+1. Move to the Resurrection Ship location. If piloting a ship, that ship is returned to the Reserves.
+1. Unless otherwise directed, receive a Super Crisis Card.
+1. If you were the Mutineer, hand off the Mutineer card to the human player of your choice. They must follow the procedure for revealing the Mutineer card. 
+1. If there is a "Cylon Locations" overlay on the board, and the fleet has traveled 6 or less distance, look at the rest of your Loyalty cards, if any. Hand them all, face down, to *one* human player of your choice. 
     - If there is no overlay, the Resurrection Ship location will allow you to do this later as an action. 
-- As a Cylon, you do not resolve a Crisis at the end of your turn anymore, so if you revealed as your normal Action, end your turn without drawing a Crisis card. 
+1. As a Cylon, you do not resolve a Crisis at the end of your turn anymore, so if you revealed as your normal Action, end your turn without drawing a Crisis card. 
 
 #### Cylon game turn
 
@@ -797,10 +797,10 @@ Cylon ships are never permanently destroyed. When they are destroyed, put them b
 When a Cylon raider is activated, it does the first available action in this list:
 
 1. Attack an unmanned viper in its space area
-- Attack a manned viper in its space area
-- Destroy a civilian ship in its space area
-- Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
-- If there are no civilian ships, the raider attacks Galactica. 
+1. Attack a manned viper in its space area
+1. Destroy a civilian ship in its space area
+1. Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
+1. If there are no civilian ships, the raider attacks Galactica. 
 
 Scar is a special raider. He can only be destroyed as the result of a die roll of 7 or 8. Modifiers to die rolls are allowed, so a roll of 6 with "Strategic Planning" would destroy Scar. If a nuke allows raiders to be destroyed, he can be chosen only if the die roll was a 7 or 8. If a game effect allows you to destroy a raider without a die roll, Scar cannot be chosen. If a game effect includes a roll to see "how many" raiders to destroy, Scar can be chosen only if that roll was a 7 or an 8. Kat's "Hot Shot" ability skips the die roll, and so cannot be used to destroy Scar. 
 
@@ -808,9 +808,9 @@ Scar is a special raider. He can only be destroyed as the result of a die roll o
 When heavy raiders are activated, do *all* of the following: 
 
 1. Move all centurions on the board one 1 space further on the Boarding Party track
-- If a heavy raider is already in a space area with a launch icon, it is removed from the board and replaced with a Centurion on the start of the Boarding Party track (if there are not enough Centurion tokens, leave the heavy raider in space). 
-- Move all heavy raiders on the board toward the closest viper launch icon
-- If there were no heavy raiders on the board, launch one from each basestar. 
+1. If a heavy raider is already in a space area with a launch icon, it is removed from the board and replaced with a Centurion on the start of the Boarding Party track (if there are not enough Centurion tokens, leave the heavy raider in space). 
+1. Move all heavy raiders on the board toward the closest viper launch icon
+1. If there were no heavy raiders on the board, launch one from each basestar. 
 
 When something says to "activate heavy raiders", that *always* includes Centurions as well unless otherwise stated. 
 
@@ -887,23 +887,23 @@ For Raider Bay, the player is only allowed to activate the ships being placed, n
 Executions are handled differently based on which Loyalty deck style was used: _extra card_ from Exodus or _original_. Follow one or the other, not both! The _extra card_ procedure only works with the extra loyalty card. Follow this procedure, taking care to only do *one* of the two styles:
 
 1. Discard your entire hand of Skill Cards, any Quorum cards *attached to your character* (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and if playing with Daybreak, any miracle tokens. When not playing with Daybreak, once-per-game status isn't affected by execution since they can't be earned back (you, as a player, get exactly one per game). 
-- _Extra card only: If the player executed was the current player, their turn will immediately be over after the execution is resolved._
-- Prove your loyalty:
+1. _Extra card only: If the player executed was the current player, their turn will immediately be over after the execution is resolved._
+1. Prove your loyalty:
     - Cylons & Cylon Leaders
         - If you were a hidden Cylon player, reveal *one* "You Are a Cylon" card and keep the rest of your Loyalty cards face down. Do not take the action on that card. Follow the rest of the normal procedure for revealing as a Cylon, but do not draw a Super Crisis card. 
         - If you were a Cylon Leader or an exposed Cylon, do the same thing but ignore any instructions about Loyalty cards. As always, Cylon Leaders *do not reveal their agenda or motive!*
     - Human
         1. Reveal *all* your Loyalty cards, showing that none are Cylon cards. For "Final Five" cards, resolve the text for execution.
-        - The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)
-        - Return your character and token(s) to the box, removing them from the game. Discard any Trauma tokens.
-        - _Extra card only: Discard all of your loyalty cards._
-        - _Original only: If you are Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 new Loyalty card._ (_Extra card_ will do this later.)
-        - Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose. Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). During the New Caprica phase before Galactica returns, start in Resistance HQ. 
-        - _Extra card only: Add 1 "Not a Cylon" card to the Loyalty deck, shuffle, and draw 1 new card. If Boomer was the one executed and the Sleeper Agent phase hasn't been reached yet, now is when they draw 1 new Loyalty card._
-        - Distribute any former titles to the first in the respective line of succession, taking into account the new character. Existing titles do not change hands, even if the new character is higher in the line of succession. 
-        - If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer. 
-        - If playing with Trauma tokens, draw 3 new Trauma tokens. If a "disaster" token is drawn, set it aside and draw a new one to replace it, then return the "disaster" token to the pool (just like at the start of the game).
-        - If one of these characters was chosen, there are some addtional rules and clarifications:
+        1. The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)
+        1. Return your character and token(s) to the box, removing them from the game. Discard any Trauma tokens.
+        1. _Extra card only: Discard all of your loyalty cards._
+        1. _Original only: If you are Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 new Loyalty card._ (_Extra card_ will do this later.)
+        1. Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose. Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). During the New Caprica phase before Galactica returns, start in Resistance HQ. 
+        1. _Extra card only: Add 1 "Not a Cylon" card to the Loyalty deck, shuffle, and draw 1 new card. If Boomer was the one executed and the Sleeper Agent phase hasn't been reached yet, now is when they draw 1 new Loyalty card._
+        1. Distribute any former titles to the first in the respective line of succession, taking into account the new character. Existing titles do not change hands, even if the new character is higher in the line of succession. 
+        1. If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer. 
+        1. If playing with Trauma tokens, draw 3 new Trauma tokens. If a "disaster" token is drawn, set it aside and draw a new one to replace it, then return the "disaster" token to the pool (just like at the start of the game).
+        1. If one of these characters was chosen, there are some addtional rules and clarifications:
             - Boomer: 
                 - If after the Sleeper Agent phase, start in the Brig.
                 - _Original only: If before the Sleeper Agent phase, shuffle 1 "Not A Cylon" card into the Loyalty deck._
@@ -1057,10 +1057,10 @@ Once all players have made their selection, the current player reveals their car
 ##### The Trial/Boxing the Line
 
 1. Remove all Crossroads cards and the Trauma tokens used with them from the game. Also remove all Ally cards and tokens, the Trauma tokens attached to them, and the Trauma tokens on board locations from the game. 
-- Each player reveals all of their Trauma tokens. Human players discard their "Benevolent" tokens, while Cylon players discard all of their "Antagonistic" tokens.
-- Each player with 2 or fewer tokens at this point discards them. 
-- Each player counts the number of tokens they have remaining.
-- If all players have 0 tokens, then no player is eliminated. If not, the player with the most tokens is eliminated from the game. 
+1. Each player reveals all of their Trauma tokens. Human players discard their "Benevolent" tokens, while Cylon players discard all of their "Antagonistic" tokens.
+1. Each player with 2 or fewer tokens at this point discards them. 
+1. Each player counts the number of tokens they have remaining.
+1. If all players have 0 tokens, then no player is eliminated. If not, the player with the most tokens is eliminated from the game. 
     - If human players are tied, the President chooses one of the tied players for elimination.
     - If Cylon players are tied, each tied Cylon player is eliminated.
     - If both human and Cylon players are tied, follow *both* rules. All tied Cylons are eliminated, and the President chooses which tied human is eliminated. 
