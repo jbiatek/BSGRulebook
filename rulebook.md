@@ -357,11 +357,7 @@ When playing with the Cylon Fleet option, the phrase "**nothing happens on the m
 
 Note that, for example, if raiders are launched, but the only basestar has been damaged and can no longer launch raiders, this does *not* trigger any action on the Cylon Fleet board because the basestar tried to attack but failed. The Cylon Fleet board is also not triggered when nothing happens on the board solely due to component limitations, because the current player tried to execute the action but could not. It is only triggered when the  phrase "**nothing happens on the main game board**" is specified as the end result because the condition immediately preceding it was true. 
 
-### Cylon combat ships
-
-Cylon ships are never permanently destroyed. When they are destroyed, put them back next to the game board for reuse later. They are not piloted, nor are their actions controlled directly by Cylon players. 
-
-#### Raiders
+#### Activating a raider
 When a Cylon raider is activated, it does the *first available* action in this list and then stops:
 
 1. Attack an unmanned viper in its space area
@@ -371,7 +367,7 @@ When a Cylon raider is activated, it does the *first available* action in this l
 1. If there are no civilian ships, the raider attacks Galactica. 
 
 
-#### Heavy raiders and Centurions
+#### Activating heavy raiders and Centurions
 When heavy raiders are activated, do *all* of the following: 
 
 1. Move all centurions on the board one 1 space further on the Boarding Party track
@@ -384,26 +380,6 @@ When something says to "activate heavy raiders", that *always* includes Centurio
 Multiple Centurions can occupy the same space at the same time, they do not "push" each other forward. 
 
 If a heavy raider would normally enter a viper launch tube, but there are no Centurion tokens, it stays on the board since it cannot be converted to a Centurion. As always, the current player decides which order to resolve them in. 
-
-#### Basestars
-
-Basestars are destroyed after taking 3 damage tokens. When a basestar is damaged, draw a token. Each token has some sort of effect:
-
-- The "2" is a Critical Hit, which counts for 2 damage tokens instead of just 1. 
-- The raider is a Disabled Hanger, which prevents that basestar from launching raiders *or* heavy raiders.
-- The 3 missiles firing is Disabled Weapons, which prevents the basestar from firing on Galactica. 
-- The image of a basestar is Structural Damage, which gives a +2 bonus to attacks against that basestar. 
-
-If a game effect instructs you to "destroy a basestar", it is simply destroyed without drawing damage tokens. When a basestar with 2 damage tokens is damaged again, that basestar is simply destroyed without drawing another damage token. 
-
-The Ionian Nebula option includes 2 other types of damage:
-
-- The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.
-- The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 trauma tokens when it is drawn. 
-
-When playing with these tokens, a basestar with 2 damage tokens that is damaged again *should* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
-
-
 
 ### Jumping the fleet
 
@@ -841,6 +817,25 @@ With the Cylon Fleet board, a nuke targets an entire space area instead of a sin
 - 3–6: Destroy a basestar
 - 7: Destroy a basestar and 3 raiders
 - 8: Destroy every ship in the space area
+
+#### Basestar damage
+
+Basestars are destroyed after taking 3 damage tokens. When a basestar is damaged, draw a token. Each token has some sort of effect:
+
+- The "2" is a Critical Hit, which counts for 2 damage tokens instead of just 1. 
+- The raider is a Disabled Hanger, which prevents that basestar from launching raiders *or* heavy raiders.
+- The 3 missiles firing is Disabled Weapons, which prevents the basestar from firing on Galactica. 
+- The image of a basestar is Structural Damage, which gives a +2 bonus to attacks against that basestar. 
+
+If a game effect instructs you to "destroy a basestar", it is simply destroyed without drawing damage tokens. When a basestar with 2 damage tokens is damaged again, that basestar is simply destroyed without drawing another damage token. 
+
+The Ionian Nebula option includes 2 other types of damage:
+
+- The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.
+- The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 trauma tokens when it is drawn. 
+
+When playing with these tokens, a basestar with 2 damage tokens that is damaged again *should* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
+
 
 #### Scar
 
