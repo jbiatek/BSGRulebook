@@ -80,7 +80,25 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 500;
+}
+h1 {
+	font-size: 42px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
 }
 
 
@@ -131,14 +149,14 @@ th, td {
 	padding: 10px;
 }
 th {
-	background-color: #555;
+	background-color: $grey-color-dark;
 	color: white;
 }
 table, th, td {
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid $grey-color;
 	text-align: left;
 }
-tr:nth-child(even) {background-color: #EEE}
+tr:nth-child(even) {background-color: $grey-color-light}
 
 /**
  * Code formatting
