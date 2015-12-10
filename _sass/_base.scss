@@ -120,7 +120,25 @@ blockquote {
     }
 }
 
-
+/**
+ * Tables
+ */
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+th, td {
+	padding: 10px;
+}
+th {
+	background-color: #555;
+	color: white;
+}
+table, th, td {
+	border-bottom: 1px solid grey;
+	text-align: left;
+}
+tr:nth-child(even) {background-color: #EEE}
 
 /**
  * Code formatting
