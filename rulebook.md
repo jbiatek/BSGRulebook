@@ -292,7 +292,7 @@ Super Crisis cards are resolved like Crisis cards but they are not Crisis cards,
         - "before making a skill check"
         - "before cards are added to a Skill check"
         - "when a player activates [some location]"
-    - "Restore Order" prevents Reckless cards from being played afterward, and vice versa
+    - Only one Reckless card may be applied to a Skill Check. "Restore Order" prevents any Reckless cards from being played, and "Restore Order" cannot be played after a Reckless card. 
     - When Dee uses her "Fast Learner" to add cards to the Skill check, they aren't *officially* added until after the Destiny deck's cards. This means that more "pre-card" effects can be played even after "Fast Learner" has been used. 
     - Players can receive new cards from "Support the People" and use them as additional "pre-card" effects as well
     - When the current player chooses an effect to go first, the rejected effect can be withdrawn. If it was on a card, the owner takes the card back.
@@ -357,6 +357,54 @@ When playing with the Cylon Fleet option, the phrase "**nothing happens on the m
 
 Note that, for example, if raiders are launched, but the only basestar has been damaged and can no longer launch raiders, this does *not* trigger any action on the Cylon Fleet board because the basestar tried to attack but failed. The Cylon Fleet board is also not triggered when nothing happens on the board solely due to component limitations, because the current player tried to execute the action but could not. It is only triggered when the  phrase "**nothing happens on the main game board**" is specified as the end result because the condition immediately preceding it was true. 
 
+### Cylon combat ships
+
+Cylon ships are never permanently destroyed. When they are destroyed, put them back next to the game board for reuse later. They are not piloted, nor are their actions controlled directly by Cylon players. 
+
+#### Raiders
+When a Cylon raider is activated, it does the *first available* action in this list and then stops:
+
+1. Attack an unmanned viper in its space area
+1. Attack a manned viper in its space area
+1. Destroy a civilian ship in its space area
+1. Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
+1. If there are no civilian ships, the raider attacks Galactica. 
+
+
+#### Heavy raiders and Centurions
+When heavy raiders are activated, do *all* of the following: 
+
+1. Move all centurions on the board one 1 space further on the Boarding Party track
+1. If a heavy raider is already in a space area with a launch icon, it is removed from the board and replaced with a Centurion on the start of the Boarding Party track (if there are not enough Centurion tokens, leave the heavy raider in space). 
+1. Move all heavy raiders on the board toward the closest viper launch icon
+1. If there were no heavy raiders on the board, launch one from each basestar. 
+
+When something says to "activate heavy raiders", that *always* includes Centurions as well unless otherwise stated. 
+
+Multiple Centurions can occupy the same space at the same time, they do not "push" each other forward. 
+
+If a heavy raider would normally enter a viper launch tube, but there are no Centurion tokens, it stays on the board since it cannot be converted to a Centurion. As always, the current player decides which order to resolve them in. 
+
+#### Basestars
+
+Basestars are destroyed after taking 3 damage tokens. When a basestar is damaged, draw a token. Each token has some sort of effect:
+
+- The "2" is a Critical Hit, which counts for 2 damage tokens instead of just 1. 
+- The raider is a Disabled Hanger, which prevents that basestar from launching raiders *or* heavy raiders.
+- The 3 missiles firing is Disabled Weapons, which prevents the basestar from firing on Galactica. 
+- The image of a basestar is Structural Damage, which gives a +2 bonus to attacks against that basestar. 
+
+If a game effect instructs you to "destroy a basestar", it is simply destroyed without drawing damage tokens. When a basestar with 2 damage tokens is damaged again, that basestar is simply destroyed without drawing another damage token. 
+
+The Ionian Nebula option includes 2 other types of damage:
+
+- The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.
+- The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 trauma tokens when it is drawn. 
+
+When playing with these tokens, a basestar with 2 damage tokens that is damaged again *should* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
+
+
+
 ### Jumping the fleet
 
 The human fleet normally jumps by either activating the "FTL Control" location on Galactica, or having the fleet token reach "Auto-Jump". 
@@ -369,11 +417,28 @@ The procedure for jumping is:
 1. All ships on the game board are removed and returned to their respective pile, the Reserves, etc. unless otherwise specified. Pilots who were flying ships move to the Hanger Deck. Centurions are *not* removed. 
     - With the Cylon Fleet board, do *not* remove civilian ships, and Cylon ships do not go back to their piles, instead they are moved to the respective space area on the Cylon Fleet board. Basestars do not carry their damage tokens with them to the Cylon Fleet board, so return any damage tokens to the unused pile.  
     - Pilots of assault raptors may choose to remain in space during this step. The current player may choose to keep unmanned assault raptors in space during this step. 
-1. The Admiral draws 2 Destination cards, chooses 1, and places the other on the bottom of the Destination deck without revealing it. The Admiral may not discuss these cards with other players.
+1. The Admiral draws 2 Destination cards and, without discussing or showing them, chooses 1 as the next destination for the fleet. The other Destination card is placed at the bottom of the Destination deck and remains secret.
 1. Follow the instructions on the chosen Destination card. 
 1. If the Objective card specifies something that happens at this new distance, resolve that event completely.
 1. Reset the Jump Preparation track to the start. 
     - If the "Crossroads" phase was just resolved, skip this step.
+
+### Sleeper Agent phase
+
+At the Sleeper Agent phase, more Loyalty cards are dealt to every player except for Cylon Leaders. It begins when the distance specified on the Objective card is reached. 
+
+Upon reaching this distance or more, deal 1 Loyalty card to every player who is not a Cylon Leader, including revealed Cylon players. Revealed Cylons must ignore any text that says to "immediately reveal this card". If the Cylon Leader is using Motive cards, deal 2 more Motive cards to them.
+
+When playing with the "You Are a Mutineer" card, if no one has revealed as the Mutineer after all the Sleeper Agent phase cards have been dealt, the current player chooses a human player to draw an extra Loyalty card from the Loyalty deck. In this case, if they subsequently reveal the Mutineer card, they do not replace it with another Loyalty card. 
+
+#### Revealed Cylons during the Sleeper Agent phase
+
+If the Resurrection Ship is a hazardous location, revealed Cylon players should receive Loyalty cards, look at them, then immediately pass them on to *one* human player of their choice. They should not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.  
+
+If the Resurrection Ship is not hazardous, revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.
+
+Sharon "Boomer" Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability should no longer apply because character abilities are ignored as a revealed Cylon. If playing with an extra card style Loyalty deck, this is no problem since there is a mechanism for dealing with this already. Otherwise, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not an extra Loyalty card left over. 
+
 
 ### Character sheets
 
@@ -393,7 +458,7 @@ A character ability that affects Crisis cards or Skill checks does *not* affect 
 
 When Helo re-rolls a die that had "Strategic Planning" applied to it, the re-roll also receives +2 to the result. Players may also choose to apply "Strategic Planning" to the re-roll if it wasn't used originally. 
 
-Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone] Chooses" Crisis. He cannot, however, influence a "choice within a choice", for example, if the chosen box says that the President must either give up their title or go to the Brig. In a situation like that, Helo gets to choose which box gets resolved, but he doesn't have additional power over its resolution.  
+Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone] Chooses" Crisis. He cannot, however, influence any choices that must be made *within* that box. For example, if the chosen box says that the President must either give up their title or go to the Brig, Helo does not have the power to influence the President's decision. 
 
 If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later.
 
@@ -405,7 +470,7 @@ Hoshi's "Reluctant" weakness also applies to Movement actions on Skill cards (as
 
 Tom Zarek (Military)'s "Necessary Steps" applies to all players, even himself, and even applies at the start of the game when he draws a Mutiny card due to his "Disreputable" weakness. 
 
-Lee Adama (Political)'s "Choose a Different Path" creates a new, additional option on "X Chooses" cards. If Helo uses "Moral Compass", he forces the choice to a different one. Therefore, Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to choose it. 
+Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "X Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
 
 Doc Cottle can use *abilities* on Engineering cards, just not Actions. As always, this restriction also applies to Movement actions.
 
@@ -668,6 +733,44 @@ When a game effect forces a choice of which character to send to Sickbay or the 
 However, if the effect specifies a certain player, like the President, and that player cannot be moved or is already in that location, the effect may be chosen even though it cannot be accomplished. For example, if given a choice between "Lose 2 morale" and "send the President to Sickbay", the second option can be chosen even if the President cannot be moved to Sickbay. 
 
 
+### Execution
+
+Executions are handled differently based on which Loyalty deck style was used when setting up the game: _extra card_ from Exodus or _original_. Follow one or the other, not both! The _extra card_ procedure only works with the extra loyalty card. Follow this procedure, taking care to only do *one* of the two styles:
+
+1. Discard your entire hand of Skill Cards, any Quorum cards *attached to your character* (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and if playing with Daybreak, any miracle tokens. If not playing with Daybreak, once-per-game status isn't affected by execution: you, as a player, may use exactly one per game. 
+1. _Extra card only: If the player executed was the current player, their turn will immediately be over after the execution is resolved._
+1. Prove your loyalty:
+    - Cylons & Cylon Leaders
+        - If you were a hidden Cylon player, reveal *one* "You Are a Cylon" card and keep the rest of your Loyalty cards face down. Do not take the action on that card. Follow the rest of the normal procedure for revealing as a Cylon, but do not draw a Super Crisis card. 
+        - If you were a Cylon Leader or an exposed Cylon, do the same thing but ignore any instructions about Loyalty cards. As always, Cylon Leaders *do not reveal their agenda or motive!*
+    - Human
+        1. Reveal *all* your Loyalty cards, showing that none are Cylon cards. For "Final Five" cards, resolve the text for execution.
+        1. The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)
+        1. Return your character and token(s) to the box, removing them from the game. Discard any Trauma tokens.
+        1. _Extra card only: Discard all of your loyalty cards._
+        1. _Original only: If you were Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 new Loyalty card._ (Extra card will do this later.)
+        1. Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose. 
+        1. Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). During the New Caprica phase before Galactica returns, start in Resistance HQ. 
+        1. _Extra card only: Add 1 "Not a Cylon" card to the Loyalty deck, shuffle, and draw 1 new card. If you were Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 more Loyalty card._
+        1. Distribute any former titles to the first in the line of succession, taking into account the new character. Existing titles do not change hands, even if the new character is higher in the line of succession. 
+        1. If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer. 
+        1. If playing with Trauma tokens, draw 3 new Trauma tokens. If a "disaster" token is drawn, set it aside and draw a new one to replace it, then return the "disaster" token to the pool (just like at the start of the game).
+        1. If one of these characters was chosen, there are some addtional rules and clarifications:
+            - Boomer: 
+                - If after the Sleeper Agent phase, start in the Brig.
+                - _Original only: If before the Sleeper Agent phase, shuffle 1 "Not A Cylon" card into the Loyalty deck._
+                - _Extra card only: Shuffle 1 "Not a Cylon" card into the Loyalty deck no matter what phase it is. If it's after Sleeper Agent, draw an additional Loyalty card._
+            - Helo: Start out "Stranded" even though it is not the beginning of the game.
+            - Apollo: Start in a viper from the reserves. If none are available, start in the Hangar Deck. 
+            - Gaius Baltar: 
+                - If before the Sleeper Agent phase, shuffle 1 "Not a Cylon" cad into the Loyalty deck and draw 1 Loyalty card. 
+                - _Original only: If after the Sleeper Agent phase, Gaius may not use his Cylon Detector ability._
+            - Anders: Skip the Receive Skill cards step of your first turn as Anders due to "Starts on the Bench". 
+            - Tom Zarek (Military): Draw a Mutiny card due to "Disruptive". 
+
+You cannot use a new character's ability on the effect that executed the previous character. For example, if a Quorum card executes a player who comes back as Tory Foster, she cannot then use her "Adaptable" ability on that Quorum card. A new character can, however, use an ability on things that happen soon after. For example, if the Airlock is used to execute a player who comes back as William Adama, the "discard cards" step of the Skill check comes after the "determine result" step which caused the execution. This means that William Adama may use his once-per-game "Command" ability to draw those cards into his hand instead. 
+
+
 ### Titles
 
 Titles can only be held by human players. Cylon Leaders cannot hold titles even while Infiltrating. When a human is revealed to be a Cylon, the first player in the line of succession for that title claims it. 
@@ -739,6 +842,11 @@ With the Cylon Fleet board, a nuke targets an entire space area instead of a sin
 - 7: Destroy a basestar and 3 raiders
 - 8: Destroy every ship in the space area
 
+#### Scar
+
+Scar is a special raider. He can only be destroyed as the result of a die roll of 7 or 8. Modifiers to die rolls are allowed, so a roll of 6 with "Strategic Planning" would destroy Scar. If a nuke allows raiders to be destroyed, he can be chosen only if the die roll was a 7 or 8. If a game effect allows you to destroy a raider without a die roll, Scar cannot be chosen. If a game effect includes a roll to see "how many" raiders to destroy, Scar can be chosen only if that roll was a 7 or an 8. Kat's "Hot Shot" ability skips the die roll entirely, and so cannot be used to destroy Scar. 
+
+
 ### Human combat ships
 
 When human ships are destroyed, they are removed from the game entirely. 
@@ -804,52 +912,6 @@ If a player is sent to Sickbay or the Brig while piloting, they are moved there 
 
 A piloted viper cannot be activated by another player using Command. 
 
-### Cylon combat ships
-
-Cylon ships are never permanently destroyed. When they are destroyed, put them back next to the game board for reuse later. They are not piloted, nor are their actions controlled directly by Cylon players. 
-
-#### Raiders
-When a Cylon raider is activated, it does the *first available* action in this list and then stops:
-
-1. Attack an unmanned viper in its space area
-1. Attack a manned viper in its space area
-1. Destroy a civilian ship in its space area
-1. Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
-1. If there are no civilian ships, the raider attacks Galactica. 
-
-Scar is a special raider. He can only be destroyed as the result of a die roll of 7 or 8. Modifiers to die rolls are allowed, so a roll of 6 with "Strategic Planning" would destroy Scar. If a nuke allows raiders to be destroyed, he can be chosen only if the die roll was a 7 or 8. If a game effect allows you to destroy a raider without a die roll, Scar cannot be chosen. If a game effect includes a roll to see "how many" raiders to destroy, Scar can be chosen only if that roll was a 7 or an 8. Kat's "Hot Shot" ability skips the die roll entirely, and so cannot be used to destroy Scar. 
-
-#### Heavy raiders and Centurions
-When heavy raiders are activated, do *all* of the following: 
-
-1. Move all centurions on the board one 1 space further on the Boarding Party track
-1. If a heavy raider is already in a space area with a launch icon, it is removed from the board and replaced with a Centurion on the start of the Boarding Party track (if there are not enough Centurion tokens, leave the heavy raider in space). 
-1. Move all heavy raiders on the board toward the closest viper launch icon
-1. If there were no heavy raiders on the board, launch one from each basestar. 
-
-When something says to "activate heavy raiders", that *always* includes Centurions as well unless otherwise stated. 
-
-Multiple Centurions can occupy the same space at the same time, they do not "push" each other forward. 
-
-If a heavy raider would normally enter a viper launch tube, but there are no Centurion tokens, it stays on the board since it cannot be converted to a Centurion. As always, the current player decides which order to resolve them in. 
-
-#### Basestars
-
-Basestars are destroyed after taking 3 damage tokens. When a basestar is damaged, draw a token. Each token has some sort of effect:
-
-- The "2" is a Critical Hit, which counts for 2 damage tokens instead of just 1. 
-- The raider is a Disabled Hanger, which prevents that basestar from launching raiders *or* heavy raiders.
-- The 3 missiles firing is Disabled Weapons, which prevents the basestar from firing on Galactica. 
-- The image of a basestar is Structural Damage, which gives a +2 bonus to attacks against that basestar. 
-
-If a game effect instructs you to "destroy a basestar", it is simply destroyed without drawing damage tokens. When a basestar with 2 damage tokens is damaged again, that basestar is simply destroyed without drawing another damage token. 
-
-The Ionian Nebula option includes 2 other types of damage:
-
-- The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.
-- The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 trauma tokens when it is drawn. 
-
-When playing with these tokens, a basestar with 2 damage tokens that is damaged again *should* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
 
 ### Ship locations
 
@@ -896,61 +958,6 @@ Follow the instructions on the Active Mission space when jumping to clear the Ac
 The Rebel Basestar is only accessible after it is added to the game by the "Cylon Civil War" Mission card. Depending on the result of this Mission, it is either a Cylon location or a human location. Players of the correct allegiance can travel to it by discarding a Skill card. As always, a Cylon Leader is considered a Cylon unless they are Infiltrating, in which case they are a human player.  
 
 For Raider Bay, the player is only allowed to activate the ships being placed, not any ships that were already present. Apollo may use "Alert Viper Pilot" to commandeer a viper placed using Raider Bay. In this case, Apollo can use the Action granted by "Alert Viper Pilot" in the middle of the Raider Bay Action, and the player using Raider Bay cannot activate Apollo's viper since it is being piloted. 
-
-### Execution
-
-Executions are handled differently based on which Loyalty deck style was used when setting up the game: _extra card_ from Exodus or _original_. Follow one or the other, not both! The _extra card_ procedure only works with the extra loyalty card. Follow this procedure, taking care to only do *one* of the two styles:
-
-1. Discard your entire hand of Skill Cards, any Quorum cards *attached to your character* (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and if playing with Daybreak, any miracle tokens. If not playing with Daybreak, once-per-game status isn't affected by execution: you, as a player, may use exactly one per game. 
-1. _Extra card only: If the player executed was the current player, their turn will immediately be over after the execution is resolved._
-1. Prove your loyalty:
-    - Cylons & Cylon Leaders
-        - If you were a hidden Cylon player, reveal *one* "You Are a Cylon" card and keep the rest of your Loyalty cards face down. Do not take the action on that card. Follow the rest of the normal procedure for revealing as a Cylon, but do not draw a Super Crisis card. 
-        - If you were a Cylon Leader or an exposed Cylon, do the same thing but ignore any instructions about Loyalty cards. As always, Cylon Leaders *do not reveal their agenda or motive!*
-    - Human
-        1. Reveal *all* your Loyalty cards, showing that none are Cylon cards. For "Final Five" cards, resolve the text for execution.
-        1. The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)
-        1. Return your character and token(s) to the box, removing them from the game. Discard any Trauma tokens.
-        1. _Extra card only: Discard all of your loyalty cards._
-        1. _Original only: If you were Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 new Loyalty card._ (Extra card will do this later.)
-        1. Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose. 
-        1. Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). During the New Caprica phase before Galactica returns, start in Resistance HQ. 
-        1. _Extra card only: Add 1 "Not a Cylon" card to the Loyalty deck, shuffle, and draw 1 new card. If you were Boomer, and the Sleeper Agent phase hasn't happened yet, draw 1 more Loyalty card._
-        1. Distribute any former titles to the first in the line of succession, taking into account the new character. Existing titles do not change hands, even if the new character is higher in the line of succession. 
-        1. If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer. 
-        1. If playing with Trauma tokens, draw 3 new Trauma tokens. If a "disaster" token is drawn, set it aside and draw a new one to replace it, then return the "disaster" token to the pool (just like at the start of the game).
-        1. If one of these characters was chosen, there are some addtional rules and clarifications:
-            - Boomer: 
-                - If after the Sleeper Agent phase, start in the Brig.
-                - _Original only: If before the Sleeper Agent phase, shuffle 1 "Not A Cylon" card into the Loyalty deck._
-                - _Extra card only: Shuffle 1 "Not a Cylon" card into the Loyalty deck no matter what phase it is. If it's after Sleeper Agent, draw an additional Loyalty card._
-            - Helo: Start out "Stranded" even though it is not the beginning of the game.
-            - Apollo: Start in a viper from the reserves. If none are available, start in the Hangar Deck. 
-            - Gaius Baltar: 
-                - If before the Sleeper Agent phase, shuffle 1 "Not a Cylon" cad into the Loyalty deck and draw 1 Loyalty card. 
-                - _Original only: If after the Sleeper Agent phase, Gaius may not use his Cylon Detector ability._
-            - Anders: Skip the Receive Skill cards step of your first turn as Anders due to "Starts on the Bench". 
-            - Tom Zarek (Military): Draw a Mutiny card due to "Disruptive". 
-
-You cannot use a new character's ability on the effect that executed the previous character. For example, if a Quorum card executes a player who comes back as Tory Foster, she cannot then use her "Adaptable" ability on that Quorum card. A new character can, however, use an ability on things that happen soon after. For example, if the Airlock is used to execute a player who comes back as William Adama, the "discard cards" step of the Skill check comes after the "determine result" step which caused the execution. This means that William Adama may use his once-per-game "Command" ability to draw those cards into his hand instead. 
-
-
-### Sleeper Agent phase
-
-At the Sleeper Agent phase, more Loyalty cards are dealt to every player except for Cylon Leaders. It begins when the distance specified on the Objective card is reached. 
-
-Upon reaching this distance or more, deal 1 Loyalty card to every player who is not a Cylon Leader, including revealed Cylon players. Revealed Cylons must ignore any text that says to "immediately reveal this card". If the Cylon Leader is using Motive cards, deal 2 more Motive cards to them.
-
-When playing with the "You Are a Mutineer" card, if no one has revealed as the Mutineer after all the Sleeper Agent phase cards have been dealt, the current player chooses a human player to draw an extra Loyalty card from the Loyalty deck. In this case, if they subsequently reveal the Mutineer card, they do not replace it with another Loyalty card. 
-
-#### Revealed Cylons during the Sleeper Agent phase
-
-If the Resurrection Ship is a hazardous location, revealed Cylon players should receive Loyalty cards, look at them, then immediately pass them on to *one* human player of their choice. They should not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.  
-
-If the Resurrection Ship is not hazardous, revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.
-
-Sharon "Boomer" Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability should no longer apply because character abilities are ignored as a revealed Cylon. If playing with an extra card style Loyalty deck, this is no problem since there is a mechanism for dealing with this already. Otherwise, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not an extra Loyalty card left over. 
-
 
 ## Ending the game
 
