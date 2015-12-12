@@ -288,10 +288,16 @@ To create the Destiny deck, take two of each type of Skill Card (including Treac
 1. Draw a Crisis card.
 2. Reveal the Crisis card and read it.
    - Starbuck's "Secret Destiny" takes place before Baltar's "Delusional Intuition". (Baltar's text should really say "after revealing".)
-3. Resolve "[Someone] Chooses" event, if any.
+3. To resolve a Cylon Attack card, follow the 3 steps listed in the text box:
+    - Activate: Fully resolve the indicated Cylon ship activation.
+    - Setup: Place ships on the board as shown in the image. The text lists the exact numbers.  
+        -  If there are not enough ships, follow the normal component limitation rules.
+        -  Abilities that occur when a ship is placed, such as Apollo's "Alert Viper Pilot", may take place immediately after the setup phase is complete.
+    -  Special Rule: The given special rule now applies. The Crisis card can be discarded after the text is resolved unless otherwise indicated.  
+4. Resolve "[Someone] Chooses" event, if any.
    - Lee Adama's "Choose a Different Path" adds a new box that *may* be chosen.
     - Helo’s "Moral Compass" *forces* a specific box to be chosen.
-4. Follow the Skill Check procedure if a Skill Check is to be performed.
+5. Follow the Skill Check procedure if a Skill Check is to be performed.
 
 When resolving a result with multiple Cylon activations, resolve them in left to right order. 
 
