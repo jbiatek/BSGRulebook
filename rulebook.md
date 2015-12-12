@@ -145,7 +145,7 @@ Both Exodus and Pegasus expansions include executions, but they work in differen
      - Get the "You Are a Sympathizer" card, but don't add it to the Loyalty deck yet. Only add it after the first round of Loyalty cards go out.
      - Get the "You Are a Sympathetic Cylon" card and the "Sympathetic Agenda" cards (they have Caprica Six on the back), but don't add anything to the Loyalty Deck yet. Only add it after the first round of Loyalty cards go out. 
      - Play with the rules from the "No Sympathizer" variant. See the "House Rules" section at the end of this rulebook for more information.
-- Keep the "Not a Cylon" deck separate but secret from the Loyalty deck. It might be used later to add more cards to the Loyalty deck. The "Cylon" deck should be kept secret as well, but it will not be used the rest of the game. 
+- Keep the "Not a Cylon" deck around, separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck should be removed from the game without revealing them. 
 
 The Loyalty deck should now finally be complete. Shuffle it and distribute 1 card to every player unless otherwise specified. Cylon Leaders do not get any Loyalty cards. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
 
@@ -238,7 +238,7 @@ A "Movement:" action is a special type of action which can be used by players *o
 
 A player who is granted a "move" may move their character token to a new location. A move to a location on the same ship can be performed freely. There is no die roll or number of "spaces" that tokens have to move, the token simply moves directly from one location to another. 
 
-A move to another ship requires first discarding a Skill card. If a player has no Skill cards, they cannot move between ships. The destination is selected before the discard occurs, and the discard is resolved fully before moving the token. 
+Using a move to go to a location on another ship requires the player to discard a Skill card. If a player has no Skill cards, they will not be able to move themselves to locations off of their current ship. The destination must be selected before the discard occurs, and the player's token is not moved until the discard is fully resolved. 
 
 Players piloting a viper may move to an adjacent space area when granted a move. They may also discard a Skill card to move to a location on any ship and return their viper to the Reserves. Neither of these counts as a viper activation. 
 
