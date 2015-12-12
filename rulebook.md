@@ -248,7 +248,7 @@ Players may not choose to move to "hazardous" locations, they can only be sent t
 
 Since the "Sabotage" Treachery card interrupts a discard and damages Galactica, it interacts with moves between ships. The damage occurs during the discard, before the player's token has left its starting location (since, as stated above, the discard is fully resolved before moving). 
 
-If the starting location is damaged, the character is instead sent to Sick Bay. If the destination is damaged, the token moves to the destination normally. If the destination was on Pegasus, but the damaged destroyed Pegasus, the move is no longer legal so it is ended with the player remaining in their starting location.  
+If the starting location is damaged, the character is instead sent to Sick Bay. If the destination is damaged, the token moves to the destination normally. If the destination was on Pegasus, but the damaged destroyed Pegasus, the move is no longer legal so it is ended with the player remaining in their starting location. The moving player cannot change their destination after "Sabotage" is played. 
 
 #### Moves versus Movement actions
 
@@ -256,7 +256,7 @@ There is a subtle difference between a "move" and a "Movement:" action. A "move"
 
 ### Skill Cards
 
-Skill cards have a type, a strength, and an ability. At the end of *any player's* turn, a player with more than 10 Skill Cards must discard down to 10. When discarded, Skill Cards go face up next to their respective deck. When a deck runs out, shuffle the discard pile to create a new deck. 
+Skill cards have a type, a strength, and an ability. At the end of any player's turn, a player with more than 10 Skill Cards must discard down to 10. When discarded, Skill Cards go face up next to their respective deck. When a deck runs out, shuffle the discard pile to create a new deck. 
 
 Cylon players are not allowed to use the text abilities on Skill Cards, with the exception of Treachery cards. Humans are the exact opposite: they may use the text abilities on all Skill Cards *except* Treachery cards. Unless otherwise specified, Treachery cards always count as negative when totaling Skill checks.
 
@@ -268,12 +268,11 @@ When the "Skill Check Ability" icon appears next to the strength of a Skill card
 
 Some Skill cards have the word "Reckless" printed at the top of the text area. They are always abilities that apply at the beginning of a Skill check. When a Reckless ability is used, it makes the subsequent Skill check a Reckless one. Only one Reckless card may be played per Skill check. 
 
-The Pegasus Treachery cards have "Reckless Skill Check" abilities. These function like regular Skill Check Abilities, but only have an effect if the Skill check was made Reckless. 
+The Pegasus Treachery cards have "Reckless Skill Check" abilities. These function like regular Skill Check Abilities, but are resolved only if the Skill check was made Reckless. 
 
-The Daybreak Treachery cards do not have "Reckless Skill Check" cards, so when these cards are being used, a Reckless Skill check has a chance of triggering additional Treachery cards. 
+The Daybreak Treachery deck does not have "Reckless Skill Check" cards, so when using that deck a Reckless Skill check has a chance of triggering additional Treachery cards. 
 
 "Restore Order" cannot be played on a Skill check after it has been made Reckless, and Reckless cards cannot be played on a Skill check after it has had "Restore Order" applied to it. 
-
 
 #### Types
 - Politics: This skill represents a character’s ability to control morale and help the fleet overcome crises. This is the most common skill type required by Crisis Cards. Some politics cards also provide the ability to allow a player draw Skill Cards from outside his skill set.- Leadership: This skill represents a character’s ability to take charge of situations and command other individuals. This is the second-most common skill type required by Crisis Cards. Some leadership cards allow players to move other characters and grant them a bonus action.- Tactics: This skill type represents a character’s ability to plan missions as well as to physically overcome obstacles. Tactics cards allow players to gain bonuses to die rolls as well as scout the galaxy for new destinations.- Piloting: This skill represents a character’s ability to fly vipers. Piloting cards allow players to reroll enemy attack rolls as well as gain additional attacks.- Engineering: This skill represents a character’s strength in the mechanical and scientific fields. Some engineering cards allow players to repair vipers and locations aboard Galactica.
@@ -286,13 +285,13 @@ To create the Destiny deck, take two of each type of Skill Card (including Treac
 
 ### Crisis card resolution
 
-1. Draw Crisis card 
-2. Reveal Crisis card and read it
-   - Starbuck's "Secret Destiny" takes place before Baltar's "Delusional Intuition" (Baltar's text should really say "after revealing")
-3. Resolve "[Someone] Chooses" event, if any
-   - Lee Adama's "Choose a Different Path" adds a new choice that *may* be chosen
-    - Helo’s "Moral Compass" forces a specific choice that *must* be chosen
-4. Follow the Skill Check procedure if a Skill Check has been chosen
+1. Draw a Crisis card.
+2. Reveal the Crisis card and read it.
+   - Starbuck's "Secret Destiny" takes place before Baltar's "Delusional Intuition". (Baltar's text should really say "after revealing".)
+3. Resolve "[Someone] Chooses" event, if any.
+   - Lee Adama's "Choose a Different Path" adds a new box that *may* be chosen.
+    - Helo’s "Moral Compass" *forces* a specific box to be chosen.
+4. Follow the Skill Check procedure if a Skill Check is to be performed.
 
 When resolving a result with multiple Cylon activations, resolve them in left to right order. 
 
