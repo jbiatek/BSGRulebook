@@ -959,7 +959,7 @@ The other option, "launch 2 raiders and 1 heavy raider from each basestar" does 
 
 #### Basestar Bridge
 
-The Basestar Bridge on the Cylon Fleet board is a Cylon location, only accessible to Cylon players. It is *not* necessary to discard a Skill card to move to the Basestar Bridge. 
+The Basestar Bridge on the Cylon Fleet board is a Cylon location, only accessible to Cylon players. It is *not* necessary to discard a Skill card to move to the Basestar Bridge from the regular Cylon Locations. 
 
 The two abilities that are chosen must be decided *before* resolving either of them. The activating player may not switch after the first has been resolved. (For most other game decisions, players may make their choices as they go.)
 
@@ -996,6 +996,8 @@ The humans reach New Caprica and attempt to settle there. However, they are disc
 7. All Cylon players are moved to "Occupation Authority".
 8. Move all remaining raptors to the New Caprica board. They can still be risked even before Galactica returns. 
 9. Shuffle all remaining civilian ships, whether in space or in the stockpile, into a single stack on the "Locked Civilian Ships" box. 
+
+Once setup is complete, the game continues from where it left off with the rules for the New Caprica phase now in effect. 
 
 Until Galactica returns to orbit, as described below, all players may only move to New Caprica locations. Even when it does, Colonial One will not return. (Story wise, it was the last ship to leave New Caprica, and it was under Cylon control until then.) You may choose to use the Colonial One overlay's "destroyed" side to indicate this. 
 
