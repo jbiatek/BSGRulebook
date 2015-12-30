@@ -120,7 +120,7 @@ Both Exodus and Pegasus expansions include executions, but they work in differen
     - If using the "Final Five" or "Personal Goal" cards, or both, they go in the "Not a Cylon" deck. The "Personal Goal" cards require an "extra card style" Loyalty deck.
     - Some "You Are A Cylon" cards refer to Treachery skill cards. Remove them if you aren't playing with any Treachery cards.
     - Some "Personal Goal" cards cause executions. Technically, there are not supposed to be executions unless either Exodus or Pegasus are being played. 
-- Assemble the Loyalty deck out of these two as follows, based on the total number of players and whether one of them is a Cylon Leader:
+- Shuffle them both, then form the initial Loyalty deck as follows, based on the total number of players and whether one of them is a Cylon Leader:
 
  | Cylon Leader? | Players |  Cylon cards | Not a Cylon cards | 
  | ------------- | ------- | ------------ | ----------------- |
@@ -134,17 +134,17 @@ Both Exodus and Pegasus expansions include executions, but they work in differen
  |     Yes       |    7    |      2       |        10         | 
 
 - Add one more "Not a Cylon" card for each of these that are true:
-    - Sharon "Boomer" Valerii was chosen by a player
-    - Gaius Baltar (the political leader version with "Coward") was chosen by a player
-    - The Exodus expansion has been included with its "extra card style" Loyalty deck
+    1. Sharon "Boomer" Valerii was chosen by a player
+    2. Gaius Baltar (the political leader version with "Coward") was chosen by a player
+    3. The Exodus expansion has been included with its "extra card style" Loyalty deck
 - If playing with Daybreak:
      - With a Cylon Leader *and* 5 or 7 total players: add The Mutineer card to the Loyalty deck. 
      - With *no* Cylon Leader, *and* 4 or 6 total players: add The Mutineer card *and* another "Not a Cylon" card to the Loyalty deck. 
-- If playing with 4 or 6 players, without Daybreak, and no Cylon Leaders, do one of these:
+- If playing with 4 or 6 players, without Daybreak, and no Cylon Leaders, do *one* of these:
      - Get the "You Are a Sympathizer" card, but don't add it to the Loyalty deck yet. Only add it after the first round of Loyalty cards go out.
      - Get the "You Are a Sympathetic Cylon" card and the "Sympathetic Agenda" cards (they have Caprica Six on the back), but don't add anything to the Loyalty Deck yet. Only add it after the first round of Loyalty cards go out. 
      - Play with the rules from the "No Sympathizer" variant. See the "House Rules" section at the end of this rulebook for more information.
-- Keep the "Not a Cylon" deck around, separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are removed from the game without revealing them. 
+- Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are removed from the game without revealing them. 
 
 The Loyalty deck is now finally complete. Shuffle it and distribute 1 card to every player unless otherwise specified. Cylon Leaders do not get any Loyalty cards. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
 
@@ -161,7 +161,6 @@ To finish setting up for a game with the Ionian Nebula ending:
 - Place 1 Trauma token in the Brig, and 1 in Sickbay. Do not look at or reveal either one. 
 - Each player draws 3 trauma tokens, keeping them hidden. If a player draws "Disaster", the one that looks like a splatter of blood, they reveal it to everyone, replace it with a new token, then shuffle "Disaster" back into the pool. 
 - Draw and place Ally cards and their respective tokens until 3 are placed on the board. If an Ally is a duplicate of an existing player, remove it from the game and re-draw. Place a Trauma token from the pool face down on each of the 3 Ally cards. 
-
 
 ## Playing The Game
 
@@ -180,26 +179,28 @@ Obviously there are not an infinite number of ship tokens and other items in the
 
 In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. If a heavy raider cannot become a Centurion due to component limitations, the heavy raider remains on the board. 
 
-When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area. The pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the normal component limitation rules apply. 
+When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the normal component limitation rules apply. 
 
 When a pilot uses the Hanger Deck, if there are no vipers in the reserves then the pilot may return an unmanned viper in a space area to the reserves and then launch using it. 
 
-When a deck runs out of cards, shuffle its discard pile to create a new deck. 
+When a deck runs out of cards, shuffle its discard pile to create a new deck. Exceptions to this rule are the Loyalty deck and the Ally deck, both of which do not get shuffled or used again after they are depleted. 
 
 ### Game turn
 
 A human player's game turn consists of the following steps:
 
-1. If there is a Trauma token in the player's current location, they must draw it and place 1 Trauma token from the pool on that location to replace it.
+1. If there is a [Trauma token](#trauma-tokens) in the player's current location, they must draw it and place 1 Trauma token from the pool on that location to replace it.
 1. Receive Skills: Human players receive cards according to their character sheet. 
-1. Movement: The player may take 1 move. They may also instead use a Movement action. 
-1. At the end of the Movement step, if in a location with 1 or more Ally tokens, choose 1 ally to encounter and resolve it. 
+1. Movement: The player may take 1 move. They may also instead use a [Movement action](#movement-actions). 
+1. At the end of the Movement step, if in a location with 1 or more [Ally tokens](#ally-cards), choose 1 ally to encounter and resolve it. 
     - This is simultaneous with Ellen Tigh's "Politically Adroit" since both occur "at the end of your Movement step". As always, the current player (Ellen Tigh) may choose which order they are resolved in. If encountering an Ally causes a move, she may use "Adroit" in her new location if she hasn't already.
-1. Action: The player may take 1 action.
-1. Crisis: Unless otherwise indicated, the current player draws and resolves a Crisis card. 
-1. Activate Cylon Ships as directed by the bottom left corner of Crisis card(s) played during this turn
-1. Prepare for Jump for Crisis card(s) played during this turn
-1. End turn. Discard Crisis cards. *All players* must discard Skill Cards down to the 10 card limit if necessary. If any resource is at 0 or lower, humans lose.
+1. [Action](#actions--abilities): The player may take 1 action.
+1. [Crisis](#crisis-card-resolution): Unless otherwise indicated, the current player draws and resolves a Crisis card. 
+1. [Activate Cylon Ships](#activating-cylon-ships) as directed by the bottom left corner of Crisis card(s) played during this turn
+1. Prepare for Jump: For each Crisis card encountered during this turn with the "Prepare for Jump" icon, advance the fleet token 1 space. This may trigger [a jump](#jumping-the-fleet). 
+1. End turn. Discard Crisis cards. 
+    - *All players* must discard Skill Cards down to the 10 card limit if necessary. 
+    - If any resource is at 0 or lower, humans lose.
 
 Multiple Crisis cards can be resolved in the same turn in certain situations, like the "State of Emergency" card, which allows each player to perform an Action, including Cylon players. If this occurs, each Crisis card played is resolved as normal, but the "Activate Cylon Ships" and "Prepare for Jump" icons for each Crisis are not resolved until the end of the turn during the normal "Activate Cylon Ships" and "Prepare for Jump" steps listed above. Resolve each Crisis card in the order that they were played. 
 
@@ -594,7 +595,7 @@ Cylon players are not allowed to:
 - Move to non-Cylon locations (or be sent to the Brig or Sickbay).
 - Use abilities or actions on non-Treachery Skill cards, Quorum cards, Mutiny cards, or their old human character sheet, including their once per game/Miracle ability. 
     - They *are* allowed to use the abilities on Treachery cards, unlike human players.
-- Be the target of an Executive Order. 
+- Be the target of an "Executive Order" or Quorum cards. 
     - If a Cylon reveals as the first action of an Executive Order, they are not allowed to use the second action.
 - Contribute more than 1 card to Skill Checks.
 - Reveal Loyalty cards that say "immediately reveal this card". 
