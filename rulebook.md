@@ -14,8 +14,7 @@ It includes all the new rules and mechanics for all 3 expansions in one place, a
 ## Game setup
 
 ### Game board
-Setting up the game board is fairly straightforward. The resource dials should be at their defaults, skill cards go next to their respective spaces on the bottom, vipers and raptors go in the reserves, and the fleet marker goes on the jump track. All other components and decks should go somewhere near the board. The Skill card discard piles should be face-up next to *each* Skill draw pile. 
-
+Setting up the game board is fairly straightforward. The resource dials are set to their defaults, skill cards go next to their respective spaces on the bottom, vipers and raptors go in the reserves, and the fleet marker goes on the jump track. All other components and decks are placed somewhere near the board for use later. The Skill card discard piles are face-up next to *each* Skill draw pile. 
 
 When an expansion includes a "fancy" version of an existing component, such as the plastic basestars and Centurions, they are used *instead of* those components, not *along with*. The number of components is important, because they are not treated as unlimited resources. 
 
@@ -41,13 +40,13 @@ For the base expansion, add these items in with the base game:
 - The Battlestar Pegasus game board and Pegasus damage tokens
 - The Cylon Overlay, covering the regular Cylon Locations
 - New Skill Cards (including "Reckless" Treachery cards)
-    - This expansion includes new "Investigative Committee" cards, which *don't* show the Destiny deck's contribution. The original "Investigative Committee" cards should be removed from the game when including these new ones. 
+    - This expansion includes new "Investigative Committee" cards, which *don't* show the Destiny deck's contribution. The original "Investigative Committee" cards are removed from the game when including these new ones. 
 - New Crisis, Destination, Quorum, Super Crisis Cards, and Loyalty cards
-- The "Scar" token, which should go with the Cylon raiders
+- The "Scar" token, which denotes a special raider
 
 To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and Agenda cards. 
 
-To play with the New Caprica ending, instead of using the "Kobol" objective, use the "New Caprica" objective and follow the instructions on it at the indicated distances. The alternate President and Admiral title cards add new information that will be used in the New Caprica phase, so they should be used instead of the regular title cards. Have the New Caprica game board, New Caprica Crisis deck, and Occupation Force tokens ready for when the New Caprica phase begins, but it doesn't need to be set up until then. 
+To play with the New Caprica ending, instead of using the "Kobol" objective, use the "New Caprica" objective and follow the instructions on it at the indicated distances. The alternate President and Admiral title cards add new information that will be used in the New Caprica phase, so they are to be used instead of the regular title cards. Have the New Caprica game board, New Caprica Crisis deck, and Occupation Force tokens ready for when the New Caprica phase begins, but it doesn't need to be set up until then. 
 
 #### Exodus
 
@@ -69,7 +68,7 @@ For the Cylon Fleet:
 -  Remove 2 regular vipers from the game, and place the 4 Mark VII vipers in the "Damaged Vipers" box. 
 -  Add the 4 additional Cylon raiders to the stock of Cylon raiders, for a total of 20. 
 -  Add the CAG title card with the other title cards for distribution later.
--  Replace the Admiral title card with the alternate version from Exodus. It changes how nukes work. (When playing with New Caprica as well, give the Admiral both cards. The nuke rules from Exodus should be used, and the Admiral has access to the special action that ends the New Caprica phase.)
+-  Replace the Admiral title card with the alternate version from Exodus. It changes how nukes work. (When playing with New Caprica as well, give the Admiral both cards. The nuke rules from Exodus are used, and the Admiral has access to the special action that ends the New Caprica phase.)
 
 For the Ionian Nebula:
 
@@ -145,9 +144,9 @@ Both Exodus and Pegasus expansions include executions, but they work in differen
      - Get the "You Are a Sympathizer" card, but don't add it to the Loyalty deck yet. Only add it after the first round of Loyalty cards go out.
      - Get the "You Are a Sympathetic Cylon" card and the "Sympathetic Agenda" cards (they have Caprica Six on the back), but don't add anything to the Loyalty Deck yet. Only add it after the first round of Loyalty cards go out. 
      - Play with the rules from the "No Sympathizer" variant. See the "House Rules" section at the end of this rulebook for more information.
-- Keep the "Not a Cylon" deck around, separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck should be removed from the game without revealing them. 
+- Keep the "Not a Cylon" deck around, separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are removed from the game without revealing them. 
 
-The Loyalty deck should now finally be complete. Shuffle it and distribute 1 card to every player unless otherwise specified. Cylon Leaders do not get any Loyalty cards. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
+The Loyalty deck is now finally complete. Shuffle it and distribute 1 card to every player unless otherwise specified. Cylon Leaders do not get any Loyalty cards. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
 
 A Cylon Leader receives either 2 Motive cards, or 1 Agenda card from the appropriate deck. (For a 4 or 6 player game use the Sympathetic deck, which has Caprica Six on the back. For a 5 or 7 player game use the Hostile deck, which has a Centurion on the back.)
 
@@ -160,7 +159,7 @@ Every player *except* the first player draws 3 cards to start the game. (As alwa
 To finish setting up for a game with the Ionian Nebula ending:
 
 - Place 1 Trauma token in the Brig, and 1 in Sickbay. Do not look at or reveal either one. 
-- Each player draws 3 trauma tokens, keeping them hidden. If a player draws "Disaster", the one that looks like a splatter of blood, they should reveal it to everyone, replace it with a new token, then shuffle "Disaster" back into the pool. 
+- Each player draws 3 trauma tokens, keeping them hidden. If a player draws "Disaster", the one that looks like a splatter of blood, they reveal it to everyone, replace it with a new token, then shuffle "Disaster" back into the pool. 
 - Draw and place Ally cards and their respective tokens until 3 are placed on the board. If an Ally is a duplicate of an existing player, remove it from the game and re-draw. Place a Trauma token from the pool face down on each of the 3 Ally cards. 
 
 
@@ -181,7 +180,7 @@ Obviously there are not an infinite number of ship tokens and other items in the
 
 In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. If a heavy raider cannot become a Centurion due to component limitations, the heavy raider remains on the board. 
 
-When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships should be drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area. The pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the normal component limitation rules apply. 
+When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area. The pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the normal component limitation rules apply. 
 
 When a pilot uses the Hanger Deck, if there are no vipers in the reserves then the pilot may return an unmanned viper in a space area to the reserves and then launch using it. 
 
@@ -437,7 +436,7 @@ When playing with the "You Are The Mutineer" card, if no one has revealed as the
 
 #### Revealed Cylons during the Sleeper Agent phase
 
-If the Resurrection Ship is a hazardous location, revealed Cylon players should receive Loyalty cards, look at them, then immediately pass them on to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.  
+If the Resurrection Ship is a hazardous location, revealed Cylon players receive Loyalty cards, look at them, then immediately pass them on to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.  
 
 If the Resurrection Ship is not hazardous, revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.
 
@@ -503,7 +502,7 @@ The Ionian Nebula option includes 2 other types of damage:
 - The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.
 - The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 trauma tokens when it is drawn. 
 
-When playing with these tokens, a basestar with 2 damage tokens that is damaged again *should* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
+When playing with these tokens, a basestar with 2 damage tokens that is damaged again *does* have another token drawn before destroying it, since these new types of damage have effects outside of the basestar itself. 
 
 #### Damaging Galactica
 
@@ -574,7 +573,7 @@ When the fleet jumps, a character piloting an assault raptor may choose to stay 
 
 #### Piloting
 
-Any character with piloting in their skill set is allowed to fly a viper themselves. They should have a piloting token in addition to their regular character token, used to represent which viper they are flying. These are manned vipers, as opposed to unmanned ones. 
+Any character with piloting in their skill set is allowed to fly a viper themselves. These characters have a piloting token in addition to their regular character token, used to represent which viper they are flying. These are manned vipers, as opposed to unmanned ones. 
 
 While piloting, players have the option of using their Movement step to move their viper to an adjacent space area. During Movement, players can also land their viper and move to a ship location  at the cost of discarding 1 Skill Card (their viper goes back into the reserves). Whenever a pilot moves to a regular location, voluntarily or involuntarily, their ship returns to the Reserves unless otherwise indicated. 
 
@@ -751,7 +750,7 @@ In Daybreak, "once-per-game" doesn't actually mean once per game. Instead, chara
 
 There is a limit of 1 Miracle token per player. Players who already have one cannot gain another.  The only exception is Alternate Gaius Baltar who can hold up to 3, and needs to spend 3 to use his "Miracle ability". 
 
-Even when not playing with Daybreak, it's convenient to use Miracle tokens to track whether each player has used their once-per-game or not. Without any game effects to regain them, it ends up being the same as the regular rules (with the exception that players should not discard their token when executed, since executed players do not lose their once-per-game unless Daybreak is being used). 
+Even when not playing with Daybreak, it's convenient to use Miracle tokens to track whether each player has used their once-per-game or not. Without any game effects to regain them, it ends up being the same as the regular rules (with the exception that players do not discard their token when executed, since executed players do not lose their once-per-game unless Daybreak is being used). 
 
 ### Loyalty cards
 
@@ -883,7 +882,7 @@ The lines of succession are not applied automatically. For example, if a human p
 #### President
 The President controls the hand of Quorum cards and has to make choices on Crisis Cards. 
 
-The hand of Quorum cards follows the President title if a new character becomes President. Quorum cards that have already been drawn into the President's hand are given to the new President, they are not discarded and they are not kept by the outgoing President. Quorum cards should be kept secret from other players until used. The President title card provides an additional action to draw Quorum cards, and some locations can only be used by the President. 
+The hand of Quorum cards follows the President title if a new character becomes President. Quorum cards that have already been drawn into the President's hand are given to the new President, they are not discarded and they are not kept by the outgoing President. Quorum cards are kept secret from other players until used. The President title card provides an additional action to draw Quorum cards, and some locations can only be used by the President. 
 
 The base game specifies that there is no limit to the number of Quorum cards the President can have in their hand, but every expansion overrides that and imposes a 10 card hand limit. 
 
@@ -1000,7 +999,7 @@ The humans reach New Caprica and attempt to settle there. However, they are disc
     - The Destination card may put ships back on the main game board after the jump, that is fine. Leave them where they are unless instructed otherwise. 
 2. If it was not reached via a jump (for example earning distance through a Skill check), just reset the fleet marker. 
 4. Remove the Crisis deck from the game. The New Caprica Crisis deck will be used in its place for the rest of the game. Shuffle it and place it next to the board. 
-5. The New Caprica game board should be placed above the Pegasus game board.
+5. The New Caprica game board is placed above the Pegasus game board.
 6. All human players are moved to "Resistance HQ", including any in the Brig. Piloted vipers are returned to the Reserves. 
 7. All Cylon players are moved to "Occupation Authority".
 8. Move all remaining raptors to the New Caprica board. They can still be risked even before Galactica returns. 
@@ -1222,7 +1221,7 @@ Players must draw a Trauma token when they are sent to the Brig or Sickbay. In a
 
 Allies do not have their own Trauma token, instead the Mood Pool is used, which represents the overall mood of the ship. Humans want the mood to be Benevolent, but must also keep their own stock of tokens Benevolent, and the reverse is true for Cylons. 
 
-The Mood Pool should always have the same number of tokens as there are players, except in the middle of an Ally encounter. When instructed to draw or discard tokens in any other way, players should always use the regular pool, not the Mood Pool. 
+The Mood Pool must always have the same number of tokens as there are players, except in the middle of an Ally encounter. When instructed to draw or discard tokens in any other way, players always use the regular pool, not the Mood Pool. 
 
 #### Encountering an Ally
 
