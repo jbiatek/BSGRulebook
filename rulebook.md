@@ -16,9 +16,9 @@ It includes all the new rules and mechanics for all 3 expansions in one place, a
 ### Game board
 Setting up the game board is fairly straightforward. The resource dials are set to their defaults, skill cards go next to their respective spaces on the bottom, vipers and raptors go in the reserves, and the fleet marker goes on the jump track. All other components and decks are placed somewhere near the board for use later. The Skill card discard piles are face-up next to *each* Skill draw pile. 
 
-When an expansion includes a "fancy" version of an existing component, such as the plastic basestars and Centurions, they are used *instead of* those components, not *along with*. The number of components is important, because they are not treated as unlimited resources. 
+When an expansion includes a "fancy" version of an existing component, such as the plastic basestars and Centurions, they are used *instead of* those components, not *along with*. The number of components is important, because they are [not treated as unlimited resources](#component-limitations). 
 
-If you have the Daybreak expansion, even if you're not playing with it, it can be useful to use Miracle tokens to track who has and has not used their once-per-game ability. 
+If you have the Daybreak expansion, it can be useful to use Miracle tokens to track who has and has not used their once-per-game ability even if you don't plan to use the rest of Daybreak. 
 
 The starting layout of ships is:
 
@@ -112,12 +112,17 @@ Once all characters are chosen, distribute titles to the highest in the orders o
 
 #### Loyalties and executions
 
-Both Exodus and Pegasus expansions include executions, but they work in different ways. The changes to executions also affect the Loyalty deck. See the "House Rules" section at the end for more discussion on this. If you are including the Exodus expansion, make sure to follow the rules for an "_extra-card style_" deck wherever it is mentioned. (The _extra-card_ style Loyalty deck has 1 extra Loyalty card after the Sleeper Agent phase. Human players have a chance at coming back as Cylons, but there will always be a Loyalty card left over which could mean that a Cylon never appears.)
+Both Exodus and Pegasus expansions include executions, but they work in different ways. The changes to executions also affect the Loyalty deck. See the "House Rules" section at the end for [more discussion on this](#loyalty-deck-styles). 
+
+In short, the _extra-card_ style Loyalty deck always leaves at least 1 Loyalty card un-dealt. The benefit is that an executed human is no longer guaranteed to come back as a human, but the drawback is that a Cylon card may never enter the game. 
+
+By the official rules, _extra-card_ should be used whenever the Exodus expansion is included. 
 
 #### Building the Loyalty deck
 
 - Build two decks of cards: the "You Are a Cylon" and the "Not a Cylon" decks. 
-    - If using the "Final Five" or "Personal Goal" cards, or both, they go in the "Not a Cylon" deck. The "Personal Goal" cards require an "extra card style" Loyalty deck.
+    - If using the "Final Five" or "Personal Goal" cards, or both, they go in the "Not a Cylon" deck. 
+    - "Personal Goal" cards require an "extra card style" Loyalty deck. 
     - Some "You Are A Cylon" cards refer to Treachery skill cards. Remove them if you aren't playing with any Treachery cards.
     - Some "Personal Goal" cards cause executions. Technically, there are not supposed to be executions unless either Exodus or Pegasus are being played. 
 - Shuffle them both, then form the initial Loyalty deck as follows, based on the total number of players and whether one of them is a Cylon Leader:
@@ -136,14 +141,14 @@ Both Exodus and Pegasus expansions include executions, but they work in differen
 - Add one more "Not a Cylon" card for each of these that are true:
     1. Sharon "Boomer" Valerii was chosen by a player
     2. Gaius Baltar (the political leader version with "Coward") was chosen by a player
-    3. The Exodus expansion has been included with its "extra card style" Loyalty deck
+    3. An _"extra-card"_ style Loyalty deck is being used
 - If playing with Daybreak:
      - With a Cylon Leader *and* 5 or 7 total players: add The Mutineer card to the Loyalty deck. 
      - With *no* Cylon Leader, *and* 4 or 6 total players: add The Mutineer card *and* another "Not a Cylon" card to the Loyalty deck. 
 - If playing with 4 or 6 players, without Daybreak, and no Cylon Leaders, do *one* of these:
      - Get the "You Are a Sympathizer" card, but don't add it to the Loyalty deck yet. Only add it after the first round of Loyalty cards go out.
      - Get the "You Are a Sympathetic Cylon" card and the "Sympathetic Agenda" cards (they have Caprica Six on the back), but don't add anything to the Loyalty Deck yet. Only add it after the first round of Loyalty cards go out. 
-     - Play with the rules from the "No Sympathizer" variant. See the "House Rules" section at the end of this rulebook for more information.
+     - Play with the [rules from the "No Sympathizer" variant](#no-sympathizer). 
 - Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are removed from the game without revealing them. 
 
 The Loyalty deck is now finally complete. Shuffle it and distribute 1 card to every player unless otherwise specified. Cylon Leaders do not get any Loyalty cards. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
@@ -178,6 +183,8 @@ The humans win by ending the game without losing. Humans can lose by:
 Obviously there are not an infinite number of ship tokens and other items in the game, so they are allowed to run out. 
 
 In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. If a heavy raider cannot become a Centurion due to component limitations, the heavy raider remains on the board. 
+
+When instructed to "draw and destroy a civilian ship", [there are special rules which apply when the normal stockpile has run out](#drawing-and-destroying).
 
 When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the normal component limitation rules apply. 
 
@@ -214,13 +221,13 @@ Die rolls can be changed by game effects, but the result cannot be made greater 
 
 ### Timing
 
-This rulebook is very specific about the separate phases of resolving various cards and events, so if two players wish to use "interrupting" abilities at the same time, refer to the appropriate procedure. There may be guidance about which ability occurs first, or it may indicate that the two abilities actually occur in different steps. Skill Checks, in particular, have a surprising number of steps where different abilities can apply. 
+This rulebook is very specific about the separate phases of resolving various cards and events, so if two players wish to use "interrupting" abilities at the same time, refer to the appropriate procedure. There may be guidance about which ability occurs first, or it may indicate that the two abilities actually occur in different steps. Skill Checks, in particular, have a [surprising number of steps](#skill-check-resolution) where different abilities can apply. 
 
 Otherwise, in general when a timing conflict occurs or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the rejected ability was on a card being played, the player takes the card back. 
 
 Players must be given a reasonable opportunity to use abilities. For example, you may not rush to put cards into a Skill check to prevent players from using a card that can only be played before cards are added. 
 
-The current player also chooses which components to place and which to skip if there is a shortage, and which space areas are activated first when activating Cylon ships. 
+The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are activated first when activating Cylon ships. 
 
 When "all players" are instructed to do something, unless otherwise specified the current player goes first, moving in clockwise order. 
 
@@ -291,7 +298,7 @@ To create the Destiny deck, take two of each type of Skill Card (including Treac
 3. To resolve a Cylon Attack card, follow the 3 steps listed in the text box:
     - Activate: Fully resolve the indicated Cylon ship activation.
     - Setup: Place ships on the board as shown in the image. The text lists the exact numbers.  
-        -  If there are not enough ships, follow the normal component limitation rules.
+        -  If there are not enough ships, follow [the normal component limitation rules](#component-limitations).
         -  Abilities that occur when a ship is placed, such as Apollo's "Alert Viper Pilot", may take place immediately after the setup phase is complete.
     -  Special Rule: The given special rule now applies. The Crisis card can be discarded after the text is resolved unless otherwise indicated.  
 4. Resolve "[Someone] Chooses" event, if any.
@@ -347,6 +354,7 @@ Resolve Super Crisis cards using the same procedure as Crisis cards. Abilities t
 10. Total the net strength of the cards (positive minus negative), taking into account any effects that modified them
 11. Determine outcome: Pass, partial pass, or fail
     - "A Second Chance" now applies if it was played
+    - Abilities that change the amount required to pass a Skill check do not change the amount required for a "partial pass". 
 13. Resolve the outcome's effects
     - "Install Upgrades" now applies if it was played
 14. Discard Skill cards into their appropriate discard piles
@@ -359,7 +367,7 @@ Appropriately, Cylon ships follow certain programming when activated. Cylon play
 
 When Cylon ships are activated, they are resolved one entire space area at a time. When multiple space areas are affected, the current player chooses what order they are resolved in (and sometimes this makes a difference!). If a Cylon ship moves to another space area that hasn't been resolved yet, it isn't activated a second time. Make sure to keep it separate from the ships that have not been activated yet. 
 
-If there are not enough tokens to place ships on the board, the current player chooses which to place, and the rest are skipped due to component limitations. When the Cylon Fleet board is present and a ship must be placed on the main board, first draw from the regular reserves if possible, then draw from the Cylon Fleet board starting in the lowest numbered space. This does not move other ships in the space area and does not increase the Pursuit track. 
+If there are not enough tokens to place ships on the board, the current player chooses which to place, and the rest are skipped due to [component limitations](#component-limitations). When the Cylon Fleet board is present and a ship must be placed on the main board, first draw from the regular reserves if possible, then draw from the Cylon Fleet board starting in the lowest numbered space. This does not move other ships in the space area and does not increase the Pursuit track. 
 
 When these icons appear on a Crisis card, do the following:
 
@@ -532,22 +540,22 @@ When instructed to place a civilian ship and no space area is specified, the CAG
 
 When an event instructs players to "draw a civilian ship and destroy it", they are drawn randomly from the stockpile of ships next to the board first, not the main game board. If the only civilian ships left are those on the main board, however, the current player must choose one to destroy. 
 
-During the New Caprica phase, draw ships to be destroyed from the regular pile first, then the Locked civilian ship stack, then the Prepared civilian ship stack, and finally the main game board. (Note that this is *only* for drawing a civilian ship to destroy it, not for any other placement or drawing of civilian ships.)
+During the New Caprica phase, draw ships to be destroyed from the regular pile first, then the Locked civilian ship stack, then the Prepared civilian ship stack, and finally the main game board. Note that this is *only* for drawing a civilian ship to destroy it, not for any other placement or drawing of civilian ships.
 
 
 #### Raptors
 
 Raptors aren't used in space areas. Instead, certain game actions will "risk" them (presumably, you are sending them on a dangerous mission to deep space), and a failure will cause them to be destroyed. Just like the other human ships, when destroyed they are removed from the game. If there are no raptors left, players may not use abilities that require risking a raptor. 
 
-Unlike every other ship, raptors may still be risked during the New Caprica phase before Galactica returns to orbit. 
+Unlike other combat ships, raptors are usable during the entire New Caprica phase. Players may risk raptors even before Galactica returns to orbit. 
 
 #### Vipers
 
-A player who is instructed to activate a viper can take one of these actions:
+A player who is instructed to activate a viper can do one of the following:
 
 - Launch: Take the viper from the Reserves and place it in one of the two space areas with a viper launch icon
 - Move the viper to an adjacent space area. (There is no flying "above" or "below" Galactica, even though this is outer space.)
-- Have the viper attack a Cylon ship in the same space area. 
+- Attack a Cylon ship in the same space area with the viper. 
 - When using the Cylon Fleet expansion, the viper may escort a civilian ship in its space area to safety. The viper itself does not move, and the civilian ship is returned to the unused pile. 
 
 When damaged, a viper goes into the "Damaged Viper" box on the board. It may not be launched or used until it is repaired. 
@@ -607,7 +615,8 @@ In addition, "State of Emergency" continues to execute even if the player who pl
 #### Cylon Reveal resolution
 Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty card. It can also happen involuntarily, for example as the result of an execution. 
 
-1. Complete the asction listed on the "You Are a Cylon" card if this action was taken. Note that it says to only reveal *this* card, not others. Keep any other Loyalty cards secret!
+1. Complete the action listed on the "You Are a Cylon" card if this action was taken. 
+    * Note that it says to only reveal *this* card, not others. Keep any other Loyalty cards secret!
 1. Discard your hand of Skill cards down to 3. 
 1. Discard any Quorum cards *attached to your character* (these are cards like "Assign Vice President", not the *hand* of Quorum cards), any Mutiny cards, and any Miracle tokens.
 1. Lose any titles to the character highest in the line of succession for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded. 
@@ -616,7 +625,7 @@ Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty
 1. If you were the Mutineer, hand off the Mutineer card to the human player of your choice. They must follow the procedure for revealing the Mutineer card. 
 1. If the "Resurrection Ship" location is hazardous, and the fleet has traveled 6 or less distance, look at the rest of your Loyalty cards, if any. Hand them all, face down, to *one* human player of your choice. 
     - If it is not hazardous, the "Resurrection Ship" will allow you to do this later as an action. 
-1. As a Cylon, you do not resolve a Crisis at the end of your turn anymore, so if you revealed as your normal Action, end your turn without drawing a Crisis card. 
+1. From this point on, as a Cylon player you will no longer draw a Crisis card at the end of your turn. 
 
 #### Cylon game turn
 
@@ -627,7 +636,7 @@ A revealed Cylon player has a modified game turn.
     - As a revealed Cylon, your old human Skill set is ignored.
 2. Movement step: 
     - Cylon players may move to Cylon locations, but not human ones. The "Basestar Bridge" does not require discarding a Skill card from the standard Cylon Locations. 
-    - Any Movement action that is available to a Cylon, such as those on Treachery skill cards or on a Cylon Leader's character sheet, may be used during this step instead of moving to a new location
+    - Any Movement action that is available to a Cylon, such as those on Treachery skill cards or on a Cylon Leader's character sheet, may be used during this step instead of moving to a new location.
 3. Action: 
     - Cylons may use the action listed on their current Cylon location, on their Cylon Leader character sheet, or on Treachery Skill cards, but *not* old human character abilities or other Skill cards. 
 4. Prepare for Jump:
@@ -641,7 +650,7 @@ A Cylon Leader is a special player who plays with their own motives or agenda. I
 
 With an Agenda card, the Cylon Leader needs to satisfy *all* conditions listed on the card in order to win. 
 
-With Motive cards, the Cylon Leader receives 2 at the start of the game and 2 more at the Sleeper Agent phase. Each one has 2 components, an allegiance and a condition. The Cylon Leader may reveal a Motive card at any time as long as its condition is *currently* being met, even in the middle of an action or Crisis. If it *was* met before but is not anymore, it cannot be revealed. In order to win with Motive cards, at the end of the game the Cylon Leader must have at least 3 Motive cards revealed, and at least 2 of the revealed cards must be aligned with the winning team. 
+With Motive cards, the Cylon Leader receives 2 at the start of the game and 2 more at the Sleeper Agent phase. Each one has 2 components: an allegiance and a condition. The Cylon Leader may reveal a Motive card at any time as long as its condition is *currently* being met, even in the middle of an action or Crisis. If it *was* met before but is not anymore, it cannot be revealed. In order to win with Motive cards, at the end of the game the Cylon Leader must have at least 3 Motive cards revealed, and at least 2 of the revealed cards must be aligned with the winning team. 
 
 Cylon Leaders are normally treated like and follow the rules for revealed Cylons. Unlike revealed Cylons, Leaders keep and use their character sheets. Just like other players, they must draw from their Skill set unless otherwise specified. They also have positive abilities at their disposal, including a "once per game" or Miracle ability, and negative abilities which are followed at all times. 
 
@@ -669,7 +678,7 @@ Executions are handled differently based on which Loyalty deck style was used wh
 1. _Extra card only: If the player executed was the current player, their turn will immediately be over after the execution is resolved._
 1. Prove your loyalty:
     - Cylons & Cylon Leaders
-        - If you were a hidden Cylon player, reveal *one* "You Are a Cylon" card and keep the rest of your Loyalty cards face down. Do not take the action on that card. Follow the rest of the normal procedure for revealing as a Cylon, but do not draw a Super Crisis card. 
+        - If you were a hidden Cylon player, reveal *one* "You Are a Cylon" card and keep the rest of your Loyalty cards face down. Do not take the action on that card. Follow [the rest of the normal procedure for revealing](#cylon-reveal-resolution) as a Cylon, but do not draw a Super Crisis card. 
         - If you were a Cylon Leader or an exposed Cylon, do the same thing but ignore any instructions about Loyalty cards. As always, Cylon Leaders *do not reveal their agenda or motive!*
     - Human
         1. Reveal *all* your Loyalty cards, showing that none are Cylon cards. For "Final Five" cards, resolve the text for execution.
@@ -784,7 +793,7 @@ The current player may choose the order in which to resolve Final Five cards, bu
 Abilities on Final Five cards do not affect Cylon players. 
 
 #### The Sympathizer
-This card is sometimes added to the Loyalty deck after the first round of cards go out (so it will probably, but not always, appear in the Sleeper Agent phase). As it states on the card, this Loyalty card is immediately revealed and resolved when dealt to a human player. If any resource is in the red zone, The Sympathizer is sent to the Brig but remains a human player. If there are no resources in the red zone, The Sympathizer follows the procedure for revealing as a Cylon player, and plays as a (restricted) Cylon the rest of the game. 
+This card is sometimes added to the Loyalty deck after the first round of cards go out (so it will probably, but not always, appear in the Sleeper Agent phase). As it states on the card, this Loyalty card is immediately revealed and resolved when dealt to a human player. If any resource is in the red zone, The Sympathizer is sent to the Brig but remains a human player. If there are no resources in the red zone, The Sympathizer follows [the procedure for revealing as a Cylon player](#cylon-reveal-resolution), and plays as a (restricted) Cylon the rest of the game. 
 
 This card is somewhat controversial — it attempts to be a sort of "half-Cylon", but The Sympathizer is limited in what they can do as a Cylon, and they don't get to sneak around pretending to be human at all, since they're revealed right away. There is an official "No Sympathizer" variant, handicapping the humans to making the Sympathizer unnecessary, which is described in the Loyalty deck section. Many of the expansions contain ways to replace The Sympathizer with something else as well (Cylon Leaders, The Mutineer, Sympathetic Cylon). 
 
@@ -792,7 +801,7 @@ This card is somewhat controversial — it attempts to be a sort of "half-Cylon"
 
 This card is similar to The Sympathizer, as described above. It is included in the Loyalty deck after the first round of cards go out, so it will probably appear in the Sleeper Agent phase. However, the Sympathetic Cylon is more like a simplified Cylon Leader. 
 
-As stated on the card, the Sympathetic Cylon card is immediately revealed when dealt to a human player. The player reveals as a Cylon, but also draws a Sympathetic Agenda card (the ones with 4-6 and Caprica Six on the back). Like a Cylon Leader, the Sympathetic Cylon must meet the conditions on the card to win. They are also allowed to Infiltrate, following the same rules as a Cylon Leader. 
+As stated on the card, the Sympathetic Cylon card is immediately revealed when dealt to a human player. The player [reveals as a Cylon](#cylon-reveal-resolution), but also draws a Sympathetic Agenda card (the ones with 4-6 and Caprica Six on the back). Like a Cylon Leader, the Sympathetic Cylon must meet the conditions on the card to win. They are also allowed to Infiltrate, following the same rules as a Cylon Leader. 
 
 Unlike a Cylon Leader, the Sympathetic Cylon does not use their old human character sheet. It is disregarded just like a standard Cylon player. While Infiltrating, since they no longer have a Skill set, they draw in the normal fashion for a Cylon, drawing their choice of Skill cards of different types, but with a 1 card bonus, for a total of 3 Skill cards of different types. 
 
@@ -939,7 +948,7 @@ During the New Caprica phase, Colonial One is not accessible. (It is being held 
 
 Demetrius is used in the "Search for Home" ending. Its locations cannot be damaged. 
 
-To activate a Mission, place the top card of the Mission deck face up on the "Active Mission" space. It is immediately resolved. Each Mission is a Skill check but there are some special rules:
+To activate a Mission, place the top card of the Mission deck face up on the "Active Mission" space. It is immediately resolved. Each Mission is a Skill check but there are some special limitations:
 
 - Character abilities and card abilities that affect Crisis cards and Skill checks *do not* affect Mission cards and cannot be used. This includes abilities that happen "before" or "after" Skill checks. 
 - Any limits on how many cards a player may contribute to a Skill check *do* apply, such as being in the Brig, being a Cylon, Aaron Doral's "Vanity", etc.
@@ -1034,7 +1043,9 @@ When re-rolling an "Attack Occupation Force" roll using "Maximum Firepower" that
 
 To "prepare" a civilian ship, move the civilian ship on the *top* of the Locked Civilian Ships stack to the *bottom* of the Prepared Civilian Ships stack. 
 
-Civilian ships may *only* be moved out of the Locked or Prepared Civilian Ship stacks via game effects that *specifically* refer to those places. When another game effect requires drawing or placing civilian ships, they must be drawn from the regular pile by the board as usual. Unless ships have been escorted off the board, this probably means that there won't be any, and normal component limitation rules will apply. 
+Civilian ships may *only* be moved out of the Locked or Prepared Civilian Ship stacks via game effects that *specifically* refer to those places. When another game effect requires drawing or placing civilian ships, they must be drawn from the regular pile by the board as usual. Unless ships have been escorted off the board, this probably means that there won't be any, and [normal component limitation rules](#component-limitations) will apply. 
+
+The rules for resolving an instruction to ["draw and destroy a civilian ship"](#drawing-and-destroying) have special instructions for the Locked and Prepared stacks. 
 
 ##### Brig versus Detention
 
@@ -1052,9 +1063,9 @@ If Romo Lampkin is on New Caprica and uses "Attorney", he instead moves a charac
 
 ##### Before Galactica returns
 
-The Galactica space areas, Cylon Fleet board, and any Cylon ships or Centurions in them are not affected by any game mechanics. Ignore any Cylon ship activations on Crisis cards (with the exception of "Occupation Forces" activations) and ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. 
+The Galactica space areas, Cylon Fleet board, and any Cylon ships or Centurions in them are not affected by any game mechanics. Ignore any Cylon ship activations on Crisis cards, with the exception of "Occupation Forces" activations, and ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. 
 
-**Raptors may still be risked before Galactica returns.**
+Raptors **may still be risked** before Galactica returns.
 
 Resolve New Caprica Crisis cards as normal, ignoring the "evacuation icon" for now. The fleet marker advances as usual. When it reaches "Auto Jump", Galactica returns and the final battle is set up. 
 
@@ -1098,11 +1109,12 @@ The Crossroads phase begins immediately upon reaching 8 or more distance, interr
 
 2. Draw and resolve Crossroads cards:
 
-    The current player shuffles the Crossroads deck and deals each player 1 card.  Each player secretly looks at theirs, and selects 1 Trauma token to play facedown next to their Crossroads card. The indicated icon is the result that will be resolved. 
+    1. The current player shuffles the Crossroads deck and deals each player 1 card.  
+    2. Each player secretly looks at theirs, and selects 1 Trauma token to play facedown next to their Crossroads card. The indicated icon is the result that will be resolved. 
 
-    - A player with no Trauma tokens may simply select either result when the card is revealed. 
+        - A player with no Trauma tokens may select either result when the card is revealed. 
 
-    Once all players have made their selection, the current player reveals their card and token. The chosen result is resolved, and the next player reveals their choice. 
+    3. Once all players have made their selection, the current player reveals their card and token. The chosen result is resolved, and the next player reveals their choice. 
 
     - Resolve any executions normally when they occur, but the executed player's Crossroads card and token choice remain. 
 3. The Trial/Boxing the Line
@@ -1116,7 +1128,7 @@ The Crossroads phase begins immediately upon reaching 8 or more distance, interr
         - If Cylon players are tied, each tied Cylon player is eliminated.
         - If both human and Cylon players are tied, follow *both* rules. All tied Cylons are eliminated, and the President chooses which tied human is eliminated. 
 
-After the Crossroads phase is finished, resume play at the point that the Crossroads phase interrupted. If the Crossroads phase was reached via a jump, since the jump track was already reset do not reset it again (even though technically that is the next step in the procedure). The next jump will end the game. 
+After the Crossroads phase is finished, resume play at the point that the Crossroads phase interrupted. If the Crossroads phase was reached via a jump, since the jump track was already reset do not reset it again (even though technically that is the next step in the procedure). The next jump will [end the game](#final-jump). 
 
 #### Elimination
 
