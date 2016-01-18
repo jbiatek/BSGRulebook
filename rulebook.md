@@ -22,6 +22,8 @@ If you have the Daybreak expansion, it can be useful to use Miracle tokens to tr
 
 The starting layout of ships is:
 
+![See text description below](images/starting_layout.png)
+
 - One basestar and 3 raiders in front of Galactica (left space area)
 - Two vipers below Galactica (one in each space area with the launch tube icon)
 - Two civilian ships behind Galactica (right space area). 
@@ -846,6 +848,8 @@ Cards being discarded after being added to a Skill check do not count as being c
 
 Trauma Tokens are used for the Ionian Nebula ending. Each one represents a hardship that the character is encountering and how the character reacted to it. The "benevolent" symbol represents compassion or belief in destiny. This can be beneficial to humans, but may alienate a Cylon from the other models. The "antagonistic" symbol represents bitterness or aggression, which can be harmful to human players. The "disaster" symbol represents a tragedy. 
 
+![The icons on Trauma Tokens](images/trauma_tokens.png)
+
 When drawing Trauma Tokens:
 
 - Look at the tokens. If they are not "disaster" tokens, keep them next to your character sheet face down with any other tokens and do not reveal them to anyone.
@@ -1077,6 +1081,8 @@ Only locations on New Caprica may be activated. Athena's "Resolute" ability and 
 
 ##### After Galactica returns
 
+![Ship layout for when Galactica returns, described below](images/final_battle.png)
+
 When Galactica returns, first place 1 basestar and 4 raiders in each of the 2 top space areas. Place 2 vipers in each of the 2 bottom space areas (4 total). 
 
 The jump track will not be used for the rest of the game, so from now on ignore the "Prepare to Jump" icon on Crisis cards. Instead, resolve the "Evacuation" icon as follows:
@@ -1096,11 +1102,13 @@ When the final jump occurs:
 
 - Destroy all civilian ships still on New Caprica. 
 - Execute all human players on New Caprica. 
-- After these steps are fully resolved, resolve all other "end of game" effects as normal. 
+- After these steps are fully resolved, [resolve all other "end of game" effects as normal](#final-jump). 
 
 ### Ionian Nebula: Crossroads Phase
 
 The Crossroads phase begins immediately upon reaching 8 or more distance, interrupting the current player's turn. The Cylons are lying in wait to ambush the human fleet, and each character faces an important decision. There are 3 steps to the Crossroads phase:
+
+![Ship layout for Crossroads, described below](images/final_battle.png)
 
 1. Set up the Battle of the Ionian Nebula:
     1. Place a basestar and 4 raiders in each of the top 2 main board space areas. 
@@ -1116,7 +1124,7 @@ The Crossroads phase begins immediately upon reaching 8 or more distance, interr
 
     3. Once all players have made their selection, the current player reveals their card and token. The chosen result is resolved, and the next player reveals their choice. 
 
-    - Resolve any executions normally when they occur, but the executed player's Crossroads card and token choice remain. 
+        - Resolve any executions normally when they occur, but the executed player's Crossroads card and token choice remain. 
 3. The Trial/Boxing the Line
 
     1. Remove all Crossroads cards and the Trauma tokens used with them from the game. Also remove all Ally cards and tokens, the Trauma tokens attached to them, and the Trauma tokens on board locations from the game. 
