@@ -25,7 +25,7 @@
         this.id = $(this).attr( "id", previousSiblingName.replace(/\./g, "-") );
       }
       return this.id;
-    }), output = $(this);
+    }).filter(":visible"), output = $(this);
     if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {
       $(this).hide();
       return;
