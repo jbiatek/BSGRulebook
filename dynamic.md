@@ -256,17 +256,21 @@ When an expansion includes a "fancy" version of an existing component, such as t
 
 ### Pegasus
 
-Add the following components from the Pegasus expansion:
+To add the Pegasus expansion, first remove the existing "Investigative Committee" cards from the base game's Politics deck. Pegasus includes a new set of "Investigative Committee" cards that *don't* show the Destiny deck's cards. 
+
+Put the Battlestar Pegasus board to the right of the main board so that the space for the Treachery skill card deck lines up with the other Skill card decks. <span class="nodaybreak">Put the "Cylon Locations" overlay on top of the main board's Cylon Locations.</span><span class="daybreak">Do not use the Pegasus "Cylon Locations" overlay, the Daybreak one will be used instead.</span>
+
+Next, add these components from the Pegasus expansion:
 
 - The new character sheets and tokens
 - The Battlestar Pegasus game board and Pegasus damage tokens
-- The Cylon Overlay, covering the regular Cylon Locations
-- New Skill Cards (including "Reckless" Treachery cards)
-    - This expansion includes new "Investigative Committee" cards, which *don't* show the Destiny deck's contribution. The original "Investigative Committee" cards are removed from the game when including these new ones. 
+- New Skill Cards <span class="nodaybreak">(including "Reckless" Treachery cards)</span><span class="daybreak">(but do not add the Treachery cards, the ones from Daybreak will be used instead)</span>
 - New Crisis, Destination, Quorum, Super Crisis Cards, and Loyalty cards
 - The "Scar" token, which denotes a special raider
 
-To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and Agenda cards. 
+<p class="cylonleader">To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and Agenda cards.</p>
+
+<p class="nocylonleader">These rules are configured for play *without* a Cylon leader.</p>
 
 </div>
 
@@ -277,7 +281,7 @@ To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cyl
 Add the following components from Exodus:
 
 - New character sheets and tokens
-- New Crisis, Quorum, Super Crisis, Skill, and Destination cards. Only include the "CAG Chooses" Crisis and Super Crisis cards if also playing with Cylon Fleet. 
+- New Crisis, Quorum, Super Crisis, Skill, and Destination cards. <span class="nocylonfleet">Do not add Crisis and Super Crisis cards that say "CAG Chooses" on them.</span> 
 - One additional nuke token next to the board. The Admiral still only receives 2 to start, but now humans may earn more through game effects. 
 
 <div class="cylonfleet" markdown="1">
@@ -285,12 +289,12 @@ Add the following components from Exodus:
 In addition, follow these steps to set up the Cylon Fleet module:
 
 - Remove all Cylon attack cards from the Crisis and Super Crisis decks. Also remove the "Mining Asteroid" Destination, if present (since it uses the "Scar" Cylon attack card). 
-- Add all "CAG Chooses" Crisis and Super Crisis cards to their respective decks.
--  Place the Cylon Fleet board to the left of the main board, with the Cylon Pursuit marker on the "Start" space.
--  Remove 2 regular vipers from the game, and place the 4 Mark VII vipers in the "Damaged Vipers" box. 
--  Add the 4 additional Cylon raiders to the stock of Cylon raiders, for a total of 20. 
--  Add the CAG title card with the other title cards for distribution later.
--  Replace the Admiral title card with the alternate version from Exodus. It changes how nukes work. <span class="newcaprica">This Admiral card is used together with the New Caprica Admiral card.</span>
+- Make sure that all Crisis and Super Crisis cards from Exodus were added, including those that say "CAG Chooses".
+- Place the Cylon Fleet board to the left of the main board, with the Cylon Pursuit marker on the "Start" space.
+- Remove 2 regular vipers from the game, and place the 4 Mark VII vipers in the "Damaged Vipers" box. 
+- Add the 4 additional Cylon raiders to the stock of Cylon raiders, for a total of 20. 
+- Add the CAG title card with the other title cards for distribution later.
+- Replace the Admiral title card with the alternate version from Exodus. It changes how nukes work. <span class="newcaprica">This Admiral card is used together with the New Caprica Admiral card.</span>
 </div>
 
 </div>
@@ -299,15 +303,13 @@ In addition, follow these steps to set up the Cylon Fleet module:
 
 ### Daybreak
 
-Daybreak includes 2 components: the base expansion and the Search for Home ending. 
-
-To set up the base expansion, 
+To add the Daybreak expansion:
 
 - Place the Colonial One overlay over Colonial One, and the Cylon Locations overlay over the Cylon Locations. This Cylon Locations overlay is the one with "Hub Destroyed" on the back. Make sure that "Colonial One Destroyed" and "Hub Destroyed" are face down. 
 - Place one assault raptor in the Reserves, and the rest next to the game board with the other ships. 
 - Shuffle the Mutiny deck and place it next to the board.
 - Add the new character sheets and tokens.
-- Add in the new Skill cards, including the "Mutiny" Treachery cards, which are a new type. Note that the Daybreak and Pegasus Treachery cards are *not* intended to be mixed. When playing both expansions, use the Daybreak Treachery cards and remove the Pegasus Treachery cards from the game. 
+- Add in the new Skill cards, including the "Mutiny" Treachery cards, which are a new type. <span class="pegasus">Note that the Daybreak and Pegasus Treachery cards are *not* intended to be mixed. When playing both expansions, use the Daybreak Treachery cards and remove the Pegasus Treachery cards from the game. </span>
 - Give each player 1 miracle token. 
 
 </div>
@@ -459,6 +461,7 @@ Deal the Cylon Leader two random Motive cards.
 
 Every player *except* the first player draws 3 cards to start the game. (As always, when a player is drawing Skill cards they must come from within their skill set unless otherwise specified.) The first player will get to draw their normal hand of cards in the first turn. <span class="cylonleader">A Cylon Leader draws 2 cards instead of 3 unless they begin the game as an Infiltrator. </span>
 
+Assemble the Destiny deck by taking 2 of each Skill card type and shuffling it. Whenever the Destiny deck runs out, make a new one in the same way. 
 
 <div class="ioniannebula" markdown="1">
 ### Ionian Nebula additional setup
@@ -488,6 +491,68 @@ During the game, any player who is sent to the Brig or Sickbay must also draw a 
 At distance 8, in addition to whatever the objective card says, [resolve the Trauma phase.](#trauma-phase)
 
 </div>
+
+
+### Rule reminders
+
+Before starting the game, check that:
+
+<ul>
+  <li>The main board was set up with a basestar, 3 raiders, 2 vipers, and 2 civilian ships.</li>
+  <li>Each player except the first player drew 3 Skill cards.</li>
+  <li class="treachery">2 Treachery cards were included in the Destiny deck. </li>
+  <li class="pegasus daybreak">The Pegasus Treachery cards are <em>not</em> being used, just the Daybreak ones.</li>
+  <li class="exodus">The Loyalty deck is separate from the "Not a Cylon" deck, and you know which is which!</li>
+  <li class="cylonfleet">All of the Cylon Attack cards have been removed from the Crisis and Super Crisis decks, as well as the "Mining Asteroid" destination.</li>
+</ul>
+
+It might be a good idea to remind all players of the following:
+
+<ul>
+  <li>When choosing a character to send to Sickbay or the Brig, you must choose someone who can actually be moved there if possible.</li>
+  <li>Cylon players can choose to ignore effects on Crisis cards.</li>
+  <li>Centurions don't "push" each other on the Boarding Party track, more than one can occupy the same space.</li>
+  <li>Even if a resource reaches zero, the humans have until the end of the current player's turn to raise it back up before they lose.</li>
+  <li>The 10 Skill card limit is only enforced at the end of each player's turn.</li>
+  <li>Revealed Cylons should <em>not</em> reveal Loyalty cards that say "immediately reveal this card".</li>
+  <li>Super Crisis cards are immune to character abilities and any ability that says it affects Crisis cards.</li>
+</ul>
+
+<div class="expansion" markdown="1">
+
+For these expansions, these are some of the important new rules in effect:
+
+<ul>
+  <li class="treachery">When a Cylon is revealed, they show <em>one</em> Cylon Loyalty card and pass the rest of theirs face down to the human player of their choice when the distance is 6 or less.</li>
+  <li class="treachery">The text on Treachery cards can only be used by Cylon players.</li>
+  <li class="pegasus">"Movement:" actions are actions that can be taken instead of moving <em>during the movement step of your turn</em>.</li>
+  <li class="pegasus">When Galactica is damaged, the current player may choose to damage Pegasus instead.</li>
+  <li class="exodus">When nukes are used, they are discarded rather than removed from the game. The Admiral still starts with only 2 nukes, but they can now be regained (and there's a possible third nuke token).</li>
+  <li class="cylonfleet"><a href="#activating-cylon-ships">The rules for activating Cylon ships are different</a> with the Cylon Fleet board.</li>
+  <li class="cylonfleet">Civilian ships are <em>not</em> removed from the board after a jump, and all Cylon ships move to the Cylon Fleet board instead of being removed.</li>
+  <li class="cylonfleet">When activated, a viper also has the option of escorting a civilian ship off of the board.</li>
+  <li class="allies">If you start your movement step in a location containing an ally, you must first encounter it.</li>
+  <li class="allyseasons">Whenever a player is sent to the Brig or Sickbay, or executed and revealed as a Cylon, they must draw 1 Trauma token.</li>
+  <li class="daybreak">Once-per-game abilities are no longer only once per game. Instead, they can now only be used by spending a Miracle token. Players cannot have more than 1 Miracle token at a time.</li>
+  <li class="daybreak">Mutiny cards and the Mutineer are a whole new game mechanic:
+    <ul>
+      <li class="daybreak">The Mutiny card limit is 1. Players who go over the limit are first sent to the Brig, then must discard down to the limit. Cylon players may not have or use Mutiny cards.</li>
+      <li class="daybreak">The Mutineer has a Mutiny card limit of 2 instead of 1. When the Mutineer resolves a Crisis with a "Prepare for Jump" icon, they must draw a Mutiny card.</li>
+      <li class="daybreak">If the Mutineer card is still in the Loyalty deck after the Sleeper Agent phase cards are dealt, the current player must choose a human player to deal 1 more Loyalty card to. (If it is the Mutineer card, ignore the instruction to deal them yet another Loyalty card.)</li>
+    </ul>
+  </li>
+  <li class="daybreak">Assault raptors are really more like vipers. They can't be "risked", but they can stay in space during jumps.</li>
+  <li class="newcaprica">During and after the New Caprica phase, players may not use Colonial One.</li>
+  <li class="searchforhome">The Demetrius is a new ship where Missions can be attempted. A second Mission cannot be attempted until the fleet jumps. If a Mission gains distance, that distance is added immediately. The Skill Checks on Missions are not affected by any cards or character abilities, except limits on how many cards a player can add.</li>
+  <li class="searchforhome">The Rebel Basestar is added to the game after a certain Mission is completed.</li>
+  <li>Revealed Cylon players must draw 2 cards of different types at the start of their turn.</li>
+  <li>When a Cylon uses the Caprica location, the "Prepare for Jump" icon is <em>not</em> ignored.</li>
+  <li>The hand of Quorum cards also has a 10 card limit, enforced at the end of each player's turn just like Skill cards.</li>
+  <li>Skill cards with the "Skill Check Ability" icon only take effect if they are played into a Skill check and revealed. <span class="pegasus">"Reckless" abilities only take effect if the Skill check was made Reckless by a card.</span></li>
+</ul>
+
+</div>
+
 
 ## Playing The Game
 
@@ -523,7 +588,7 @@ A human player's game turn consists of the following steps:
     </li></ul></li>
 <li><a href="#actions--abilities">Action</a>: The player may take 1 action.</li>
 <li><a href="#crisis-card-resolution">Crisis</a>: Unless otherwise indicated, the current player draws and resolves a Crisis card. </li>
-<li>End turn. 
+<li>End turn. The next player clockwise will now take a turn.
     <ul><li><em>All players</em> must discard Skill Cards down to the 10 card limit if necessary. </li>
     <li>If any resource is at 0 or lower, humans lose.</li></ul></li>
 </ol>
@@ -776,14 +841,14 @@ If there are not enough tokens to place ships on the board, the current player c
 
 When these icons appear on a Crisis card, do the following:
 
-- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">**nothing happens on the main board**</span><span class="nocylonfleet">nothing happens</span>. 
-- Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">**nothing happens on the main board**</span><span class="nocylonfleet">nothing happens</span>.
-- Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">**nothing happens on the main board**</span><span class="nocylonfleet">nothing happens</span>. 
-- Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">**nothing happens on the main board**</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
+- Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>.
+- Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
 
 <div class="cylonfleet" markdown="1">
 
-When playing with the Cylon Fleet option, the phrase "**nothing happens on the main board**" means that something happens on the Cylon Fleet board instead: 
+To place a ship on the Cylon Fleet board:
 
 1. Note the appropriate ship based on the Activate Cylon Ships icon:
     - Activate Raiders: 1 raider
@@ -797,8 +862,6 @@ When playing with the Cylon Fleet option, the phrase "**nothing happens on the m
 4. Finally, advance the Cylon pursuit marker one space. 
     - If it has reached a space with civilian ships underneath it, the CAG must place the indicated number of civilian ships on the main board. 
     - If it has reached "Auto Attack", move *all* ships in Cylon space areas to their corresponding main space areas and reset the Cylon pursuit marker. 
-
-Note that, for example, if "Launch raiders" is being resolved, but the only basestar has been damaged and can no longer launch raiders, this does *not* trigger any action on the Cylon Fleet board. The Cylon Fleet board is also not triggered when nothing happens on the board solely due to component limitations. It is only triggered when the  phrase "**nothing happens on the main game board**" is specified as the end result because the condition immediately preceding it was true. If "nothing happens" for another reason, the Cylon Fleet board is not triggered. 
 
 </div>
 
@@ -820,7 +883,7 @@ When heavy raiders are activated, do *all* of the following steps:
 - Move all heavy raiders on the board one space area closer to the nearest viper launch icon
 - If there were no heavy raiders on the board to start, launch one from each basestar. 
 
-When something says to "activate heavy raiders", that *always* includes Centurions as well unless otherwise stated. 
+When something says to "activate heavy raiders", that *always* includes Centurions as well unless otherwise stated. If something does say to activate heavy raiders but not Centurions, skip the first step but do all of the rest. 
 
 Multiple Centurions can occupy the same space at the same time, they do not "push" each other forward. 
 
@@ -1566,7 +1629,7 @@ In the Exodus rulebook on page 9, the Caprica location's behavior is changed: do
 
 #### Cylon Fleet location
 
-When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated. <span class="cylonfleet">This also includes following the Cylon Fleet board rules for when "nothing happens on the main board". </span>
+When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated <span class="cylonfleet">and placing ships on the Cylon Fleet board</span>.
 
 The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if the regular piles have run out of raiders or heavy raiders, in which case they are drawn from the lowest numbered Cylon Fleet spaces as usual. Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
 
