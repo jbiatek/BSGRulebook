@@ -531,7 +531,7 @@ For these expansions, these are some of the important new rules in effect:
   <li class="cylonfleet"><a href="#activating-cylon-ships">The rules for activating Cylon ships are different</a> with the Cylon Fleet board.</li>
   <li class="cylonfleet">Civilian ships are <em>not</em> removed from the board after a jump, and all Cylon ships move to the Cylon Fleet board instead of being removed.</li>
   <li class="cylonfleet">When activated, a viper also has the option of escorting a civilian ship off of the board.</li>
-  <li class="allies">If you start your movement step in a location containing an ally, you must first encounter it.</li>
+  <li class="allies">If you end your movement step in a location containing an ally, you must first encounter it.</li>
   <li class="allyseasons">Whenever a player is sent to the Brig or Sickbay, or executed and revealed as a Cylon, they must draw 1 Trauma token.</li>
   <li class="daybreak">Once-per-game abilities are no longer only once per game. Instead, they can now only be used by spending a Miracle token. Players cannot have more than 1 Miracle token at a time.</li>
   <li class="daybreak">Mutiny cards and the Mutineer are a whole new game mechanic:
