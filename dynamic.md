@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BSG Unified Rulebook
+title: Dynamic rulebook
 toc: true
 ---
 
