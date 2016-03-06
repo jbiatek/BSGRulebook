@@ -231,9 +231,19 @@ window.onload = function () {
 
 This rulebook is intended to be a single resource for the official rules of Battlestar Galactica by Fantasy Flight Games, including its 3 expansions. The goals are for it to be complete and unambiguous, incorporating the published rules included with the games as well as clarifications and rulings made later, so that no one has to dig through 4 rulebooks, errata, official FAQs, unofficial FAQs, and rulings by FFG employees in response to customer questions. 
 
+For beginning players, it's probably best to use the official base game rulebook to learn the game. This rulebook has lots of detail, even when all the expansions are turned off, which is probably going to hurt more than help. But if you are playing the game and have a question that the official rulebook doesn't seem to answer, take a look. An experienced player should be able to use this to teach new players the game, since they can explain the basics themselves and know what details can be ignored to start. 
+
 Configure which expansions and options are being included by using the form at the top of the page. Some rules change based on which expansions or options are included, and the rulebook will change as you configure it. 
 
 While this rulebook sticks mainly to the official rules, it does include some "house rules", and the option to enable a variant by Alexander DeSouza called "Allies for All Seasons" which pulls in the "ally" mechanic without the rest of the Ionian Nebula ending. Whenever possible, this guide treats the base game and expansions as one big game with many different modules and variations, so any other house rules should be easy to integrate and make decisions about. 
+
+## The basics
+
+Humanity has been decimated in a surprise attack by the Cylons, a race of machines who were created by humans and rebelled against them. After 40 years of peace, the remaining members of the human race are suddenly on the run, fleeing through space and fighting for survival. In the escape, however, it becomes clear that the Cylons have evolved -- there are models that are completely indistinguishable from humans, and some don't even *know* that they are Cylons.
+
+During the game, the human fleet will attempt to escape the pursuing Cylons, moving toward the final objective in a series of faster-than-light jumps. The humans have re-formed their government and what's left of the military still follows a chain of command... but can those in authority be trusted?
+
+Each player will select a character and be dealt Loyalty cards. Characters have different skills and abilities, and a well-balanced team of players will help the humans succeed and survive. Players take turns, where they can draw cards, move, and take an action, but at the end of each turn all players must deal with a crisis. It could be a surprise Cylon attack, or a dilemma with no clear answer. All this time, some players are secretly Cylons, or may become Cylons partway through the game, so trust is a critical factor. A hidden Cylon could choose to sabotage at a critical moment, or cause infighting amongst the humans. Cylons can also choose to reveal themselves, causing damage along the way and allowing the Cylon to openly fight the humans. 
 
 ## Game setup
 
@@ -371,13 +381,11 @@ Once all characters are chosen, distribute titles to the highest in the orders o
 
 ### Loyalty Deck
 
-#### Building the Loyalty deck
+![The back of the Loyalty cards](images/loyalty.png)
 
 First, build two decks of Loyalty cards: the "You Are a Cylon" and the "You Are Not a Cylon" decks. <span class="finalfive">The Final Five<span class="personalgoal"> and Personal Goal</span> cards should be added to the "Not a Cylon" deck.</span><span class="personalgoal nofinalfive">The Personal Goal cards should be added to the "Not a Cylon" deck.</span>
 
 These instructions assume that <span class="cylonleader">**one player is playing a Cylon Leader**</span><span class="nocylonleader">**no one is playing as a Cylon Leader**</span>. If this is not the case, <a href="javascript:toggleCL()">click this link</a> or go to the top of the page and change the Cylon Leader option.
-
-
 
 Shuffle them both, then form the initial Loyalty deck according to this table:
 
@@ -408,7 +416,7 @@ Shuffle them both, then form the initial Loyalty deck according to this table:
 |    3    |      1       |         6         | 
 |    4    |      1       |         7         | 
 |    5    |      2       |         9         | 
-|    6    |      2       |         10         | 
+|    6    |      2       |         10        | 
 
 </div>
 <div class="cylonleader exodus" markdown="1">
@@ -422,7 +430,10 @@ Shuffle them both, then form the initial Loyalty deck according to this table:
 
 </div>
 
-If a player chose Sharon "Boomer" Valerii, add one more "Not a Cylon" card. If a player chose the Political version of Gaius Baltar, with the "Coward" weakness, add one more "Not a Cylon" card. 
+If either of these characters were chosen, add 1 more "Not a Cylon" card. If both were chosen, add one for each of them.
+
+- Sharon "Boomer" Valerii (Pilot)
+- Gaius Baltar (Political)
 
 <p class="daybreak cylonleader">
 If playing with 5 or 7 total players, add The Mutineer card to the Loyalty deck.
@@ -480,7 +491,7 @@ Designed by Alexander DeSouza, these rules allow you to incorporate Ally cards a
 
 To setup for Allies for All Seasons, just before starting the game:
 
-- Remove all “disaster” tokens from the game. The remaining Trauma tokens should be randomized facedown into a pile near the board. 
+- Remove all “disaster” tokens from the game (the ones that show a blood splatter). The remaining Trauma tokens should be randomized facedown into a pile near the board. 
 - Draw and place Ally cards and their respective tokens until 3 are placed on the board. If an Ally is a duplicate of an existing player's character, remove it from the game and re-draw. 
 - Each player draws 4 Trauma tokens, and contributes 1 to create the Mood Pool.
 
@@ -673,6 +684,8 @@ There is a subtle difference between a "move" and a "Movement:" action. A "move"
 
 ### Skill Cards
 
+![The back of a Skill card](images/skill.png)
+
 Skill cards have a type, a strength, and an ability. At the end of any player's turn, a player with more than 10 Skill Cards must discard down to 10. When discarded, Skill Cards go face up next to their respective deck. When a deck runs out, shuffle the discard pile to create a new deck. 
 
 Cylon players are not allowed to use the text abilities on Skill Cards<span class="treachery">, with the exception of Treachery cards. Humans are the exact opposite: they may use the text abilities on all Skill Cards *except* Treachery cards. Unless otherwise specified, Treachery cards always count as negative when totaling Skill checks</span>.
@@ -715,7 +728,8 @@ To create the Destiny deck, take two of each type of Skill Card <span class="tre
 <div class="nocylonfleet" markdown="1">
 ### Cylon Attack cards
 
-TODO: Put an example here. 
+![A sample Cylon Attack card](images/cac_example.png)
+
 
 Each Cylon Attack Crisis has 3 steps:
 
@@ -729,9 +743,10 @@ The ships shown are *new* ships to be placed. Any existing ships on the board st
 
 ### Event Crisis cards
 
-An "Event" Crisis card has a bar below the picture that says "[Someone] Chooses", with a specific player or title named, as well as an "or" bar between the two choices. 
+![A sample event Crisis card](images/event_example.png)
 
-TODO: Probably needs an image or example.
+
+An "Event" Crisis card has a bar below the picture that says "[Someone] Chooses", with a specific player or title named, as well as an "or" bar between the two choices. 
 
 The indicated player must choose which box to resolve before play can continue. In some cases, both boxes simply have text to be resolved. In others, one of the choices is to attempt a [Skill check](#skill-check-resolution). 
 
@@ -741,9 +756,25 @@ Two characters have abilities that affect Event Crisis cards in different ways. 
 
 ### Super Crisis Cards
 
+![The back of a Super Crisis card](images/supercrisis.png)
+
+
 Abilities that apply to Crisis cards do not apply to Super Crisis cards. Super Crisis cards are also immune to all character abilities affecting Skill checks. Otherwise, they are resolved using [the same procedure as Crisis cards](#crisis-card-resolution).
 
 ### Skill Check resolution
+
+![A regular Skill Check card](images/skillcheck.png)
+
+Each Skill check has a strength in the top left corner, a title, a picture, and colors which count as positive. Any color not "lit up" is negative, and will subtract from the positive cards. The result of the Skill check will determine which of the boxes at the bottom will take effect. A Skill check is passed if it meets or exceeds the strength in the top left corner. There may be a "partial pass" result if the strength reaches a certain threshold but doesn't fully pass, but otherwise the Skill check fails. 
+
+<div class="expansion" markdown="1">
+![The Skill Check Ability icon](images/skillcheckability.png)
+
+If a card is revealed in a Skill check with the Skill Check Ability icon, resolve the card's text. If multiple cards with the same name appear, only one is resolved and the rest are skipped. If multiple Skill Check Abilities are present, the current player decides what order they are resolved in. 
+
+</div>
+
+The full, detailed procedure for resolving a Skill check is as follows:
 
 <ol>
   <li>The Skill check begins.
