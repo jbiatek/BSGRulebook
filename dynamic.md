@@ -459,7 +459,7 @@ If playing with 4 or 6 players, do *one* of these:
 
 Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are now removed from the game without revealing them. 
 
-The Loyalty deck is now complete. Shuffle it and distribute 1 card to every player<span class="cylonleader"> except for the Cylon Leader</span>. After the first round is dealt, add the Sympathizer card to the deck if it was indicated. 
+The Loyalty deck is now complete. Shuffle it and distribute 1 card to every player<span class="cylonleader"> except for the Cylon Leader</span>. As per his weakness, Gaius Baltar (Political) receives 2 Loyalty cards instead of 1. <span class="nodaybreak nocylonleader">After the first round is dealt, add the Sympathizer card to the deck if it was indicated.</span>
 
 <p class="cylonleader pegasus nodaybreak">
 In a 4 or 6 player game, give the Cylon Leader a random Agenda card from the Sympathetic Agenda deck. (This deck has Caprica Six on the back.) In a 5 or 7 player game, give the Cylon Leader a random Agenda card from the Hostile Agenda deck. (This deck has a Centurion on the back.)
