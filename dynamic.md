@@ -383,11 +383,13 @@ Once all characters are chosen, distribute titles to the highest in the orders o
 
 ![The back of the Loyalty cards](images/loyalty.png)
 
-First, build two decks of Loyalty cards: the "You Are a Cylon" and the "You Are Not a Cylon" decks. <span class="finalfive">The Final Five<span class="personalgoal"> and Personal Goal</span> cards should be added to the "Not a Cylon" deck.</span><span class="personalgoal nofinalfive">The Personal Goal cards should be added to the "Not a Cylon" deck.</span>
+First, build two decks of Loyalty cards: the "You Are a Cylon" and the "You Are Not a Cylon" decks. Set aside any Loyalty cards that have titles other than these two. 
 
-These instructions assume that <span class="cylonleader">**one player is playing a Cylon Leader**</span><span class="nocylonleader">**no one is playing as a Cylon Leader**</span>. If this is not the case, <a href="javascript:toggleCL()">click this link</a> or go to the top of the page and change the Cylon Leader option.
+<span class="finalfive">Next, add the Final Five<span class="personalgoal"> and Personal Goal</span> cards to the "Not a Cylon" deck.</span><span class="personalgoal nofinalfive">Next, add the Personal Goal cards to the "Not a Cylon" deck.</span>
 
-Shuffle them both, then form the initial Loyalty deck according to this table:
+<p class="treachery" markdown="1">These instructions assume that <span class="cylonleader">**one player is playing a Cylon Leader**</span><span class="nocylonleader">**no one is playing as a Cylon Leader**</span>. If this is not the case, <a href="javascript:toggleCL()">click this link</a> or go to the top of the page and change the Cylon Leader option.</p>
+
+Shuffle both decks separately, then form the initial Loyalty deck according to this table:
 
 <div class="nocylonleader noexodus" markdown="1">
 
