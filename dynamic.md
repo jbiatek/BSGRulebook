@@ -377,7 +377,7 @@ Players may not choose "alternate" versions of characters that have already been
 
 Each character has a category: Political, Military, Pilot, and Support. Support characters may be chosen at any time. The other 3 categories must be chosen evenly. For example, if the first two characters chosen were Political and Military, players may not choose another Political or Military character until a Pilot has been selected. 
 
-Once all characters are chosen, distribute titles to the highest in the orders of succession. 
+Once all characters are chosen, distribute titles to the highest in the [lines of succession](#lines-of-succession). 
 
 ### Loyalty Deck
 
@@ -1155,7 +1155,7 @@ Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty
   </li>
   <li>Discard your hand of Skill cards down to 3.</li>
   <li>Discard any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any Miracle tokens</span>.</li>
-  <li>Lose any titles to the character highest in the line of succession for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded.</li>
+  <li>Lose any titles to the character highest in the [line of succession](#lines-of-succession) for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded.</li>
   <li>Move to the “Resurrection Ship” location. If piloting a ship, that ship is returned to the Reserves.</li>
   <li>Unless otherwise directed, draw a Super Crisis Card.</li>
   <li class="daybreak">If you were the Mutineer, hand off the Mutineer card face up to the human player of your choice. They must follow the procedure for receiving the Mutineer card.</li>
@@ -1250,7 +1250,7 @@ Cylon Leaders always ignore game effects that tell them to add cards to the Loya
             <li>Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose.</li>
             <li>Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). <span class="newcaprica">During the New Caprica phase before Galactica returns, start in Resistance HQ.</span></li>
             <li class="exodus">Add 1 card from the “Not a Cylon” deck to the Loyalty deck, shuffle, and draw 1 new card. If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 more Loyalty card.</li>
-            <li>Distribute any former titles to the first in the line of succession, including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
+            <li>Distribute any former titles to the first in the [line of succession](#lines-of-succession), including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
             <li class="daybreak">If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer.</li>
             <li class="allies">Draw 3 new Trauma tokens. If a “disaster” token is drawn, set it aside and draw a new one to replace it, then return the “disaster” token to the pool (just like at the start of the game).</li>
             <li>If one of these characters was chosen, there are some additional rules and clarifications:
@@ -1309,7 +1309,7 @@ If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignor
 
 When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. 
 
-If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate line of succession. If she became President again during her "Manipulative" turn through some other action, she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
+If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). If she became President again during her "Manipulative" turn through some other action, she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
 
 </div>
 
@@ -1426,7 +1426,7 @@ The Sympathetic Cylon does not use their old human character sheet. It is disreg
 
 The Mutineer card replaces the Sympathizer role. It is always treated as a "Not a Cylon" card. The player with this card is referred to as "The Mutineer". 
 
-Whenever a human player receives the Mutineer card, they must reveal the card. If it was received from the Loyalty deck, not another player, they must then draw another Loyalty card to replace it. Then, they must draw 1 Mutiny card and are stripped of any Titles that they hold, giving them to the character highest in the line of succession not including themselves. (This only happens when receiving the card. The Mutineer is allowed to gain or lose titles after that as normal.)
+Whenever a human player receives the Mutineer card, they must reveal the card. If it was received from the Loyalty deck, not another player, they must then draw another Loyalty card to replace it. Then, they must draw 1 Mutiny card and are stripped of any Titles that they hold, giving them to the character highest in the [line of succession](#lines-of-succession) not including themselves. (This only happens when receiving the card. The Mutineer is allowed to gain or lose titles after that as normal.)
 
 When resolving the Crisis card drawn at the end of their turn, if the Mutineer resolves a "Prepare for Jump" icon, they must draw 1 Mutiny card.
 
@@ -1561,9 +1561,7 @@ If a player chooses a character after an execution that corresponds with an Ally
 
 ### Titles
 
-Titles can only be held by human players. <span class="cylonleader">Cylon Leaders cannot hold titles even while Infiltrating.</span> When a human is revealed to be a Cylon, the first player in the line of succession for that title claims it. 
-
-The lines of succession are *not* applied automatically. Players do not gain titles solely because they are highest in the line of succession. When a player holds a title, they keep it until they are instructed to give it to someone else. 
+Titles can only be held by human players. <span class="cylonleader">Cylon Leaders cannot hold titles even while Infiltrating.</span> When a human is revealed to be a Cylon, the first player in the [line of succession](#lines-of-succession) for that title claims it. 
 
 #### President
 The President controls the hand of Quorum cards on behalf of the fleet and has to make choices on Crisis Cards. 
@@ -1589,6 +1587,13 @@ When a game effects says to place a civilian ship on the board, but does not spe
 The CAG follows the same rules as the Admiral when sent to the Brig<span class="newcaprica"> (but not Detention)</span>: they are stripped of their title and do not automatically regain it upon leaving the Brig. 
 </div>
 
+### Lines of Succession
+
+<a target="_blank" href="images/succession.jpg"><img src="images/succession.jpg" alt="Lines of succession"></a>
+
+Click the image above to see it full-sized in a new tab.
+
+The lines of succession are *not* applied automatically. Players do not gain titles solely because they are highest in the line of succession. When a player holds a title, they keep it until they are instructed to give it to someone else. 
 
 ### Locations
 
