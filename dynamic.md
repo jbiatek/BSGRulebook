@@ -252,7 +252,7 @@ Setting up the game board is fairly straightforward. The resource dials are set 
 
 When an expansion includes a "fancy" version of an existing component, such as the plastic basestars and Centurions, they are used *instead of* those components, not *along with*. The number of components is important, because they are [not treated as unlimited resources](#component-limitations). 
 
-<p class="nodaybreak">Even though the Daybreak expansion isn't being used in this game, if you have it, it can be useful to use Miracle tokens to track who has and has not used their once-per-game ability. </p>
+<p class="nodaybreak" markdown="1">Even though the Daybreak expansion isn't being used in this game, if you have it, it can be useful to use Miracle tokens to track who has and has not used their once-per-game ability. </p>
 
 <p>The starting layout of ships is:</p>
 
@@ -278,9 +278,9 @@ Next, add these components from the Pegasus expansion:
 - New Crisis, Destination, Quorum, Super Crisis Cards, and Loyalty cards
 - The "Scar" token, which denotes a special raider
 
-<p class="cylonleader">To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and Agenda cards.</p>
+<p class="cylonleader" markdown="1">To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and Agenda cards.</p>
 
-<p class="nocylonleader">These rules are configured for play *without* a Cylon leader.</p>
+<p class="nocylonleader" markdown="1">These rules are configured for play *without* a Cylon leader.</p>
 
 </div>
 
@@ -371,7 +371,7 @@ Place the Demetrius board to the left of the main game board and leave room for 
 
 Determine a first player randomly. They will choose their character first and take the first turn. Both character choice and gameplay will proceed clockwise from there. 
 
-<p class="cylonleader">Only 1 player is allowed to choose a Cylon Leader. Cylon Leaders cannot be chosen in a 3 player game.</p>
+<p class="cylonleader" markdown="1">Only 1 player is allowed to choose a Cylon Leader. Cylon Leaders cannot be chosen in a 3 player game.</p>
 
 Players may not choose "alternate" versions of characters that have already been chosen. Note that "Boomer" and "Athena" are *not* alternates of each other, they are separate characters that may both be chosen in the same game. 
 
@@ -437,11 +437,11 @@ If either of these characters were chosen, add 1 more "Not a Cylon" card. If bot
 - Sharon "Boomer" Valerii (Pilot)
 - Gaius Baltar (Political)
 
-<p class="daybreak cylonleader">
+<p class="daybreak cylonleader" markdown="1">
 If playing with 5 or 7 total players, add The Mutineer card to the Loyalty deck.
 </p>
 
-<p class="daybreak nocylonleader">
+<p class="daybreak nocylonleader" markdown="1">
 If playing with 4 or 6 total players, add The Mutineer card and one more "Not a Cylon" card to the Loyalty deck. 
 </p>
 
@@ -461,11 +461,11 @@ Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loy
 
 The Loyalty deck is now complete. Shuffle it and distribute 1 card to every player<span class="cylonleader"> except for the Cylon Leader</span>. As per his weakness, Gaius Baltar (Political) receives 2 Loyalty cards instead of 1. <span class="nodaybreak nocylonleader">After the first round is dealt, add the Sympathizer card to the deck if it was indicated.</span>
 
-<p class="cylonleader pegasus nodaybreak">
+<p class="cylonleader pegasus nodaybreak" markdown="1">
 In a 4 or 6 player game, give the Cylon Leader a random Agenda card from the Sympathetic Agenda deck. (This deck has Caprica Six on the back.) In a 5 or 7 player game, give the Cylon Leader a random Agenda card from the Hostile Agenda deck. (This deck has a Centurion on the back.)
 </p>
 
-<p class="cylonleader daybreak">
+<p class="cylonleader daybreak" markdown="1">
 Deal the Cylon Leader two random Motive cards. 
 </p>
 
@@ -611,9 +611,9 @@ A human player's game turn consists of the following steps:
 
 Obviously there are not an infinite number of ship tokens and other items in the game, so it is possible that they will run out. Follow these rules when a game effect cannot be followed because there are not enough tokens or other pieces.
 
-<p class="nocylonfleet">In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. </p>
+<p class="nocylonfleet" markdown="1">In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. </p>
 
-<p class="cylonfleet">When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the current player decides the order of placement and, if necessary, which ones are placed and which are not placed.</p>
+<p class="cylonfleet" markdown="1">When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the current player decides the order of placement and, if necessary, which ones are placed and which are not placed.</p>
 
 If a heavy raider cannot become a Centurion due to component limitations, the heavy raider remains on the board. 
 
@@ -952,19 +952,19 @@ At the Sleeper Agent phase, more Loyalty cards are dealt to every player<span cl
 
 Upon reaching this distance or more, deal 1 Loyalty card to every player<span class="cylonleader"> who is not a Cylon Leader</span>, including revealed Cylon players.  Revealed Cylons must ignore any text that says to "immediately reveal this card". <span class="daybreak cylonleader">Deal 2 more Motive cards to the Cylon Leader.</span>
 
-<p class="daybreak">When playing with the "You Are The Mutineer" card, if no one has revealed as the Mutineer after all the Sleeper Agent phase cards have been dealt, the current player chooses a human player to draw an extra Loyalty card from the Loyalty deck. In this case, if they subsequently reveal the Mutineer card, they do not replace it with another Loyalty card. </p>
+<p class="daybreak" markdown="1">When playing with the "You Are The Mutineer" card, if no one has revealed as the Mutineer after all the Sleeper Agent phase cards have been dealt, the current player chooses a human player to draw an extra Loyalty card from the Loyalty deck. In this case, if they subsequently reveal the Mutineer card, they do not replace it with another Loyalty card. </p>
 
 #### Revealed Cylons during the Sleeper Agent phase
 
-<p class="pegasus">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.</p>
+<p class="pegasus" markdown="1">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.</p>
 
-<p class="nopegasus daybreak">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.</p>
+<p class="nopegasus daybreak" markdown="1">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.</p>
 
-<p class="nopegasus nodaybreak">Revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.</p>
+<p class="nopegasus nodaybreak" markdown="1">Revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.</p>
 
-<p class="exodus">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card as normal if she has revealed as a Cylon.</p>
+<p class="exodus" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card as normal if she has revealed as a Cylon.</p>
 
-<p class="noexodus">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability is supposed to no longer apply, because character abilities are ignored as a revealed Cylon. Since following this rule would result in a Loyalty card not being dealt, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not a card left over.</p>
+<p class="noexodus" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability is supposed to no longer apply, because character abilities are ignored as a revealed Cylon. Since following this rule would result in a Loyalty card not being dealt, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not a card left over.</p>
 
 ### Combat ship attack table 
 
@@ -1068,7 +1068,7 @@ When an event instructs players to "draw a civilian ship and destroy it", they a
 
 Raptors aren't used in space areas. Instead, certain game actions will "risk" them (presumably, you are sending them on a dangerous mission to deep space), and a failure will cause them to be destroyed. Just like the other human ships, when destroyed they are removed from the game. If there are no raptors left, players may not use abilities that require risking a raptor. 
 
-<p class="newcaprica">Unlike other combat ships, raptors are usable during the entire New Caprica phase. Players may risk raptors even before Galactica returns to orbit. </p>
+<p class="newcaprica" markdown="1">Unlike other combat ships, raptors are usable during the entire New Caprica phase. Players may risk raptors even before Galactica returns to orbit. </p>
 
 #### Vipers
 
@@ -1085,7 +1085,7 @@ When damaged, a viper goes into the "Damaged Viper" box on the board. It may not
 
 The "Evasive Maneuver" card can only be used when a viper is being "attacked". When any other effect says that a viper is damaged or destroyed, such as "Main Batteries", an "Evasive Maneuver" cannot be used because it is not being attacked.
 
-<p class="daybreak">Under the effects of the "Gravity Well" special rule (on the Event Horizon Crisis), a Skill card must be discarded to activate a viper. For "Command", or any other card that allows a player to activate a viper, 1 card must be discarded for each activation. Actions that allow for moving or attacking with a viper, like "Maximum Firepower" or "Full Throttle", only require 1 card to perform the entire action even if it involves multiple attacks or moves. A pilot moving their own ship during their Movement step or with the first step of an Executive Order is performing a move, not an activation, so a card does not need to be discarded. </p>
+<p class="daybreak" markdown="1">Under the effects of the "Gravity Well" special rule (on the Event Horizon Crisis), a Skill card must be discarded to activate a viper. For "Command", or any other card that allows a player to activate a viper, 1 card must be discarded for each activation. Actions that allow for moving or attacking with a viper, like "Maximum Firepower" or "Full Throttle", only require 1 card to perform the entire action even if it involves multiple attacks or moves. A pilot moving their own ship during their Movement step or with the first step of an Executive Order is performing a move, not an activation, so a card does not need to be discarded. </p>
 
 <div class="cylonfleet" markdown="1">
 
@@ -1142,12 +1142,12 @@ Cylon players are not allowed to:
 - Contribute more than 1 card to Skill Checks.
 - Reveal Loyalty cards that say "immediately reveal this card". 
 
-<p class="exodus">A Cylon is allowed to make use of a "State of Emergency" when it is played, since it targets all players and not a specific player. In addition, "State of Emergency" continues to execute even if the player who played it uses it to reveal as a Cylon.  </p>
+<p class="exodus" markdown="1">A Cylon is allowed to make use of a "State of Emergency" when it is played, since it targets all players and not a specific player. In addition, "State of Emergency" continues to execute even if the player who played it uses it to reveal as a Cylon.  </p>
 
 #### Cylon Reveal resolution
 Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty card. <span class="execution">It can also happen involuntarily, for example as the result of an execution. </span>
 
-<ol>
+<ol markdown="1">
   <li>Complete the action listed on the “You Are a Cylon” card if this action was taken.
     <ul>
       <li>Note that it says to only reveal <em>this</em> card, not others. Keep any other Loyalty cards secret!</li>
@@ -1155,7 +1155,7 @@ Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty
   </li>
   <li>Discard your hand of Skill cards down to 3.</li>
   <li>Discard any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any Miracle tokens</span>.</li>
-  <li>Lose any titles to the character highest in the [line of succession](#lines-of-succession) for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded.</li>
+  <li>Lose any titles to the character highest in the <a href="#lines-of-succession">line of succession</a> for that title. All resources that are tied to that title (the hand of Quorum cards, nuke tokens, Destinations) travel with the title as-is, they are not discarded.</li>
   <li>Move to the “Resurrection Ship” location. If piloting a ship, that ship is returned to the Reserves.</li>
   <li>Unless otherwise directed, draw a Super Crisis Card.</li>
   <li class="daybreak">If you were the Mutineer, hand off the Mutineer card face up to the human player of your choice. They must follow the procedure for receiving the Mutineer card.</li>
@@ -1250,7 +1250,7 @@ Cylon Leaders always ignore game effects that tell them to add cards to the Loya
             <li>Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose.</li>
             <li>Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). <span class="newcaprica">During the New Caprica phase before Galactica returns, start in Resistance HQ.</span></li>
             <li class="exodus">Add 1 card from the “Not a Cylon” deck to the Loyalty deck, shuffle, and draw 1 new card. If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 more Loyalty card.</li>
-            <li>Distribute any former titles to the first in the [line of succession](#lines-of-succession), including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
+            <li>Distribute any former titles to the first in the <a href="#lines-of-succession">line of succession</a>, including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
             <li class="daybreak">If the executed character was the Mutineer, the new character receives the Mutineer card again and follows the instructions for becoming the Mutineer.</li>
             <li class="allies">Draw 3 new Trauma tokens. If a “disaster” token is drawn, set it aside and draw a new one to replace it, then return the “disaster” token to the pool (just like at the start of the game).</li>
             <li>If one of these characters was chosen, there are some additional rules and clarifications:
@@ -1568,7 +1568,7 @@ The President controls the hand of Quorum cards on behalf of the fleet and has t
 
 The hand of Quorum cards belongs to the human fleet as a whole, but is controlled and kept secret by the President. If the President title is transferred to another player for any reason, the new President also takes the hand of Quorum cards. They are not discarded or kept by the outgoing President. The President title card provides an additional action to draw Quorum cards, and some locations can only be used by the President. <span class="expansion">There is a 10 card limit to the hand of Quorum cards.</span><span class="noexpansion">There is no card limit for the hand of Quorum cards.</span>
 
-<p class="pegasus">The "Consult the Oracle" card cannot be used on the Loyalty deck<span class="cylonleader pegasus"> or the Agenda deck</span><span class="cylonleader daybreak"> or the Motive deck</span>.</p>
+<p class="pegasus" markdown="1">The "Consult the Oracle" card cannot be used on the Loyalty deck<span class="cylonleader pegasus"> or the Agenda deck</span><span class="cylonleader daybreak"> or the Motive deck</span>.</p>
 
 #### Admiral
 
@@ -1694,9 +1694,9 @@ After the final distance indicated on the Objective card is reached, the next ti
 At the distance indicated on the New Caprica objective card, the New Caprica phase begins. After setup is complete, the game continues. The jump track is used one last time to bring back Galactica, and after Galactica returns the final jump will end the game. This jump can only be initiated by the Admiral as an action, not by using the jump track or "FTL control". The [normal jump procedure](#jumping-the-fleet) is skipped, so there is no "Remove Ships" step and no Destination card is drawn. Instead, follow [the rules listed below for ending the game in New Caprica](#evacuating-new-caprica). 
 </p>
 
-<p class="cylonleader">After the final jump, Cylon Leaders must wait until all other effects are resolved before they can <span class="daybreak">reveal any "game is over" Motive cards</span><span class="pegasus nodaybreak">declare their Agenda fulfilled</span>.</p>
+<p class="cylonleader" markdown="1">After the final jump, Cylon Leaders must wait until all other effects are resolved before they can <span class="daybreak">reveal any "game is over" Motive cards</span><span class="pegasus nodaybreak">declare their Agenda fulfilled</span>.</p>
 
-<p class="pegasus">"Preventative Policy" cards remain in effect if they were played during the last turn.</p> 
+<p class="pegasus" markdown="1">"Preventative Policy" cards remain in effect if they were played during the last turn.</p> 
 
 When resolving any end of game effects, unrevealed Cylons continue to be treated as human players but they still ultimately win or lose with the Cylons. <span class="cylonleader">Cylon Leaders continue to be treated as human or Cylon players depending on whether or not they are Infiltrating.</span><span class="personalgoal">Resolve game effects that take place at the end of the game such as unfulfilled Personal Goal cards. </span>If the humans have not run out of resources or lost by any other means when everything is resolved at the end of the game, the humans win!
 
@@ -1792,7 +1792,7 @@ The jump track will not be used for the rest of the game, so from now on ignore 
 
 Human players may now move between New Caprica, Galactica, and the other human ships by discarding a Skill card. Colonial One is not accessible during the New Caprica phase even after Galactica comes back. Cylon players may also move between New Caprica and the other Cylon locations by discarding a Skill card. Ships and Centurions are once again affected by game effects as normal. 
 
-<p class="cylonfleet">Vipers may use their "escort civilian ships" activation on civilian ships in their space area.</p>
+<p class="cylonfleet" markdown="1">Vipers may use their "escort civilian ships" activation on civilian ships in their space area.</p>
 
 ##### Evacuating New Caprica
 
