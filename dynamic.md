@@ -1051,13 +1051,13 @@ Movement actions may be played while in the Brig, since players in the Brig stil
 
 ### Moves
 
-A player who is granted a "move" may move their character token to a new location. A move to a location on the same ship can be performed freely. There is no die roll or number of "spaces" that tokens have to move, the token simply moves directly from one location to another. 
+A player who is granted a "move" may move their character token to a new location. A move to a location on the same ship can be performed at no cost. There is no die roll or number of "spaces" that tokens have to move, the token simply moves directly from one location to another. 
 
-Using a move to go to a location on another ship requires the player to discard a Skill card. If a player has no Skill cards, they will not be able to move themselves to locations off of their current ship. The destination must be selected before the discard occurs, and the player's token is not moved until the discard is fully resolved. 
-
-Players piloting a viper may move to an adjacent space area when granted a move. They may also discard a Skill card to move to a location on any ship and return their viper to the Reserves. Neither of these counts as a viper activation. 
+Using a move to go to a location on another ship requires the player to first discard a Skill card. If a player has no Skill cards, they will not be able to move themselves to locations off of their current ship. The destination must be selected before the discard occurs, and the player's token is not moved until the discard is fully resolved. 
 
 Players may not choose to move to "hazardous" locations, they can only be sent to them by game effects that specify that exact location. Human players are not allowed to move to Cylon locations and vice versa. 
+
+Players piloting a viper may move their ship to an adjacent space area when granted a move. They may also discard a Skill card to move to a location on any ship and return their viper to the Reserves. Neither of these counts as a viper activation. 
 
 <div class="pegasus" markdown="1">
 
@@ -1253,15 +1253,15 @@ The full, detailed procedure for resolving a Skill check is as follows:
 
 Appropriately, Cylon ships follow certain programming when activated. Cylon players don't pilot or otherwise control these ships directly. 
 
-When Cylon ships are activated, they are resolved one entire space area at a time. When multiple space areas are affected, the current player chooses what order they are resolved in (and sometimes this makes a big difference!). If a Cylon ship moves to another space area that hasn't been resolved yet, it isn't activated a second time. Make sure to keep it separate from the ships that have not been activated yet. 
-
 When resolving a result with multiple Cylon activations, resolve them in left to right order. 
 
 If there are not enough tokens to place ships on the board, the current player chooses which to place, and the rest are skipped due to [component limitations](#component-limitations). <span class="cylonfleet">When the Cylon Fleet board is present and a ship must be placed on the main board, first draw from the regular reserves if possible, then draw from the Cylon Fleet board starting in the lowest numbered space. This does not move other ships in the space area and does not increase the Pursuit track. </span>
 
+<p class="cylonfleet" markdown="1">Ships on the Cylon Fleet board do not move or launch other ships unless otherwise stated. For example, when resolving a "Launch Raiders" icon, do not launch raiders from basestars on the Cylon Fleet board.</p>
+
 When these icons appear on a Crisis card, do the following:
 
-- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider), one space area at a time. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). The current player chooses the order of space areas. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
 - Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>.
 - Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
 - Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
@@ -1291,10 +1291,14 @@ To place a ship on the Cylon Fleet board:
 Cylon raiders follow a simple program when they are activated. An individual Cylon raider always does the *first available* action in this list and then stops:
 
 1. Attack an unmanned viper in its space area
-1. Attack a manned viper in its space area
-1. Destroy a civilian ship in its space area
-1. Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
-1. If there are no civilian ships, the raider attacks Galactica. 
+2. Attack a manned viper in its space area
+3. Destroy a civilian ship in its space area
+4. Move one space area closer to the nearest civilian ship. If two such space areas are equal in distance, the raider moves clockwise. 
+5. If there are no civilian ships, the raider attacks Galactica. 
+
+When all Cylon raiders are activated, they are resolved one entire space area at a time. If multiple space areas have raiders in them, the current player chooses what order they are resolved in, and sometimes this makes a big difference! 
+
+If a raider moves to another space area that hasn't been resolved yet, it is not activated a second time. Make sure to keep it separate from the ships that have not been activated yet. 
 
 #### Activating heavy raiders and Centurions
 
@@ -1322,11 +1326,11 @@ The procedure for jumping is:
 <ol>
   <li class="searchforhome">Follow the instructions on the Active Mission space.</li>
   <li class="cylonfleet">Move all Cylon ships to the respective space area on the Cylon Fleet board. When moving a damaged basestar, discard any damage tokens attached to it. Centurions remain where they are on the Boarding Party track.</li>
-  <li class="cylonfleet">Return all human <em>combat</em> ships to the Reserves, but leave all civilian ships in place. Pilots who were flying ships move to the Hangar Deck. <span class="daybreak">The current player may choose to leave unmanned assault raptors in space, and pilots of assault raptors may choose to remain in space.</span></li>
+  <li class="cylonfleet">Return all <em>vipers</em> to the Reserves, but leave all civilian ships in place. Pilots who were flying ships move to the Hangar Deck. <span class="daybreak">Pilots of assault raptors may choose to remain in space, and the current player may choose to leave unmanned assault raptors in space.</span></li>
   <li class="nocylonfleet">All ships on the game board are removed and returned to their respective pile, the Reserves, etc. unless otherwise specified. Pilots who were flying ships move to the Hanger Deck. Centurions are <em>not</em> removed. <span class="daybreak">The current player may choose to leave unmanned assault raptors in space, and pilots of assault raptors may choose to remain in space.</span></li>
   <li>The Admiral draws 2 Destination cards and, without discussing or showing them, chooses 1 as the next destination for the fleet. The other Destination card is placed at the bottom of the Destination deck and remains secret.</li>
-  <li>Follow the instructions on the chosen Destination card.</li>
-  <li>If the Objective card specifies something that happens at this new distance, resolve that event completely.</li>
+  <li>Follow the instructions on the chosen Destination card. </li>
+  <li>The fleet gains the distance indicated at the bottom of the card. If the Objective card specifies something that happens at this new distance, resolve that event completely.</li>
   <li>Reset the Jump Preparation track to the start.
     <ul class="ioniannebula">
       <li>If the “Crossroads” phase was just resolved, skip this step (since the Crossroads phase resets the jump track when it starts).</li>
@@ -1351,7 +1355,7 @@ Upon reaching this distance or more, deal 1 Loyalty card to every player<span cl
 
 <p class="nopegasus nodaybreak" markdown="1">Revealed Cylons get their extra Loyalty card, but do not automatically pass them off, nor do they reveal them even if it says to "immediately reveal this card". Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes.</p>
 
-<p class="exodus" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card as normal if she has revealed as a Cylon.</p>
+<p class="exodus" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card if she has revealed as a Cylon.</p>
 
 <p class="noexodus" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability is supposed to no longer apply, because character abilities are ignored as a revealed Cylon. Since following this rule would result in a Loyalty card not being dealt, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not a card left over.</p>
 
@@ -1502,19 +1506,19 @@ When placing, destroying, activating, or launching a viper, players may choose t
 
 #### Piloting
 
-Any character with piloting in their skill set is allowed to fly a viper themselves. These characters have a piloting token in addition to their regular character token, used to represent which viper they are flying. These are manned vipers, as opposed to unmanned ones. Manned vipers follow the same rules for [activation](#vipers), however a manned viper can only be activated by its pilot. The pilot of a viper that is destroyed is sent to Sickbay. 
+Any character with piloting in their skill set is allowed to fly a viper themselves. These characters have a piloting token in addition to their regular character token, used to represent which viper they are flying. These are manned vipers, as opposed to unmanned ones. Manned vipers follow the same rules for [activation](#vipers), however a manned viper can only be activated by its pilot. The pilot of a viper that is damaged or destroyed is sent to Sickbay. 
 
 When granted a [move](#moves), a pilot may move their ship to an adjacent space area at no cost. By discarding 1 Skill card, a pilot may move to a location on any other ship just like other characters. 
 
 A pilot may activate their own viper as an action. This could mean moving twice in a single turn, first as a move and again as a viper activation. Note that discarding a card to move to another ship is *not* available as an action or activation, it is strictly a move. 
 
-Unless otherwise indicated, whenever a pilot stops piloting their viper is returned to the Reserves. This includes voluntarily moving to a ship location by discarding a card or being involuntarily moved to the Hangar Deck, Sickbay, Brig, Resurrection Ship, etc. 
+Unless otherwise indicated, whenever a pilot stops piloting, their viper is returned to the Reserves. This includes voluntarily moving to a ship location by discarding a card or being involuntarily moved to the Hangar Deck, Sickbay, Brig, Resurrection Ship, etc. 
 
 <div class="execution" markdown="1">
 
 ### Execution
 
-If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. <span class="exodus">If the player executed was the current player, skip their remaining move, action, and Crisis steps.</span>
+If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. <span class="exodus">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished.</span>
 
 
 After that, the execution proceeds differently based on whether you are actually a human or not. 
@@ -1522,9 +1526,9 @@ After that, the execution proceeds differently based on whether you are actually
 
 #### Finishing a Cylon execution
 
-If you are a hidden Cylon player, reveal <em>one</em> “You Are a Cylon” card and keep the rest of your Loyalty cards face down. Do not take the action on that card. <span class="allyseasons">Take 1 Trauma token from the pile (not the Mood Pool).</span> Follow <a href="#cylon-reveal-resolution">the rest of the normal procedure for revealing</a> as a Cylon, but do not draw a Super Crisis card.
+If you are a hidden Cylon, reveal <em>one</em> “You Are a Cylon” card and keep the rest of your Loyalty cards face down. Do not take the action on that card. <span class="allyseasons">Take 1 Trauma token from the pile (not the Mood Pool).</span> Follow <a href="#cylon-reveal-resolution">the rest of the normal procedure for revealing</a> as a Cylon, but do not draw a Super Crisis card.
 
-If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, follow the same instructions as a hidden Cylon but additionally ignore any instructions about Loyalty cards. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
+If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, follow the same instructions as a hidden Cylon but ignore any instructions about Loyalty cards. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
 
 #### Finishing a human execution
 
@@ -1535,7 +1539,7 @@ If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has al
   <li class="exodus">Discard all of your loyalty cards.</li>
   <li class="noexodus">If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 new Loyalty card.</li>
   <li>Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose.</li>
-  <li>Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable (for example, Colonial One has been destroyed). <span class="newcaprica">During the New Caprica phase before Galactica returns, start in Resistance HQ.</span></li>
+  <li>Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable or nonexistent. <span class="newcaprica">During the New Caprica phase before Galactica returns, start in Resistance HQ.</span></li>
   <li class="exodus">Add 1 card from the “Not a Cylon” deck to the Loyalty deck, shuffle, and draw 1 new card. If you were playing as Boomer when you were executed, and the Sleeper Agent phase hasn’t happened yet, draw 1 more Loyalty card.</li>
   <li>Distribute any former titles to the first in the <a href="#lines-of-succession">line of succession</a>, including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
   <li class="daybreak">If the executed character was the Mutineer, the new character receives the Mutineer card again, following the instructions on the card as if they just received it face up.</li>
@@ -1578,16 +1582,16 @@ Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone
 
 If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later. Draw 2 civilian ships and destroy them [according to the normal rules for "drawing and destroying"](#drawing-and-destroying). 
 
-When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. 
+When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. She also cannot defeat Scar with a "Hot Shot", because he can only be destroyed by a die roll. 
 
-If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). If she became President again during her "Manipulative" turn through some other action, she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
+If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). Even if, during her "Manipulative" turn, she becomes President again, or passes the Skill check at "Administration", she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
 
 <p class="allies" markdown="1">Ellen Tigh's "Politically Adroit" is simultaneous with the instruction to encounter an Ally, since both occur "at the end of your Movement step". As always, the current player (in this case, Ellen Tigh herself) may choose which order they are resolved in. If encountering an Ally causes a move, she may use "Adroit" in her new location if she hasn't already.</p>
 
 </div>
 
 <p class="exodus" markdown="1">
-Hoshi's<span class="pegasus"> "Reluctant" weakness also applies to Movement actions on Skill cards (as does any game effect that affects actions of a particular type). His</span> "Dutiful" ability can be used once for *each* location listed. So, for example, if he used his "Organized" once-per-game on those 3 locations, he could also use "Dutiful" each time on them.
+Hoshi's<span class="pegasus"> "Reluctant" weakness also applies to Movement actions on Skill cards, because any restrictions on actions also apply to Movement actions. His</span> "Dutiful" ability can be used once for *each* location listed. So, for example, if he used his "Organized" once-per-game on those 3 locations, he could also use "Dutiful" each time on them.
 </p>
 
 <div class="daybreak" markdown="1">
@@ -1596,7 +1600,7 @@ Tom Zarek (Military)'s "Necessary Steps" applies to all players, even himself, a
 
 Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "[Someone] Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
 
-Doc Cottle can use *abilities* on Engineering cards, just not *actions*. <span class="pegasus">As always, this restriction also applies to Movement actions.</span>
+Doc Cottle can use *abilities* on Engineering cards, just not *actions*<span class="pegasus"> (and by extension, Movement actions)</span>. 
 
 </div>
 
@@ -1618,12 +1622,6 @@ Doral's "Meticulous" ability does not allow him to choose the Resurrection Ship 
 
 
 ### Location notes
-
-Some ships are much larger than combat ships, and they contain locations that a player may move to to perform a location-based action. Cylon locations are accessible to revealed Cylon players only, and human locations are accessible to human players only. 
-
-During a move, a player may move to any location on the same ship at no cost. There is no die rolling to move a number of "spaces", the character's token is simply moved to the desired location. When moving between ships, a player must first discard 1 Skill card. A player piloting a combat ship may also do this, see the ["Piloting"](#piloting) section for more details. 
-
-Players may only move to hazardous locations via game effects that specifically refer to that location. Hazardous locations are marked by a "caution" border.
 
 #### Commmand
 
@@ -1663,7 +1661,7 @@ In the Exodus rulebook on page 9, the Caprica location's behavior is changed: do
 
 When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated <span class="cylonfleet">and placing ships on the Cylon Fleet board</span>.
 
-The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if the regular piles have run out of raiders or heavy raiders, in which case they are drawn from the lowest numbered Cylon Fleet spaces as usual. Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
+The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if launching the ships happens to trigger [the regular component limitation rules](#component-limitations). Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
 
 <div class="cylonfleet" markdown="1">
 #### Basestar Bridge
@@ -1791,39 +1789,45 @@ When the final jump occurs:
 
 The Crossroads phase begins immediately upon reaching 8 or more distance, interrupting the current player's turn. The Cylons are lying in wait to ambush the human fleet, and each character faces an important decision. There are 3 steps to the Crossroads phase:
 
+#### Battle of the Ionian Nebula
+
 ![Ship layout for Crossroads, described below](images/final_battle.png)
 
-1. Set up the Battle of the Ionian Nebula:
-    1. Place a basestar and 4 raiders in each of the top 2 main board space areas. 
-    2. Launch 2 vipers into each of the two bottom space areas. 
-    3. Finally, reset the jump track.
+First, set up the Battle of the Ionian Nebula:
 
-2. Draw and resolve Crossroads cards:
+1. Place a basestar and 4 raiders in each of the top 2 main board space areas. 
+2. Launch 2 vipers into each of the two bottom space areas. 
+3. Finally, reset the jump track.
 
-    1. The current player shuffles the Crossroads deck and deals each player 1 card.  
-    2. Each player secretly looks at theirs, and selects 1 Trauma token to play facedown next to their Crossroads card. The indicated icon is the result that will be resolved. 
+#### Crossroads
 
-        - A player with no Trauma tokens may select either result when the card is revealed. 
+Second, each character will be put to the test with a Crossroads card:
 
-    3. Once all players have made their selection, the current player reveals their card and token. The chosen result is resolved, and the next player reveals their choice. 
+1. The current player shuffles the Crossroads deck and deals each player 1 card.  
+2. Each player secretly looks at theirs, and selects 1 Trauma token to play facedown next to their Crossroads card. The indicated icon is the result that will be resolved. 
+    - A player with no Trauma tokens may select either result when the card is revealed. 
+3. Once all players have made their selection, the current player reveals their card and token. The chosen result is resolved, and the next player reveals their choice. 
+    - Resolve any executions normally when they occur, but the executed player's Crossroads card and token choice remain. 
 
-        - Resolve any executions normally when they occur, but the executed player's Crossroads card and token choice remain. If told that your turn is immediately over, that instruction will apply after the Crossroads phase is fully resolved. 
-3. The Trial/Boxing the Line
 
-    1. Remove all Crossroads cards and the Trauma tokens used with them from the game. Also remove all Ally cards and tokens, the Trauma tokens attached to them, and the Trauma tokens on board locations from the game. 
-    2. Each player reveals all of their Trauma tokens. Human players discard their "Benevolent" tokens, while Cylon players discard all of their "Antagonistic" tokens.
-    3. Each player with 2 or fewer tokens at this point discards them. 
-    4. Each player counts the number of tokens they have remaining.
-    5. If all players have 0 tokens, then no player is eliminated. If not, the player with the most tokens is eliminated from the game. 
-        - If human players are tied, the President chooses one of the tied players for elimination.
-        - If Cylon players are tied, each tied Cylon player is eliminated.
-        - If both human and Cylon players are tied, follow *both* rules. All tied Cylons are eliminated, and the President chooses which tied human is eliminated. 
+#### The Trial/Boxing the Line
+
+Third, characters will be judged by their peers:
+
+1. Remove all Crossroads cards and the Trauma tokens used with them from the game. Also remove all Ally cards and tokens, the Trauma tokens attached to them, and the Trauma tokens on board locations from the game. 
+2. Each player reveals all of their Trauma tokens. Human players discard their "Benevolent" tokens, while Cylon players discard all of their "Antagonistic" tokens.
+3. Each player with 2 or fewer tokens at this point discards them. 
+4. Each player counts the number of tokens they have remaining.
+5. If all players have 0 tokens, then no player is eliminated. If not, the player with the most tokens is eliminated from the game. 
+    - If human players are tied, the President chooses one of the tied players for elimination.
+    - If Cylon players are tied, each tied Cylon player is eliminated.
+    - If both human and Cylon players are tied, follow *both* rules. All tied Cylons are eliminated, and the President chooses which tied human is eliminated. 
 
 After the Crossroads phase is finished, resume play at the point that the Crossroads phase interrupted. If the Crossroads phase was reached via a jump, since the jump track was already reset do not reset it again (even though technically that is the next step in the procedure). The next jump will [end the game](#final-jump). 
 
 #### Elimination
 
-To eliminate a player from the game, follow the rules for execution, but do not choose a new character, and do not move to the Resurrection Ship. The eliminated player is entirely removed from the rest of the game. If they were the current player, the next player is now the current player. 
+To eliminate a player from the game, follow [the rules for execution](#execution), but stop when told to either choose a new character or move to the Resurrection Ship. The eliminated player is entirely removed from the rest of the game. If they were the current player, the next player is now the current player. 
 
 </div>
 
