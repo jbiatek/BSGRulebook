@@ -1245,9 +1245,9 @@ The Sympathetic Cylon does not use their old human character sheet. It is disreg
 <div class="infiltrator" markdown="1">
 ### Infiltrating
 
-Cylon Leaders and Sympathetic Cylons are allowed to Infiltrate by using an action at the "Human Fleet" location. A regular revealed Cylon is not allowed to Infiltrate. The "Infiltrating" card summarizes the rules for Infiltrating. While Infiltrating, the player follows the rules for *human* players, and is treated as a human player in all respects, with the following exceptions: 
+The <span class="cylonleader">Cylon Leader</span><span class="sympatheticcylon">Sympathetic Cylon</span> is allowed to Infiltrate by using an action at the "Human Fleet" location. A regular revealed Cylon is not allowed to Infiltrate. The "Infiltrating" card summarizes the rules for Infiltrating. While Infiltrating, the player follows the rules for *human* players, and is treated as a human player in all respects, with the following exceptions: 
 
-- Infiltrators draw 1 extra Skill card (from their Skill set, as always) when they draw cards, for a total of 3.
+- Infiltrators draw 1 extra Skill card <span class="cylonleader">(from their Skill set, as always)</span><span class="sympatheticcylon">(of a different type from the other two)</span> when they draw cards, for a total of 3.
 - Infiltrators cannot hold titles. 
     - They may be assigned Quorum cards like "Mission Specialist" or "Arbitrator", since those are not titles, with the exception of "Vice President" since that requires the ability to become President. 
 - Infiltrators may not play more than 2 cards into a Skill check. 
