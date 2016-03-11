@@ -841,7 +841,6 @@ Throughout the game, players must adhere to [the rules about secrecy](#secrecy),
 If, at any time during a turn, the fleet earns more distance, finish resolving the card that added distance then immediately check the Admiral's Objective card to see if the total distance has met or exceeded any milestones. If it has, pause whatever was happening before and resolve the instructions on the Objective card before resuming. This could be the [Sleeper Agent phase](#sleeper-agent-phase), <span class="allyseasons"><a href="#trauma-phase">the counting of Trauma tokens at distance 8</a>, </span> or the [beginning of the end of the game](#ending-the-game). 
 
 
-
 ### Player terminology
 
 The word "player" refers to any player in the game, human or Cylon. A "human player" is a player who is either truly human, or a hidden Cylon. A "Cylon player" is a player who has revealed as a Cylon<span class="cylonleader"> (or a Cylon Leader who is not Infiltrating)</span>. If a player has both a "You Are a Cylon" and a "You Are Not a Cylon" card, they are a Cylon. 
@@ -877,9 +876,6 @@ This rulebook attempts to be as comprehensive and unambiguous as possible, but B
 - Try to resolve as many effects as possible, and skip any that cannot be resolved. Do all that you can, and ignore anything that you can't. 
 
 That said, this rulebook covers *a lot* of fiddly details. There are sections with guidance about [specific locations](#location-notes) and [character abilities](#character-ability-notes), and in-depth descriptions of exactly how most events are resolved. You might find details by searching for the name of the card or ability on this page. Looking at the section pertaining to the event you're in the middle of will also probably lend some clarity to how the situation should be resolved (and might even have an exact answer). 
-
-When a game element refers to "players", it is talking about all individuals currently playing the game. "Human players" are players who are not revealed Cylons. Even if a player is concealing a "You Are a Cylon" card, they are still treated as a human player in all respects until they reveal. "Cylon players" refers only to revealed Cylons. <span class="infiltrator">Cylon Leaders and Sympathetic Cylons straddle this line, being considered "Cylon players" when not Infiltrating, and "human players" in all respects (with some limitations) when Infiltrating.</span>
-
 
 ### Component limitations
 
@@ -1527,10 +1523,10 @@ If there are not enough tokens to place ships on the board, the current player c
 
 When these icons appear on a Crisis card, do the following:
 
-- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). The current player chooses the order of space areas. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
-- Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>.
-- Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
-- Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">place a ship on the Cylon Fleet board</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). The current player chooses the order of space areas. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a raider on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
+- Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">place a basestar on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>.
+- Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">place a heavy raider on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">place a basestar on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
 
 <div class="cylonfleet" markdown="1">
 
@@ -2107,7 +2103,7 @@ After the Crossroads phase is finished, resume play at the point that the Crossr
 
 #### Elimination
 
-To eliminate a player from the game, follow [the rules for execution](#execution), but stop when told to either choose a new character or move to the Resurrection Ship. The eliminated player is entirely removed from the rest of the game. If they were the current player, the next player is now the current player. 
+To eliminate a player from the game, follow [the rules for execution](#execution), but stop when told to either choose a new character or move to the Resurrection Ship. The eliminated player is entirely removed from the rest of the game. If they were the current player, the next player is now the current player. Any former titles are given to the first in the [line of succession](#lines-of-succession). 
 
 </div>
 
