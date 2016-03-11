@@ -836,7 +836,7 @@ A player's game turn consists of the following steps:
 </li>
 </ol>
 
-Throughout the game, players must adhere to [the rules about secrecy](#secrecy), and follow the instructions on cards and [character sheets](#character-sheets) that they have. 
+Throughout the game, players must adhere to [the rules about secrecy](#secrecy), and follow the instructions on cards and [character sheets](#character-sheets) that they have. In addition to the text on character sheets, players must also only draw Skill cards from their skill set unless otherwise stated. 
 
 If, at any time during a turn, the fleet earns more distance, finish resolving the card that added distance then immediately check the Admiral's Objective card to see if the total distance has met or exceeded any milestones. If it has, pause whatever was happening before and resolve the instructions on the Objective card before resuming. This could be the [Sleeper Agent phase](#sleeper-agent-phase), <span class="allyseasons"><a href="#trauma-phase">the counting of Trauma tokens at distance 8</a>, </span> or the [beginning of the end of the game](#ending-the-game). 
 
@@ -867,7 +867,6 @@ Generally, players are allowed to use terms that are polar opposites, like "a lo
 Public information includes the number of cards in each player's hand, in each Skill card deck, the Quorum deck, and the Destiny deck, and the number of cards that a player is adding to a Skill check. The top card of any discard pile is also public, but not the number of cards in it. 
 
 Players are allowed to ask for cards, like "I'm about to use FTL, does anyone have a Strategic Planning?", and others may *choose* to respond that they do or do not. This should not be abused, do not ask for information about every single card. 
-
 
 ### Resolving rule conflicts
 
@@ -1678,14 +1677,29 @@ When a human combat ship is destroyed, it is removed from the game. If it was pi
 Basestars are destroyed after taking 3 damage tokens. When a basestar is damaged, draw a token and put it face up next to the damaged basestar. Each token has an additional side effect:
 
 
-<ul>
-  <li>The “2” is a Critical Hit, which counts as 2 damage tokens instead of just 1.</li>
-  <li>The raider is a Disabled Hanger, which prevents that basestar from launching raiders <em>or</em> heavy raiders.</li>
-  <li>The 3 missiles firing is Disabled Weapons, which prevents the basestar from firing on Galactica.</li>
-  <li>The image of a basestar is Structural Damage, which adds 2 to the die roll for an attack against that basestar.</li>
-  <li class="ioniannebula">The 3 raiders with a burst behind them is Collateral Damage, which destroys up to 3 raiders in the same space area as the damaged basestar when it is drawn.</li>
-  <li class="ioniannebula">The two hexagons with pictures of the Galactica memorial wall is Damage to Personnel, which forces each Cylon player to draw 2 Trauma tokens when it is drawn.</li>
-</ul>
+<div class="ioniannebula" markdown="1">
+
+| Image | Name | Effect |
+|-------|------|--------|
+| ![Critical Hit](images/ionian-critical.png) | Critical Hit | Counts as 2 damage tokens instead of 1 |
+| ![Disabled Hangar](images/ionian-hangar.png) | Disabled Hangar | When this basestar launches raiders or heavy raiders, nothing happens |
+| ![Disabled Weapons](images/ionian-weapons.png) | Disabled Weapons | When this basestar fires on Galactica, nothing happens |
+| ![Structural Damage](images/ionian-structural.png) | Structural Damage | When this basestar is attacked, add 2 to the die roll |
+| ![Collateral Damage](images/ionian-raiders.png) | Collateral Damage | When this token is first added to the basestar, destroy 3 raiders in the same space area |
+| ![Damage to Personnel](images/ionian-personnel.png) | Damage to Personnel | When this token is first added to the basestar, each Cylon player must draw 2 Trauma tokens. |
+
+</div>
+
+<div class="noioniannebula" markdown="1">
+
+| Image | Name | Effect |
+|-------|------|--------|
+| ![Critical Hit](images/basestar-critical.gif) | Critical Hit | Counts as 2 damage tokens instead of 1 |
+| ![Disabled Hangar](images/basestar-hangar.gif) | Disabled Hangar | When this basestar launches raiders or heavy raiders, instead nothing happens |
+| ![Disabled Weapons](images/basestar-weapons.gif) | Disabled Weapons | When this basestar fires on Galactica, instead nothing happens |
+| ![Structural Damage](images/basestar-structural.gif) | Structural Damage | When this basestar is attacked, add 2 to the die roll |
+
+</div>
 
 If a game effect instructs you to "destroy a basestar", it is destroyed without drawing damage tokens. <span class="noioniannebula">Additionally, do not draw a damage token if a basestar with 2 damage is damaged again.</span><span class="ioniannebula">A basestar with 2 damage tokens that is damaged again should have another token drawn before destroying it, since some types of damage have effects outside of the basestar itself.</span>
 
