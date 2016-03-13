@@ -91,7 +91,7 @@ function validateForm() {
   if (readCheckbox('#forceexodus')) {
     // Obviously can't have both on at the same time
     forbidCheckbox('#forcepegasus');
-  } else if (readCheckbox('#forcepegasus') || readCheckbox('#exodus') {
+  } else if (readCheckbox('#forcepegasus') || readCheckbox('#exodus')) {
     // Also, no point in "forcing" Exodus if it's already on
     forbidCheckbox('#forceexodus');
   }
