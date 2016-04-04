@@ -810,12 +810,12 @@ For these expansions, these are some of the important new rules in effect:
 
 ## Playing The Game
 
-### Winning/Losing
+Starting with the first player (as selected during setup), each player [takes turns](#game-turn) in clockwise order until the game ends. The game ends when either the humans lose, or [the final jump occurs](#final-jump). 
 
-The humans win by [reaching the end of the game](#ending-the-game) without losing. The Cylons win by causing the humans to lose. Humans can lose by:
+The humans can lose in the following ways:
 
 <ul>
-  <li>Running out of a resource (0 or less) at the <em>end</em> of a player’s turn or at the end of the game.</li>
+  <li>Being out of <a href="#resources">a resource</a> at the <em>end</em> of a player’s turn or at the end of the game.</li>
   <li>Centurion Invasion: A centurion reaching the “Humans Lose” space on the Boarding Party track</li>
   <li>Galactica Destroyed: Galactica is destroyed when 6 or more locations are damaged at once.</li>
   <li class="execution">No more characters: A human is executed, but there are no more characters to be chosen.</li>
@@ -849,7 +849,7 @@ A player's game turn consists of the following steps:
 
 Throughout the game, players must adhere to [the rules about secrecy](#secrecy), and follow the instructions on cards and [character sheets](#character-sheets) that they have. In addition to the text on character sheets, players must also only draw Skill cards from their skill set unless otherwise stated. 
 
-If, at any time during a turn, the fleet earns more distance, finish resolving the card that added distance then immediately check the Admiral's Objective card to see if the total distance has met or exceeded any milestones. If it has, pause whatever was happening before and resolve the instructions on the Objective card before resuming. This could be the [Sleeper Agent phase](#sleeper-agent-phase), <span class="allyseasons"><a href="#trauma-phase">the counting of Trauma tokens at distance 8</a>, </span> or the [beginning of the end of the game](#ending-the-game). 
+If, at any time during a turn, the fleet earns more distance, finish resolving the card that added distance then immediately check the Admiral's Objective card to see if the total distance has met or exceeded any milestones. If it has, all other gameplay pauses while the instructions on the Objective card are resolved, after which gameplay resumes. This could be the [Sleeper Agent phase](#sleeper-agent-phase), <span class="allyseasons"><a href="#trauma-phase">the counting of Trauma tokens at distance 8</a>, </span> or the [beginning of the end of the game](#ending-the-game). 
 
 
 ### Player terminology
@@ -923,6 +923,12 @@ Players must be given a reasonable opportunity to use abilities. For example, yo
 The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are activated first when activating Cylon ships. 
 
 When "all players" are instructed to do something, unless otherwise specified the current player goes first, moving in clockwise order. 
+
+### Resources
+
+The fleet has 4 resources which are tracked by dials on the main game board: fuel, food, morale, and population. Increase or decrease the dials as directed by game effects.
+
+If any resource is at 0 at the end of a turn or the end of the game, [the humans lose](#human-loss). It is possible for the humans to avoid losing by replenishing a resource before the turn ends. 
 
 <div class="allies" markdown="1">
 
@@ -1593,6 +1599,8 @@ If a heavy raider would normally enter a viper launch tube, but there are no Cen
 The human fleet normally jumps by either activating the "FTL Control" location on Galactica, or having the fleet token reach "Auto-Jump". 
 
 When "FTL Control" is used to jump, the *current player* must first roll a die, and on a 6 or lower, the population indicated by the current Jump Preparation space is lost (either -3 or -1). After this is finished, the jump can begin. 
+
+<p class="pegasus" markdown="1">When the "Lured Into a Trap" Super Crisis card is in play, handle the executions *after* the jump is resolved. The executions still occur during <a href="#final-jump">the final jump</a>, and could cause <a href="#human-loss">the humans to lose</a>. </p>
 
 The procedure for jumping is:
 
