@@ -265,11 +265,8 @@ function flipSwitches () {
     rowspan--;
   }
   $('#basestardamage').attr('rowspan', rowspan);
-  
-  // Step 5: Process the "showfirst" class. It needs to show only its
-  // first visible child, or nothing at all if none are visible. 
-  
-  // Step 6: Refresh the table of contents.
+    
+  // Step 5: Refresh the table of contents.
   $('#toc').toc({showEffect: 'none'});
   
   // Save to local storage
@@ -810,7 +807,7 @@ For these expansions, these are some of the important new rules in effect:
 
 ## Playing The Game
 
-Starting with the first player (as selected during setup), each player [takes turns](#game-turn) in clockwise order until the game ends. The game ends when either the humans lose, or [the final jump occurs](#final-jump). 
+Starting with the first player (as selected during setup), each player [takes a turn](#game-turn) in clockwise order until the game ends. The game ends when either the humans lose, or [the final jump occurs](#final-jump). 
 
 The humans can lose in the following ways:
 
