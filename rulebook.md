@@ -917,7 +917,7 @@ Otherwise, in general when multiple players want to perform abilities in the sam
 
 Players must be given a reasonable opportunity to use abilities. For example, you may not rush to put cards into a Skill check to prevent players from using a card that can only be played before cards are added. 
 
-The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are activated first when activating Cylon ships. 
+The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are resolved first when activating Cylon ships. 
 
 When "all players" are instructed to do something, unless otherwise specified the current player goes first, moving in clockwise order. 
 
@@ -1041,7 +1041,7 @@ Otherwise, Missions are resolved [in the same way as other Skill checks](#skill-
 
 Mission cards *always* remain on the Active Mission space until the fleet jumps. Unless otherwise instructed, leave the Active Mission face up after it is finished. Since new Missions cannot be activated while a card remains, this means that only one Mission can be attempted per jump. 
 
-Any distance gained from a Mission card applies _immediately_, even though the card is not supposed to be put next to the other Destination cards until the fleet jumps. This could trigger the Sleeper Agent phase or anything else that occurs at a specific distance. The only reason it stays in the Active Mission space is to remind players that they cannot attempt another Mission until the next jump.
+Any distance gained from a Mission card applies _immediately_, even though the card is not supposed to be put next to the other Destination cards until the fleet jumps. This could trigger the Sleeper Agent phase or anything else that occurs at a specific distance. (The only reason it stays in the Active Mission space is to remind players that they cannot attempt another Mission until the next jump.)
 
 Follow the instructions on the Active Mission space when jumping to clear the Active Mission. (Essentially, Missions without distance are always discarded, Missions with distance are shuffled back into the deck if failed or are put next to the other distance cards when passed.)
 
@@ -1063,11 +1063,16 @@ Each character's sheet lists these items:
     - A standard ability, which may be an action or a passive trait.
     - A "once-per-game" ability, which can only be used once per game (but see ["Once per game"](#once-per-game) below). 
     - A negative ability which must be followed during the game.
-- Skill Set. These are the types of cards that your character draws. When instructed to draw Skill Cards, *they must come from your skill set* unless otherwise instructed. 
+- Skill Set. These are the types of cards that your character draws. 
+    - The numbers indicate how many of each type to draw at the start of your turn. For "multi-skills" like "1 Leadership/Engineering", you may choose between the two types while drawing. 
+    - Otherwise, when drawing Skill cards, *they must be present in your skill set* unless otherwise instructed.
 - Setup instructions. This tells you how to start the game with your character. 
 
 A character ability that affects Crisis cards or Skill checks does *not* affect a Super Crisis card. 
 
+The number next to each Skill type only applies to drawing cards at the start of a turn. If, for example, "Helo" was instructed to draw 2 Skill cards, he could choose 2 Piloting cards despite the line saying "1 Piloting". He could not draw any Politics cards because he does not have Politics anywhere in his Skill set. 
+
+Players with "multi-skills" of multiple cards, like "2 Leadership/Politics", are allowed to split their choices, so a draw of 1 Leadership and 1 Politics is allowed. 
 
 ### Once per game
 
@@ -1144,7 +1149,7 @@ Whenever a human player receives the Mutineer card, they must reveal the card. I
 
 When resolving the Crisis card drawn at the end of their turn, if the Mutineer resolves a "Prepare for Jump" icon, they must draw 1 Mutiny card.
 
-The Mutineer is allowed to hold 2 Mutiny cards without being sent to the Brig, and may hold 2 Mutiny cards in the Brig instead of 1. 
+The Mutineer has a Mutiny card limit of 2 instead of 1, which means that they are not sent to the Brig upon drawing a second Mutiny card, but are sent there upon drawing a third.  
 
 ### Mutiny cards
 
@@ -1162,10 +1167,10 @@ Once the move to the Brig is resolved or skipped, the player must immediately ch
 
 #### Discarding Treachery cards and gaining Mutiny cards
 
-Some Treachery cards say to draw a Mutiny card if they are chosen to be discarded. Players are considered to have "chosen" any time they discard unless either
+Some Treachery cards say to draw a Mutiny card if they are chosen to be discarded. Players are considered to have "chosen" *any time they discard* unless either
 
 - a game effect directed them to choose randomly, or
-- they were specifically instructed to discard "all" of their Skill cards, no number was given.
+- they were specifically instructed to discard "all" of their Skill cards, and no number was given.
 
 Note that if a player is instructed to discard a specific number of cards, it is considered a choice even if they will have to discard all of their cards to reach that number.
 
@@ -1194,7 +1199,7 @@ Cylon players are not allowed to:
 Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty card. <span class="execution">It can also happen involuntarily, for example as the result of an execution. </span>
 
 <ol markdown="1">
-  <li>Complete the action listed on the “You Are a Cylon” card if this action was taken.
+  <li>If you revealed yourself as an action, complete the action listed on the “You Are a Cylon” card. If you were executed, or are in the Brig, you do not get to take the action.
     <ul>
       <li>Note that it says to only reveal <em>this</em> card, not others. Keep any other Loyalty cards secret!</li>
     </ul>
@@ -1206,7 +1211,7 @@ Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty
   <li>Draw a Super Crisis Card unless instructed otherwise.</li>
   <li class="daybreak">If you were the Mutineer, hand off the Mutineer card face up to the human player of your choice. They must follow the procedure for receiving the Mutineer card.</li>
   <li class="overlay">If the fleet has traveled 6 or less distance, look at the rest of your Loyalty cards, if any. Hand them all, face down, to <em>one</em> human player of your choice.</li>
-  <li class="nooverlay">Keep your Loyalty cards hidden, and do not reveal <em>any</em> for the rest of the game, even if they say to "immediately reveal" them. They can be passed off to other players at the Resurrection Ship.</li>
+  <li class="nooverlay">Keep your Loyalty cards hidden, and do not reveal <em>any</em> Loyalty cards for the rest of the game, even if they say to "immediately reveal" them. They can be passed off to other players at the Resurrection Ship.</li>
   <li>From this point on, follow the rules for a revealed Cylon. This includes <em>not</em> drawing a Crisis card at the end of your turn.</li>
 </ol>
 
@@ -1225,7 +1230,7 @@ The Cylon Leader receives 2 Motive cards at the start of the game and 2 more at 
 In order to win, at the end of the game the Cylon Leader must have at least 3 Motive cards revealed, and at least 2 of the revealed cards must be aligned with the winning team. 
 </div>
 
-Cylon Leaders are normally treated like and follow the rules for revealed Cylons (when they are not [Infiltrating](#infiltrating)). Unlike revealed Cylons, Leaders keep and use their character sheets. Just like other players, they must draw from their Skill set unless otherwise specified. They also have positive abilities at their disposal, including a "once per game" or Miracle ability, and negative abilities which are followed at all times. 
+Cylon Leaders are normally treated like and follow the rules for revealed Cylons (when they are not [Infiltrating](#infiltrating)). Unlike revealed Cylons, Leaders keep and use their [character sheets](#character-sheets). Just like other players, they must draw from their Skill set unless otherwise specified. They also have positive abilities at their disposal, including a "once per game" <span class="daybreak">or Miracle</span> ability, and negative abilities which are followed at all times. 
 
 </div>
 
@@ -1357,6 +1362,8 @@ Skill cards have a type, a strength, and an ability. At the end of any player's 
 
 Cylon players are not allowed to use the text abilities on Skill Cards<span class="treachery">, with the exception of Treachery cards. Humans are the exact opposite: they may use the text abilities on all Skill Cards *except* Treachery cards. Unless otherwise specified, Treachery cards always count as negative when totaling Skill checks</span>.
 
+<div class="expansion" markdown="1">
+
 #### Skill Check Abilities
 
 When the "Skill Check Ability" icon appears next to the strength of a Skill card, the text of the card is triggered only when it is revealed as a part of a Skill Check. Additional copies of the same card are not resolved. Since Skill Check Abilities are played anonymously, both human and Cylon players can contribute them to Skill Checks<span class="treachery">whether they are Treachery or non-Treachery</span>. 
@@ -1368,6 +1375,8 @@ When the "Skill Check Ability" icon appears next to the strength of a Skill card
 Some Skill cards have the word "Reckless" printed at the top of the text area. They are always abilities that apply at the beginning of a Skill check. When a Reckless ability is used, it makes the subsequent Skill check a Reckless one. <span class="nodaybreak">Some Treachery cards have "Reckless Skill Check" abilities. These function like regular Skill Check Abilities, but are resolved only if the Skill check was made Reckless.</span><span class="daybreak">A Reckless Skill check has a chance of triggering additional Treachery cards. </span>
 
 Only one Reckless card may be played per Skill check. "Restore Order" cannot be played on a Skill check after it has been made Reckless, and Reckless cards cannot be played on a Skill check after it has had "Restore Order" applied to it. 
+
+</div>
 
 </div>
 
@@ -1466,7 +1475,7 @@ The full, detailed procedure for resolving a Skill check is as follows:
   <li>Add cards from the Destiny deck<span class="pegasus"> (followed by Dee’s “Fast Learner” cards if any)</span></li>
   <li>Starting to the left of the current player and proceeding clockwise, each player plays cards face down into the Skill check. The current player goes last.
     <ul>
-      <li>Unless otherwise specified, a player may play any number of Skill cards into the check, including zero.</li>
+      <li>Unless otherwise specified, a player may play any number of Skill cards into the check, including zero. The number of cards that a player is adding is considered public information.</li>
     </ul>
   </li>
   <li>Shuffle the Skill check cards</li>
@@ -1523,7 +1532,6 @@ The full, detailed procedure for resolving a Skill check is as follows:
     </ul>
   </li>
 </ol>
-
 
 ### Activating Cylon ships
 
@@ -1627,14 +1635,14 @@ Upon reaching this distance or more, deal 1 Loyalty card to every player<span cl
 
 #### Revealed Cylons during the Sleeper Agent phase
 
-<p class="overlay" markdown="1">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card". The human player who receives these cards is the one who will reveal them.</p>
+<p class="overlay" markdown="1">Revealed Cylon players who receive Loyalty cards must look at them, then immediately pass them face down to *one* human player of their choice. They must not follow any text that says to "immediately reveal this card".</p>
 
 <p class="nooverlay" markdown="1">Revealed Cylons get their extra Loyalty card, but are not allowed to reveal it (even if it says to "immediately reveal this card"). Instead, they can choose to pass them off as an action in the Resurrection Ship when the game resumes. Existing Cylons are never allowed to reveal another Loyalty card. <span class="nodaybreak nonosympathizer nosympatheticcylon nocylonleader nooverlay">A Cylon player who receives the "You Are a Sympathizer" card may choose to instead hand it off to the human player of their choice as soon as they receive it.</span>
 </p>
 
-<p class="exodusloyalty" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card if she has revealed as a Cylon.</p>
+<p class="exodusloyalty" markdown="1">Sharon "Boomer" Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. If "Boomer" has already revealed as a Cylon, however, her negative ability no longer applies because character abilities are ignored as a revealed Cylon. Only deal her 1 Loyalty card if she has revealed as a Cylon.</p>
 
-<p class="noexodusloyalty" markdown="1">Sharon "Boomer" Valerii Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. But if "Boomer" has already revealed as a Cylon, her negative ability is supposed to no longer apply. Since following this rule would result in a Loyalty card not being dealt, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not a card left over.</p>
+<p class="noexodusloyalty" markdown="1">Sharon "Boomer" Valerii normally receives 2 Loyalty cards in the Sleeper Agent phase instead of 1, as per her negative ability. But if "Boomer" has already revealed as a Cylon, her negative ability is supposed to no longer apply. Since following this rule would result in a Loyalty card not being dealt, deal the extra card to "Boomer" despite technically no longer having that weakness so that there is not a card left over.</p>
 
 ### Combat ship attack table 
 
@@ -1729,7 +1737,9 @@ When Galactica is damaged, the current player may choose to have Pegasus take th
 
 #### Scar
 
-Scar is a special raider. He can only be destroyed as the result of a die roll of 7 or 8. Modifiers to die rolls are allowed, so a roll of 6 with "Strategic Planning" would destroy Scar. If a nuke allows raiders to be destroyed, he can be chosen only if the die roll was a 7 or 8. If a game effect includes a roll to see "how many" raiders to destroy, Scar can be chosen only if that roll was a 7 or an 8. If a game effect allows you to destroy a raider without a die roll, Scar cannot be chosen. Kat's "Hot Shot" ability skips the die roll entirely, and so cannot be used to destroy Scar. 
+Scar is a special raider. He can only be destroyed as the result of a die roll of 7 or 8. Modifiers to die rolls are allowed, so a roll of 6 with "Strategic Planning" would destroy Scar. If a nuke is used, and one of its effects is to destroy raiders, Scar can only be chosen if the die roll for the nuke was a 7 or 8. If a game effect includes a roll to see "how many" raiders to destroy, Scar can be chosen only if that roll was a 7 or an 8. 
+
+If a game effect allows you to destroy a raider without a die roll, Scar cannot be chosen. Kat's "Hot Shot" ability skips the die roll entirely, and so cannot be used to destroy Scar. 
 
 </div>
 
@@ -1738,7 +1748,7 @@ Scar is a special raider. He can only be destroyed as the result of a die roll o
 
 #### Civilian ships
 
-Civilian ship tiles represent vulnerable ships in the human fleet. Civilian ships have no defense; when attacked they are immediately destroyed with no die roll. The tile is turned over to reveal its contents. The fleet loses the indicated resources (usually population) and the ship token is removed from the game. 
+Civilian ship tiles represent vulnerable ships in the human fleet. Civilian ships have no defenses; when attacked they are immediately destroyed with no die roll. The tile is turned over to reveal its contents. The fleet loses the indicated resources (usually population) and the ship token is removed from the game. 
 
 When instructed to place a civilian ship and no space area is specified, <span class="cylonfleet">the CAG places it in an area without a civilian ship if possible</span><span class="nocylonfleet">the Admiral may place it in any space area</span>. <span class="newcaprica">During the New Caprica phase, when a ship is evacuated, the current player chooses which space area to place it in. (When evacuating, the only choices are either bottom left or bottom right). </span>
 
@@ -1812,7 +1822,6 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. <span class="exodusloyalty">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished.</span>
 
-
 After that, the execution proceeds differently based on whether you are actually a human or not. 
 
 
@@ -1820,7 +1829,7 @@ After that, the execution proceeds differently based on whether you are actually
 
 If you are a hidden Cylon, reveal <em>one</em> “You Are a Cylon” card and keep the rest of your Loyalty cards face down. Do not take the action on that card. <span class="allyseasons">Take 1 Trauma token from the pile (not the Mood Pool).</span> Follow <a href="#cylon-reveal-resolution">the rest of the normal procedure for revealing</a> as a Cylon, but do not draw a Super Crisis card.
 
-If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, follow the same instructions as a hidden Cylon but ignore any instructions about Loyalty cards. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
+If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, follow the above instructions for a hidden Cylon but ignore all instructions involving Loyalty cards. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
 
 #### Finishing a human execution
 
@@ -1830,12 +1839,12 @@ If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has al
   <li>Return your character and token(s) to the box, removing them from the game. <span class="allies">Discard any Trauma tokens.</span></li>
   <li class="exodusloyalty">Discard all of your loyalty cards.</li>
   <li class="noexodusloyalty">If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 new Loyalty card.</li>
-  <li>Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, humans lose.</li>
+  <li>Choose a new character, with no restriction on type. You may not choose an alternate version of an existing character, and you may not choose a Cylon Leader. If there are no more characters left, the humans lose.</li>
   <li>Start in the normal Setup location for that character, or the Hangar Deck if that location is completely unavailable or nonexistent. <span class="newcaprica">During the New Caprica phase before Galactica returns, start in Resistance HQ.</span></li>
   <li class="exodusloyalty">Add 1 card from the “Not a Cylon” deck to the Loyalty deck, shuffle, and draw 1 new card. If you were playing as Boomer when you were executed, and the Sleeper Agent phase hasn’t happened yet, draw 1 more Loyalty card.</li>
-  <li>Distribute any former titles to the first in the <a href="#lines-of-succession">line of succession</a>, including the new character. Existing titles do not change hands, even if the new character is higher in the line of succession.</li>
-  <li class="daybreak">If the executed character was the Mutineer, the new character receives the Mutineer card again, following the instructions on the card as if they just received it face up.</li>
-  <li class="allies">Draw 3 new Trauma tokens. If a “disaster” token is drawn, set it aside and draw a new one to replace it, then return the “disaster” token to the pool, just like at the start of the game.</li>
+  <li>Distribute any titles you had when you were executed to the first in the <a href="#lines-of-succession">line of succession</a>, including your new character. Titles held by other players do not change, even if your new character is higher in the line of succession.</li>
+  <li class="daybreak">If the executed character was the Mutineer, your new character receives the Mutineer card again, following the instructions on the card as if they just received it face up.</li>
+  <li class="allies">Draw 3 new Trauma tokens. <span class="ioniannebula">If a “disaster” token is drawn, set it aside and draw a new one to replace it, then return the “disaster” token to the pool, just like at the start of the game.</span></li>
 </ol>
   
 If your new character is one of these, there are some additional rules and clarifications:
@@ -1872,7 +1881,7 @@ Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone
 
 <div class="pegasus" markdown="1">
 
-If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later. Draw 2 civilian ships and destroy them [according to the normal rules for "drawing and destroying"](#drawing-and-destroying). 
+If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later. Always follow [the normal rules for "drawing and destroying" civilian ships](#drawing-and-destroying). 
 
 When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. She also cannot defeat Scar with a "Hot Shot", because he can only be destroyed by a die roll. 
 
@@ -1892,7 +1901,7 @@ Tom Zarek (Military)'s "Necessary Steps" applies to all players, even himself, a
 
 Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "[Someone] Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
 
-Doc Cottle can use *abilities* on Engineering cards, just not *actions*<span class="pegasus"> (and by extension, Movement actions)</span>. 
+Doc Cottle can use *abilities* on Engineering cards, just not *actions*<span class="pegasus"> (and by extension, not Movement actions either)</span>. 
 
 </div>
 
@@ -1906,10 +1915,9 @@ Athena's "For Love" ability cannot be used in the following cases:
 
 <p class="newcaprica" markdown="1">Athena's "Resolute" ability can activate either the human or Cylon action on a New Caprica location.</p>
 
-D'Anna's "Visions" ability, when used in the Brig or Detention, does not require discarding down to 3 cards since it is not using the Infiltrator's special "return to the Resurrection Ship" Action. 
+D'Anna's "Visions" ability, when used in the Brig or Detention, does not require discarding down to 3 cards. That requirement only applies when using the Infiltrator's special "return to the Resurrection Ship" Action. 
 
-Doral's "Meticulous" ability does not allow him to choose the Resurrection Ship as his destination. The Resurrection Ship is Hazardous, and the instruction to "move to any Cylon Location" does not explicitly include the Resurrection Ship as a potential destination.  
-
+Doral's "Meticulous" ability does not allow him to choose the Resurrection Ship as his destination. The Resurrection Ship is Hazardous, so he could only choose to move there if it were explicitly listed as a choice. 
 </div>
 
 
@@ -1939,7 +1947,7 @@ If such an effect targets a specific player, like the President, and that player
 
 If Colonial One is destroyed by a game effect, flip the overlay over to reveal the "Colonial One Destroyed" side. (These effects are only included in Daybreak which includes the overlay.) Any characters on board are sent to Sickbay, and the locations on Colonial One are inaccessible for the rest of the game.
 
-During the New Caprica phase, Colonial One is not accessible. (It is being held captive by the Cylons on New Caprica, and won't escape until after the game ends.)
+During the New Caprica phase, Colonial One is not accessible. (In the show, the Cylons were using it as a base of operations, and it was the last ship to escape, so story-wise it only becomes accessible after the game is over.)
 
 
 <div class="exodus nopegasus nodaybreak" markdown="1">
@@ -1951,7 +1959,7 @@ In the Exodus rulebook on page 9, the Caprica location's behavior is changed: do
 
 #### Cylon Fleet location
 
-When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated <span class="cylonfleet">and placing ships on the Cylon Fleet board</span>.
+When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated<span class="cylonfleet"> and placing ships on the Cylon Fleet board</span>.
 
 The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if launching the ships happens to trigger [the regular component limitation rules](#component-limitations). Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
 
@@ -1972,7 +1980,7 @@ Attempting to use the Basestar Bridge to place a basestar on the Cylon Fleet boa
 
 ### New Caprica phase
 
-The humans reach New Caprica and attempt to settle there. However, they are discovered by the Cylons and both Galactica and Pegasus are forced to flee. The humans will have to wait out the Cylon occupation while waiting for their battlestars to return. Once they do, the humans will have to evacuate New Caprica and jump away to safety. 
+The humans reach New Caprica and attempt to settle there. However, they are discovered by the Cylons and both Galactica and Pegasus are forced to flee. The humans will have to suffer through the Cylon occupation while waiting for their battlestars to return. Once they do, the humans will have to evacuate New Caprica and jump away to safety. 
 
 #### New Caprica phase setup
 
@@ -1987,9 +1995,9 @@ The humans reach New Caprica and attempt to settle there. However, they are disc
 8. Move all remaining raptors to the New Caprica board. They can still be risked even before Galactica returns. 
 9. Shuffle all remaining civilian ships, whether in space or in the stockpile, into a single face down stack on the "Locked Civilian Ships" box. 
 
-Once setup is complete, the game continues from where it left off, now with the rules for the New Caprica phase "before Galactica returns" in effect. 
+Once setup is complete, gameplay resumes from where it left off when the new distance was applied, but now with the rules for the New Caprica phase "before Galactica returns" in effect. 
 
-Until Galactica returns to orbit, as described below, all players may only move to New Caprica locations. Even when it does, Colonial One will not return. (Story wise, it was the last ship to leave New Caprica, and it was under Cylon control until then.) You may choose to use the Colonial One overlay's "destroyed" side to indicate this. 
+Until Galactica returns to orbit, as described below, all players may only move to New Caprica locations. Even when it does, Colonial One will not return. (In the show, it was the last ship to leave New Caprica, and it was under Cylon control until then.) You may choose to use the Colonial One overlay's "destroyed" side to indicate this. 
 
 #### New Caprica phase rules
 
@@ -2041,11 +2049,13 @@ Players are only allowed to move to New Caprica locations. All other locations a
 
 Game effects that would normally send a player to the Resurrection Ship instead send them to the Medical Center. This includes ending Infiltration, execution, and revealing as a Cylon. It is not possible to begin Infiltrating because that would require first moving to the Human Fleet location. 
 
-Resolve New Caprica Crisis cards the same way as regular Crisis cards, but ignore the "evacuation icon" and any Cylon ship activation that is not "Occupation Forces". In addition, ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. The fleet marker advances when the "Prepare for Jump" icon appears, as usual. When it reaches "Auto Jump", Galactica returns and the final battle is set up. 
+Resolve New Caprica Crisis cards the same way as regular Crisis cards, but ignore the "evacuation icon" and any Cylon ship activation that is not "Occupation Forces". In addition, ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. 
+
+The fleet marker advances when the "Prepare for Jump" icon appears, as usual. When it reaches "Auto Jump", do not follow the normal jump procedure. Instead, [Galactica returns and the final battle is set up.](#after-galactica-returns)
 
 Raptors **may still be risked** before Galactica returns.
 
-If Felix Gaeta uses his "Coup" Action while in Detention before Galactica returns, he moves to Resistance HQ instead of Command. Doral's "Meticulous" ability instead allows him to move to any New Caprica location and take another action instead of moving to the Medical Center. 
+If Felix Gaeta uses his "Coup" Action while in Detention before Galactica returns, he moves to Resistance HQ instead of Command. The end of Doral's "Meticulous" ability becomes "you may move to any New Caprica location and take another action instead of moving to the Medical Center."
 
 
 #### After Galactica returns
@@ -2119,7 +2129,7 @@ After the Crossroads phase is finished, resume play at the point that the Crossr
 
 #### Elimination
 
-To eliminate a player from the game, follow [the rules for execution](#execution), but stop when told to either choose a new character or move to the Resurrection Ship. The eliminated player is entirely removed from the rest of the game. If they were the current player, the next player is now the current player. Any former titles are given to the first in the [line of succession](#lines-of-succession). 
+To eliminate a player from the game, follow [the rules for execution](#execution), but stop when told to either choose a new character or move to the Resurrection Ship. Their character sheet and token is removed from the game, and they must discard any Super Crisis cards. The eliminated player no longer takes turns and is entirely removed from the game. If they were the current player, the next player is now the current player. Any former titles are given to the first in the [line of succession](#lines-of-succession). 
 
 </div>
 
@@ -2141,7 +2151,7 @@ After the final distance indicated on the Objective card is reached, the next ti
 <div class="newcaprica noallendings" markdown="1">
 At the distance indicated on the New Caprica objective card, the New Caprica phase begins. Gameplay continues, with all players interacting on New Caprica. The jump track is used one last time to bring back Galactica, and after Galactica returns the final jump will end the game. 
 
-The final jump can only be initiated by the Admiral as an action, not by using the jump track or "FTL control". The [normal jump procedure](#jumping-the-fleet) is skipped, so there is no "Remove Ships" step and no Destination card is drawn. Instead, follow [the rules listed below for ending the game in New Caprica](#evacuating-new-caprica). 
+The final jump can only be initiated by the Admiral as an action, not by using the jump track or "FTL control". The [normal jump procedure](#jumping-the-fleet) is skipped, so there is no "Remove Ships" step and no Destination card is drawn. Instead, follow [the rules listed above for ending the game in New Caprica](#evacuating-new-caprica). 
 </div>
 
 <p class="cylonleader" markdown="1">After the final jump, Cylon Leaders must wait until all other effects are resolved before they can <span class="motive">reveal any "game is over" Motive cards</span><span class="agenda">declare their Agenda fulfilled</span>.</p>
@@ -2149,7 +2159,7 @@ The final jump can only be initiated by the Admiral as an action, not by using t
 <p class="sympatheticcylon" markdown="1">After the final jump, Sympathetic Cylons must wait until all other effects are resolved before they can <span class="motive">reveal any "game is over" Motive cards</span><span class="agenda">declare their Agenda fulfilled</span>.</p>
 
 
-<p class="pegasus" markdown="1">"Preventative Policy" cards remain in effect if they were played during the last turn.</p> 
+<p class="pegasus" markdown="1">"Preventative Policy" cards remain in effect if they were played during the final turn.</p> 
 
 When resolving any end of game effects, unrevealed Cylons continue to be treated as human players but they still ultimately win or lose with the Cylons. <span class="infiltrator">Infiltrators continue to be treated as human or Cylon players depending on whether or not they are Infiltrating.</span><span class="personalgoal"> Resolve game effects that take place at the end of the game such as unfulfilled Personal Goal cards. <span class="nopegasus nodaybreak">Note, however, that Personal Goal cards do not apply at the end of the game if they are held by a <em>revealed</em> Cylon.</span></span> 
 
