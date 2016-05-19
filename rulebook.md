@@ -138,6 +138,17 @@ function validateForm() {
   
 }
 
+function highlight(theClass) {
+  // Don't highlight the "no" classes, except for "nosympathizer"
+  if (theClass === "nosympathizer" || ! /^no/.test(theClass)) {
+    $('.' + theClass).css({"background-color":"lightyellow"});
+  }
+}
+
+function unhighlight(theClass) {
+  $('.' + theClass).css({"background-color":""});
+}
+
 function flipSwitches () {
   // Step 1: validate the form. Uncheck and disable items that aren't
   // allowed.
@@ -242,9 +253,15 @@ function flipSwitches () {
   }
   
   
-  // Step 3: Show all the classes that need showing.
+  // Step 3: Show all the classes that need showing. 
   for (i in showThese) {
     $('.'+showThese[i]).show();
+    // Highlight if requested
+    if (readCheckbox('#highlight')) {
+      highlight(showThese[i]);
+    } else {
+      unhighlight(showThese[i]);
+    }
   }
   // Step 4: Hide all the classes that need hiding. Since we do this 
   // last, that means a given tag needs *all* elements to be visible,
@@ -339,7 +356,8 @@ window.onload = function () {
     <label><input type="checkbox" name="forceoverlay" id="forceoverlay"> Variant: Use a Cylon Locations overlay</label><br>
     <label><input type="checkbox" name="forcemotive" id="forcemotive"> Variant: Replace Agenda cards with Motives from Daybreak</label><br>
     <label><input type="checkbox" name="variants" id="variants"> Show other official game variants</label><br>
-    <label><input type="checkbox" name="help" id="help"> Show help</label>
+    <label><input type="checkbox" name="help" id="help"> Show help</label><br>
+    <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label>
   </fieldset>
 </form>
 
@@ -350,11 +368,11 @@ Use the checkboxes and menus above to select a configuration of Battlestar Galac
 
 ### All endings
 
-Many variants exist that add *all* the endings to the game. This is quite unwieldy and a very long game, but if you're up for it, you can attempt such a thing. This rulebook doesn't provide such a variant, but selecting "all endings" will show all the rules for all the endings so that you can refer to them. 
+Many variants exist that add *all* the endings to the game. None of them are included here, but you can still use this rulebook for such a game by selecting "all endings". This will show all of the official rules for every ending. Whichever variant you are usings will tell you how to proceed through all the endings, but when you need to resolve "normal" gameplay events and issues they will be available.
 
 ### Agendas and Motives
 
-Pegasus and Daybreak both added Cylon Leaders, but the way that Cylon Leaders win is different in Daybreak. You can choose to "backport" Motive cards to the Pegasus elements that use Agenda cards (Cylon Leaders and Sympathetic Cylon). The reverse (using Agenda cards in Daybreak for Cylon Leaders) isn't integrated into the rules, but you can still do it very easily as follows:
+Pegasus and Daybreak both added Cylon Leaders, but the way that Cylon Leaders win is different in Daybreak. You can choose to "backport" Motive cards to the Pegasus elements that use Agenda cards (Cylon Leaders and Sympathetic Cylon). The reverse (using Agenda cards in Daybreak for Cylon Leaders) isn't integrated into the rules, because Agenda cards are very simple and don't have any rule conflicts. All you have to do is:
 
 - Give the Cylon Leader a Hostile (for a 5 or 7 player game) or Sympathetic (4 or 6 player game) Agenda card when the first round of Loyalty cards goes out.
 - Ignore any mention of Motive cards in the rules. 
@@ -366,7 +384,11 @@ The "Sympathizer" role from the base game is intended to be a sort of "half-Cylo
 
 This card proved to be rather unpopular for a few reasons. For one, the unlucky player who becomes a Cylon via the Sympathizer card is immediately revealed as a Cylon and doesn't get to secretly sabotage the humans, and even as a Cylon they do not get a Super Crisis and cannot use the Cylon Fleet location, removing over a quarter of their possible Cylon actions. Secondly, it adds an incentive for the humans to sabotage themselves before the Sleeper Agent phase so that the Sympathizer stays human. 
 
-There are a few options for avoiding the Sympathizer. Daybreak and Pegasus add Cylon Leaders, who basically *are* half-Cylons and therefore remove the need for a Sympathizer. Pegasus adds the "Sympathetic Cylon", which is very similar to the Sympathizer but basically turns the player into a Cylon Leader. As a variant, you can even choose to just use the Sympathetic Cylon without the rest of Pegasus. Daybreak replaces both the "Sympathizer" and "Sympathetic Cylon" with "The Mutineer", a player who gets lots of Mutiny cards. The simplest option, however, is the "No Sympathizer" variant which was released by Fantasy Flight Games themselves and does not require any expansions. It just handicaps the humans and allows Cylons to draw more cards.  
+There are a few options for avoiding the Sympathizer. Daybreak and Pegasus add Cylon Leaders, special characters who are almost literally half-Cylons and therefore remove the need for a Sympathizer when they are used. Pegasus adds the option of using the "Sympathetic Cylon" Loyalty card, which is very similar to the Sympathizer but instead changes a player into essentially a Cylon Leader. As a variant, you can even choose to just use the Sympathetic Cylon without the rest of Pegasus. 
+
+Daybreak replaces both the "Sympathizer" and "Sympathetic Cylon" with "The Mutineer", a player who gets lots of Mutiny cards, so no variant is necessary to avoid the Sympathizer using this expansion. 
+
+The simplest option, however, requiring no expansions at all, is the "No Sympathizer" variant which was officially released by Fantasy Flight Games. It just handicaps the humans and allows Cylons to draw more cards. 
 
 ### Allies for All Seasons
 
@@ -482,6 +504,8 @@ When an expansion includes a "fancy" version of an existing component, such as t
 - Two vipers below Galactica (one in each space area with the launch tube icon)
 - Two civilian ships behind Galactica (right space area). 
 
+<p class="overlay nopegasus nodaybreak">One or more variants is turned on which requires a Cylon Locations overlay. Take one from either Pegasus or Daybreak, and cover the normal Cylon Locations with the overlay, with the side that says "Cylon Locations" face up. </p>
+
 <div class="pegasus" markdown="1">
 
 ### Pegasus
@@ -544,8 +568,6 @@ To add the Daybreak expansion:
 </div>
 
 <p class="cylonleader" markdown="1">To play with Cylon Leaders, also add the Cylon Leader sheets and tokens. The Cylon leader will also need the "Infiltrator" card and <span class="agenda">Agenda cards from Pegasus</span><span class="motive">Motive cards from Daybreak</span>.</p>
-
-<p class="overlay nopegasus nodaybreak">Put the Cylon Locations overlay from either Pegasus or Daybreak on top of the Cylon Locations with the side that says "Resurrection Ship" face up.</p>
 
 <div class="kobol" markdown="1">
 ### Kobol ending
@@ -657,38 +679,28 @@ Shuffle both decks separately, then form the initial Loyalty deck according to t
 
 </div>
 
-If either of these characters were chosen, add 1 more "Not a Cylon" card. If both were chosen, add one for each of them.
+If a player chose Sharon "Boomer" Valerii (Pilot), add 1 more "Not a Cylon" card. 
 
-- Sharon "Boomer" Valerii (Pilot)
-- Gaius Baltar (Political)
+If a player chose Gaius Baltar (Political), add 1 more "Not a Cylon" card. 
 
 <p class="daybreak cylonleader" markdown="1">
 If playing with 5 or 7 total players, add The Mutineer card to the Loyalty deck.
 </p>
 
 <p class="daybreak nocylonleader" markdown="1">
-If playing with 4 or 6 total players, add The Mutineer card and one more "Not a Cylon" card to the Loyalty deck. 
+If playing with 4 or 6 total players, add The Mutineer card and 1 more "Not a Cylon" card to the Loyalty deck. 
 </p>
 
 <p class="sympatheticcylon" markdown="1">
-If playing with 4 or 6 players, get the "You Are a Sympathetic Cylon" card, <span class="agenda">the "Sympathetic Agenda" cards (they have Caprica Six on the back), </span><span class="motive">the deck of Motive cards, </span> and the "Infiltration" card, but don't add anything to the Loyalty Deck yet. Add the "Sympathetic Cylon" card to the Loyalty deck after the first round of Loyalty cards go out. 
+If playing with 4 or 6 players, get the "You Are a Sympathetic Cylon" card, <span class="agenda">the "Sympathetic Agenda" cards (they have Caprica Six on the back), </span><span class="motive">the deck of Motive cards, </span> and the "Infiltration" card, but don't add anything to the Loyalty Deck yet. Set the "Sympathetic Cylon" card aside to be added to the Loyalty deck after the first round of Loyalty cards go out. 
 </p>
-
-<p class="motive nodaybreak notreachery" markdown="1">
-The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" and "Fight with Honor" cards from the game before any are dealt out.
-</p>
-
-<p class="motive nodaybreak treachery" markdown="1">
-The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" card from the game since it needs a Mutiny card. To balance out the deck, find all 7 cards with Cylon allegiance and remove 1 at random from the game. 
-</p>
-
 
 <p class="nosympathizer" markdown="1">
-If playing with 4 or 6 players, the "No Sympathizer" variant rules will apply to this game. Set the resource dials to 8 fuel, 7 food, 9 morale, and 10 population, and add 1 more "Not a Cylon" card to the Loyalty deck after the first round of Loyalty cards is dealt. Revealed Cylons will draw 3 cards instead of 2 during the game.
+If playing with 4 or 6 players, the "No Sympathizer" variant rules will apply to this game. Set the resource dials to 8 fuel, 7 food, 9 morale, and 10 population, and set aside 1 more "Not a Cylon" card to be added the Loyalty deck after the first round of Loyalty cards is dealt. **Revealed Cylons will draw 3 cards instead of 2 during the game.**
 </p>
 
 <p class="nodaybreak nocylonleader nosympatheticcylon nonosympathizer" markdown="1">
-If playing with 4 or 6 players, get the "You Are a Sympathizer" card, but don't add it to the Loyalty deck yet. It is added to the Loyalty deck *after* the first round of cards go out. 
+If playing with 4 or 6 players, get the "You Are a Sympathizer" card, and set it aside. Don't add it to the Loyalty deck yet. It is added to the Loyalty deck *after* the first round of cards go out. 
 </p>
 
 Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are now removed from the game without revealing them. 
@@ -697,6 +709,14 @@ The Loyalty deck is now complete. Shuffle it and distribute 1 card to every play
 
 <p class="cylonleader agenda" markdown="1">
 In a 4 or 6 player game, give the Cylon Leader a random Agenda card from the Sympathetic Agenda deck. (This deck has Caprica Six on the back.) In a 5 or 7 player game, give the Cylon Leader a random Agenda card from the Hostile Agenda deck. (This deck has a Centurion on the back.)
+</p>
+
+<p class="motive nodaybreak notreachery" markdown="1">
+The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" and "Fight with Honor" cards from the game before any are dealt out. (They refer to Mutiny cards and Treachery cards, respectively, both of which are not in this game.)
+</p>
+
+<p class="motive nodaybreak treachery" markdown="1">
+The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" card from the game. (It refers to Mutiny cards, which aren't in this game.) To balance out the deck, find all 7 cards with Cylon allegiance and remove 1 at random from the game. 
 </p>
 
 <p class="cylonleader motive" markdown="1">
@@ -756,13 +776,13 @@ Before starting the game, check that:
 It might be a good idea to remind all players of the following:
 
 <ul>
-  <li class="nosympathizer">If there are 4 or 6 players, revealed Cylons may draw 3 cards at the start of their turn instead of 2.</li>
+  <li class="nosympathizer"><strong>If there are 4 or 6 players, revealed Cylons may draw 3 cards at the start of their turn instead of 2.</strong></li>
   <li>When choosing a character to send to Sickbay or the Brig, you must choose someone who can actually be moved there if possible.</li>
   <li>Cylon players can choose to ignore effects on Crisis cards.</li>
   <li>Centurions don't "push" each other on the Boarding Party track, more than one can occupy the same space.</li>
   <li>Even if a resource reaches zero, the humans have until the end of the current player's turn to raise it back up before they lose.</li>
-  <li>The 10 Skill card limit is only enforced at the end of each player's turn.</li>
-  <li>Revealed Cylons should <em>not</em> reveal Loyalty cards that say "immediately reveal this card". <span class="nooverlay">They can hand them off later in the Resurrection Ship.</span></li>
+  <li>All players must discard down to 10 Skill cards at the end of each turn if they have more.</li>
+  <li>Revealed Cylons should <em>never</em> reveal any more Loyalty cards, even if they say to "immediately reveal this card". <span class="nooverlay">They can hand them off later in the Resurrection Ship.</span></li>
   <li>Super Crisis cards are immune to character abilities and any ability that says it affects Crisis cards.</li>
 </ul>
 
@@ -792,9 +812,9 @@ For these expansions, these are some of the important new rules in effect:
       <li class="daybreak">If the Mutineer card is still in the Loyalty deck after the Sleeper Agent phase cards are dealt, the current player must choose a human player to deal 1 more Loyalty card to. (If it is the Mutineer card, ignore the instruction to deal them yet another Loyalty card.)</li>
     </ul>
   </li>
-  <li class="daybreak">Assault raptors are really more like vipers. They can't be "risked", but they can stay in space during jumps.</li>
+  <li class="daybreak">Assault raptors are piloted and can attack like vipers. They can't be "risked", but they can stay in space during jumps.</li>
   <li class="newcaprica">During and after the New Caprica phase, players may not use Colonial One.</li>
-  <li class="searchforhome">The Demetrius is a new ship where Missions can be attempted. A second Mission cannot be attempted until the fleet jumps. If a Mission gains distance, that distance is added immediately. The Skill Checks on Missions are not affected by any cards or character abilities, except limits on how many cards a player can add.</li>
+  <li class="searchforhome">The Demetrius is a new ship where Missions can be attempted. A second Mission cannot be attempted until the fleet jumps. If a Mission gains distance, that distance is added immediately. The Skill Checks on Missions are not affected by any cards or character abilities, but limits on how many cards a player can add still apply.</li>
   <li class="searchforhome">The Rebel Basestar is added to the game after a certain Mission is completed.</li>
   <li>Revealed Cylon players must draw 2 cards of different types at the start of their turn.</li>
   <li>When a Cylon uses the Caprica location, the "Prepare for Jump" icon is <em>not</em> ignored.</li>
@@ -853,8 +873,7 @@ If, at any time during a turn, the fleet earns more distance, finish resolving t
 
 The word "player" refers to any player in the game, human or Cylon. A "human player" is a player who is either truly human, or a hidden Cylon. A "Cylon player" is a player who has revealed as a Cylon<span class="cylonleader"> (or a Cylon Leader who is not Infiltrating)</span>. If a player has both a "You Are a Cylon" and a "You Are Not a Cylon" card, they are a Cylon. 
 
-Players who have a hidden "You Are a Cylon" card are secretly Cylons, but until they reveal they follow all the rules for human players (and should probably pretend to be human until the time comes to reveal). Cylons always win or lose with the Cylon team, even if they never reveal themselves. 
-
+Players who have a hidden "You Are a Cylon" card are secretly Cylons, but until they reveal they follow all the rules for human players (and should probably pretend to be human until the time comes to reveal). Even if a player is very obviously sabotaging the humans, or even admits to being a Cylon, they are treated as a human player until they reveal their Cylon card. Cylons always win or lose with the Cylon team, even if they never reveal themselves. 
 
 ### Secrecy
 
@@ -865,15 +884,16 @@ As a game of hidden agendas and secrets, secrecy is very important. Without any 
 - When players get to look at the top card of a deck, they may not disclose specific information about that card. This also applies when a player is allowed to look at another's Loyalty card. 
 - Players may not reveal the specifics of civilian ships that they have seen. 
 - Revealed Cylons may not say which Super Crisis card(s) they have.
-- Players are always allowed to speculate and accuse players of being Cylons or humans, and are also allowed to lie. If a player sees another's Loyalty card, they may disclose (or lie about) whether it was a Cylon or not (but not specific information, like what the reveal power was). 
+
+Players are always allowed to speculate and accuse players of being Cylons or humans, and are also allowed to lie. If a player sees another's Loyalty card, they may disclose (or lie about) whether it was a Cylon or not (but not specific information, like what the reveal power was). 
 
 Other rules about secrecy will depend on the desires of the players. The rest of these are guidelines, but not necessarily hard-and-fast rules. 
 
-Generally, players are allowed to use terms that are polar opposites, like "a lot" or "a little", but not "pretty high" or "medium", to describe cards. "Good" and "Bad" are also acceptable. When playing *multiple* cards into a Skill check, players are allowed to say that they are helping "a medium amount". They may also include information that is already public, like "I am adding 3 *high* cards to the check". 
+Generally, players are allowed to use terms that are polar opposites, like "a lot" or "a little", but not "pretty high" or "medium", to describe cards. "Good" and "Bad" are also acceptable. When playing *multiple* cards into a Skill check, players are allowed to say that they are helping "a medium amount" (since this is basically the same as saying "some high and some low cards"). They may also include information that is already public, like "I am adding 3 *high* cards to the check". 
 
 Public information includes the number of cards in each player's hand, in each Skill card deck, the Quorum deck, and the Destiny deck, and the number of cards that a player is adding to a Skill check. The top card of any discard pile is also public, but not the number of cards in it. 
 
-Players are allowed to ask for cards, like "I'm about to use FTL, does anyone have a Strategic Planning?", and others may *choose* to respond that they do or do not. This should not be abused, do not ask for information about every single card. 
+Players are allowed to ask for cards, like "I'm about to use FTL, does anyone have a Strategic Planning?", and others may *choose* to respond that they do or do not. This should not be abused; do not ask for information about every single card. 
 
 ### Resolving rule conflicts
 
@@ -891,7 +911,7 @@ Obviously there are not an infinite number of ship tokens and other items in the
 
 <p class="nocylonfleet" markdown="1">In the event of component limitations for ships, the current player decides the order of placement, and if necessary, which ones are placed and which are not placed. </p>
 
-<p class="cylonfleet" markdown="1">When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile as usual. However, if the normal pile has run out but the Cylon Fleet board has some of the appropriate ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the current player decides the order of placement and, if necessary, which ones are placed and which are not placed.</p>
+<p class="cylonfleet" markdown="1">When using the Cylon Fleet board and a game effect instructs a player to place Cylon ships on the main game board, draw from the normal pile. If the normal pile has run out, but the Cylon Fleet board has some of that ship, then ships are drawn from the *lowest numbered* Cylon space area possible. This does not affect the other ships in that space area, and the pursuit track is not advanced. If both the normal pile and the Cylon Fleet board are out of a ship, then the current player decides the order of placement and, if necessary, which ones are placed and which are not placed.</p>
 
 If a heavy raider cannot become a Centurion due to component limitations, the heavy raider remains on the board. 
 
@@ -1059,7 +1079,7 @@ For Raider Bay, the player is only allowed to activate the ships being placed, n
 Each character's sheet lists these items:
 
 - Type. Used for selecting a well-rounded group of characters to start.
--  Abilities. These include
+- Abilities. These include
     - A standard ability, which may be an action or a passive trait.
     - A "once-per-game" ability, which can only be used once per game (but see ["Once per game"](#once-per-game) below). 
     - A negative ability which must be followed during the game.
@@ -1077,7 +1097,7 @@ Players with "multi-skills" of multiple cards, like "2 Leadership/Politics", are
 ### Once per game
 
 <div class="nodaybreak" markdown="1">
-The "once per game" ability on a character sheet can be chosen by a player up to once in a single game. This is tied to a player, not to a character, so if a player uses their once-per-game and is later executed, they may not use the new character's once-per-game ability at all. Conversely, an executed player who has not used their once-per-game is allowed to use their new character's ability later.
+The "once per game" ability on a character sheet can be chosen by a player up to once in a single game. After that, it cannot be used again. <span class="execution">This is tied to each player, not to a character or that specific ability, so if a player uses their once-per-game and is later executed, they may not use the new character's once-per-game ability. Conversely, an executed player who has not used their once-per-game is allowed to use their new character's once-per-game ability later.</span>
 
 Even when not playing with Daybreak, it's convenient to use that expansion's Miracle tokens to track whether each player has used their once-per-game or not. 
 </div>
@@ -1096,7 +1116,7 @@ The Support version of Gaius Baltar is an exception to all of these rules: he ma
 
 ### Loyalty cards
 
-Players receive Loyalty cards at the beginning of the game and at the Sleeper Agent phase. Players must keep them secret unless another player is directed to look at them, not discussing their text or any other details other than claiming to be human or Cylon. Players may *imply* things about their Loyalty cards (for example, "I wouldn't examine my Loyalty cards if I were you" or "This is a waste of time") but may not explicitly say that they have certain types of cards. 
+Players receive Loyalty cards at the beginning of the game and at the Sleeper Agent phase. Players must keep them secret unless another player is directed to look at them, not discussing their text or any other details other than claiming to be human or Cylon. Players may *imply* things about their Loyalty cards (for example, "I wouldn't examine my Loyalty cards if I were you" or "This is a waste of time") but may not discuss any specifics about the card's appearance or text. 
 
 A player is on the Cylon team if *any* of their Loyalty card states "You Are A Cylon". Having both a "Cylon" and "Not A Cylon" means that you are on the Cylon team, even if you're still hidden. A hidden Cylon still wins or loses with the Cylons. 
 
@@ -1182,6 +1202,8 @@ Cards being discarded after being added to a Skill check do not count as being c
 
 ### Cylon Players
 
+Players who have not revealed as Cylons are [considered human players, not Cylon players](#player-terminology), even if they are secretly a Cylon. Only revealed Cylons have the immunities listed below. 
+
 Cylon players may choose to **ignore** the effects of Crisis cards<span class="finalfive">, Final Five cards,</span> and Skill Checks, unless they specifically say that they apply to Cylon players.
 
 Cylon players are not allowed to:
@@ -1199,7 +1221,7 @@ Cylon players are not allowed to:
 Revealing as a Cylon is an action, as described on the "You Are A Cylon" Loyalty card. <span class="execution">It can also happen involuntarily, for example as the result of an execution. </span>
 
 <ol markdown="1">
-  <li>If you revealed yourself as an action, complete the action listed on the “You Are a Cylon” card. If you were executed, or are in the Brig, you do not get to take the action.
+  <li>If you revealed yourself as an action, complete the action listed on the “You Are a Cylon” card. If you <span class="execution">were executed, or</span> are in the Brig, you do not get to take the action.
     <ul>
       <li>Note that it says to only reveal <em>this</em> card, not others. Keep any other Loyalty cards secret!</li>
     </ul>
@@ -1242,7 +1264,7 @@ The Sympathetic Cylon is a Cylon who does not necessarily agree with the Cylon's
 
 As stated on the card, the Sympathetic Cylon card is immediately revealed when dealt to a human player. The player [reveals as a Cylon](#cylon-reveal-resolution) but their alignment is not so simple. 
 
-<div class="motive" markdown="1">In this variant, after they reveal the Sympathetic Cylon receives 4 Motive cards from the Motive deck. Each Motive has an allegiance and a condition. A Motive card can be revealed at any time as long as its condition is *currently* being met, even in the middle of an action or Crisis, or during another player's turn. If it *was* met earlier in the game but is not anymore, it cannot be revealed. Many Motive cards cannot be revealed until the end of the game; for these cards the Sympathetic Cylon must wait until all other "end of game" effects have been resolved before they can be revealed.
+<div class="motive" markdown="1">In this variant, ignore the instructions on the card about Agenda cards. After revealing, the Sympathetic Cylon receives 4 Motive cards from the Motive deck. Each Motive has an allegiance and a condition. A Motive card can be revealed at any time as long as its condition is *currently* being met, even in the middle of an action or Crisis, or during another player's turn. If it *was* met earlier in the game but is not anymore, it cannot be revealed. Many Motive cards cannot be revealed until the end of the game; for these cards the Sympathetic Cylon must wait until all other "end of game" effects have been resolved before they can be revealed.
 
 In order to win, at the end of the game the Sympathetic Cylon must have revealed at least 2 Motive cards that are aligned with the winning team. 
 </div>
@@ -1270,7 +1292,7 @@ The <span class="cylonleader">Cylon Leader</span><span class="sympatheticcylon">
     - Action: End your Infiltration and move to the "Resurrection Ship". If you were in the "Brig", you must then discard down to 3 cards. 
 - Any time an Infiltrator moves to the Resurrection Ship, either voluntarily using the above action or because of another game effect, they are no longer Infiltrating. They must discard any cards that a revealed Cylon cannot have.
 
-Infiltration does not change what a player needs to do in order to win or lose. It only changes whether they are treated like a human player or a Cylon player by the rules and game effects. Infiltrators always ignore any effect that directs them to add cards to or draw from the Loyalty deck. 
+Infiltration does not change what a player needs to do in order to win or lose. It only changes whether they are treated like a human player or a Cylon player by the rules and game effects. Infiltrators always ignore any instructions to add cards to or draw from the Loyalty deck. 
 
 </div>
 
@@ -1299,7 +1321,7 @@ The CAG makes some Crisis decisions, and is in charge of placing civilian ships 
 
 When a game effects says to place a civilian ship on the board, but does not specify a specific space area, the CAG places the ship on the board. The CAG must choose a space area *without* a civilian ship already in it, if possible. 
 
-The CAG follows the same rules as the Admiral when sent to the Brig<span class="newcaprica"> (but not Detention)</span>: they are stripped of their title and do not automatically regain it upon leaving the Brig. 
+The CAG title is lost upon being sent to the Brig, and follows the same rules as the Admiral title does in that situation. <span class="newcaprica">Also like the Admiral, Detention does not cause the CAG to lose their title.</span>
 </div>
 
 ### Lines of Succession
@@ -1308,8 +1330,7 @@ The CAG follows the same rules as the Admiral when sent to the Brig<span class="
 
 Click the image above to see it full-sized in a new tab.
 
-The lines of succession are *not* applied automatically. Players do not gain titles solely because they are highest in the line of succession. When a player holds a title, they keep it until they are instructed to give it to someone else. 
-
+Unlike in real life, players do not gain titles solely because they are the highest in the line of succession. For example, if Helena Cain gets out of the Brig, she does not regain her Admiral title, even though she is first in the line of succession. When a player holds a title, they always keep it until they are instructed to give it to someone else. 
 
 ### Actions & Abilities
 
