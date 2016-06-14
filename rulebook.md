@@ -302,7 +302,7 @@ function save() {
   }
 }
 
-// find all the selected / checked items and return a 
+// find all the selected / checked items and return a
 // querystring representing them
 function buildStateString() {
   qs = [];
@@ -340,6 +340,12 @@ function init() {
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
+
+  $('#generateUrl').click(function(e) {
+    e.preventDefault();
+    var url = window.location.origin + window.location.pathname + "?" + buildStateString();
+    $('#generatedUrl').val(url);
+  });
 }
 
 //var oldLoad = window.onload;
@@ -386,7 +392,10 @@ window.onload = function () {
     <label><input type="checkbox" name="forcemotive" id="forcemotive"> Variant: Replace Agenda cards with Motives from Daybreak</label><br>
     <label><input type="checkbox" name="variants" id="variants"> Show other official game variants</label><br>
     <label><input type="checkbox" name="help" id="help"> Show help</label><br>
-    <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label>
+    <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label><br>
+    <label><button id="generateUrl">Generate Config URL</button>
+      <input type="text" id="generatedUrl" name="generatedUrl" />
+    </label>
   </fieldset>
 </form>
 
