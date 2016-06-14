@@ -302,11 +302,40 @@ function save() {
   }
 }
 
+// find all the selected / checked items and return a 
+// querystring representing them
+function buildStateString() {
+  qs = [];
+  $('input,option').each(function(index, element) {
+    id = $(this).attr('id');
+    if (readCheckbox('#' + id)) {
+      qs.push(id);
+    }
+  });
+  return qs.join('&');
+}
+
+// enable this id (check it or select it)
+function setValue(id) {
+  $('#'+id).prop('checked', true);
+  $('#'+id).prop('selected', true);
+}
+
 function init() {
-  if (window.sessionStorage){
-    for (id in window.sessionStorage) {
-      $('#'+id).prop('checked', true);
-      $('#'+id).prop('selected', true);
+  // queryparam exists?
+  var qs = window.location.search;
+  if (!!qs) {
+    // use querystring to set values
+    qs = qs.replace("?", '').split('&');
+    for (var i=0; i < qs.length; i++) {
+      setValue(qs[i]);
+    }
+  } else {
+    // state exists?
+    if (window.sessionStorage){
+      for (id in window.sessionStorage) {
+        setValue(id);
+      }
     }
   }
   $('#configform').change(flipSwitches);
