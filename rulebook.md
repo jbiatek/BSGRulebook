@@ -933,7 +933,9 @@ Die rolls can be changed by game effects, but the result cannot be made greater 
 
 This rulebook is very specific about the separate phases of resolving various cards and events, so if two players wish to use "interrupting" abilities at the same time, refer to the appropriate procedure. There may be guidance about which ability occurs first, or it may indicate that the two abilities actually occur in different steps. Skill Checks, in particular, have a [surprising number of steps](#skill-check-resolution) where different abilities can apply. 
 
-Otherwise, in general when multiple players want to perform abilities in the same "timing window", a timing conflict occurs, or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the rejected ability was on a card being played, the player takes the card back. 
+Otherwise, in general when multiple players want to perform abilities in the same "timing window", a timing conflict occurs, or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the withdrawn ability was on a card being played, the player takes the card back. 
+
+When playing a card, it ceases to become "yours" or "in your hand" when resolution of the card text begins. For example, if you have 5 cards in your hand, then play a card like Pegasus's "Support the People" which allows players with 4 or less cards in hand to do something, you count as having 4 cards. <span class="daybreak">This also means that players are not sent to the Brig if they draw a Mutiny card as a result of playing a Mutiny card.</span> Technically, it counts as discarded at that point as well (unless the text indicates that it should be kept in play), although in practice players will probably want to keep it on the board while the card is resolved. This shouldn't make any difference unless the discard pile needs to be reshuffled while the card is being resolved. If this happens, the played card should be included in the shuffled deck. 
 
 Players must be given a reasonable opportunity to use abilities. For example, you may not rush to put cards into a Skill check to prevent players from using a card that can only be played before cards are added. 
 
@@ -1181,7 +1183,7 @@ All human players have a limit of 1 Mutiny card except for the Mutineer, who has
 
 #### Drawing a second Mutiny card
 
-When a player draws a Mutiny card above their limit, they are immediately sent to the Brig unless specifically told not to do so (or incapable of moving to the Brig, such as when "Helo" is Stranded). 
+When a player draws a Mutiny card above their limit, they are immediately sent to the Brig unless specifically told not to do so (or incapable of moving to the Brig, such as when "Helo" is Stranded). If a player draws a Mutiny card while resolving their old Mutiny card, they have not exceeded the limit since [cards that are being resolved are no longer "yours" or "in your hand"](#timing). 
 
 Once the move to the Brig is resolved or skipped, the player must immediately choose Mutiny cards to discard until they are at their limit again.
 
@@ -1460,13 +1462,18 @@ Abilities that apply to Crisis cards do not apply to Super Crisis cards. Super C
 
 ![A regular Skill Check card](images/skillcheck.png)
 
-Each Skill check has a strength in the top left corner, a title, a picture, and colors which count as positive. Any color not "lit up" is negative, and will subtract from the positive cards. The result of the Skill check will determine which of the boxes at the bottom will take effect. A Skill check is passed if it meets or exceeds the strength in the top left corner. There may be a "partial pass" result if the strength reaches a certain threshold but doesn't fully pass, but otherwise the Skill check fails. 
+Each Skill check has a strength in the top left corner, a title, a picture, and colors which count as positive. Any color not "lit up" is negative, and will subtract from the positive cards. Two cards from the Destiny deck are secretly added to the Skill check when it begins. 
+
+Starting with the player to the left of the current player, each player secretly contributes their choice of cards, face down, into the Skill check. The current player goes last. Human players may normally contribute any number of cards, including zero. The number of cards added is public knowledge. Cylon players and players in the Brig may only contribute up to 1 card. 
+
+The result of the Skill check will determine which of the boxes at the bottom will take effect. A Skill check is passed if it meets or exceeds the strength in the top left corner. There may be a "partial pass" result if the strength reaches a certain threshold but doesn't fully pass, but otherwise the Skill check fails. 
 
 <div class="expansion" markdown="1">
 ![The Skill Check Ability icon](images/skillcheckability.png)
 
 If a card is revealed in a Skill check with the Skill Check Ability icon, resolve the card's text. If multiple cards with the same name appear, only one is resolved and the rest are skipped. If multiple Skill Check Abilities are present, the current player decides what order they are resolved in. 
 
+If the Skill Check Ability icon appears as a result, that result is triggered if at least 1 Skill Card with a Skill Check Ability icon was played into the check, in addition to the result of the Skill check. 
 </div>
 
 The full, detailed procedure for resolving a Skill check is as follows:
@@ -1493,7 +1500,7 @@ The full, detailed procedure for resolving a Skill check is as follows:
       <li class="pegasus">Players can receive new cards from “Support the People” and use them as additional “pre-card” effects as well.</li>
     </ul>
   </li>
-  <li>Add cards from the Destiny deck<span class="pegasus"> (followed by Dee’s “Fast Learner” cards if any)</span></li>
+  <li>Add 2 cards face down from the Destiny deck<span class="pegasus"> (followed by Dee’s “Fast Learner” cards if any)</span></li>
   <li>Starting to the left of the current player and proceeding clockwise, each player plays cards face down into the Skill check. The current player goes last.
     <ul>
       <li>Unless otherwise specified, a player may play any number of Skill cards into the check, including zero. The number of cards that a player is adding is considered public information.</li>
@@ -1535,7 +1542,11 @@ The full, detailed procedure for resolving a Skill check is as follows:
       <li>These are called Consequences. The text is resolved if at least 1 Skill Card with a Skill Check Ability icon was played into the check. They are indicated by a “Skill Check Ability” icon on the Crisis card, similar to the “Pass” and “Fail” results.</li>
     </ul>
   </li>
-  <li>Total the net strength of the cards (positive minus negative), taking into account any effects that modified them</li>
+  <li>Total the net strength of the cards (positive minus negative), taking into account any effects that modified them
+    <ul>
+      <li>Of course, players are allowed to do their own counting at any time. This step simply indicates calculation of the final result.</li>
+    </ul>
+  </li>
   <li>Determine outcome: Pass, partial pass, or fail
     <ul>
       <li>“A Second Chance” now applies if it was played</li>
