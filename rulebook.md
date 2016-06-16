@@ -302,15 +302,50 @@ function save() {
   }
 }
 
+// find all the selected / checked items and return a
+// querystring representing them
+function buildStateString() {
+  qs = [];
+  $('input,option').each(function(index, element) {
+    id = $(this).attr('id');
+    if (readCheckbox('#' + id)) {
+      qs.push(id);
+    }
+  });
+  return qs.join('&');
+}
+
+// enable this id (check it or select it)
+function setValue(id) {
+  $('#'+id).prop('checked', true);
+  $('#'+id).prop('selected', true);
+}
+
 function init() {
-  if (window.sessionStorage){
-    for (id in window.sessionStorage) {
-      $('#'+id).prop('checked', true);
-      $('#'+id).prop('selected', true);
+  // queryparam exists?
+  var qs = window.location.search;
+  if (!!qs) {
+    // use querystring to set values
+    qs = qs.replace("?", '').split('&');
+    for (var i=0; i < qs.length; i++) {
+      setValue(qs[i]);
+    }
+  } else {
+    // state exists?
+    if (window.sessionStorage){
+      for (id in window.sessionStorage) {
+        setValue(id);
+      }
     }
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
+
+  $('#generateUrl').click(function(e) {
+    e.preventDefault();
+    var url = window.location.origin + window.location.pathname + "?" + buildStateString();
+    $('#generatedUrl').val(url);
+  });
 }
 
 //var oldLoad = window.onload;
@@ -357,7 +392,9 @@ window.onload = function () {
     <label><input type="checkbox" name="forcemotive" id="forcemotive"> Variant: Replace Agenda cards with Motives from Daybreak</label><br>
     <label><input type="checkbox" name="variants" id="variants"> Show other official game variants</label><br>
     <label><input type="checkbox" name="help" id="help"> Show help</label><br>
-    <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label>
+    <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label><br>
+    <button id="generateUrl">Generate Config URL</button>
+      <input type="text" id="generatedUrl" name="generatedUrl" />
   </fieldset>
 </form>
 
