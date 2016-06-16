@@ -393,9 +393,8 @@ window.onload = function () {
     <label><input type="checkbox" name="variants" id="variants"> Show other official game variants</label><br>
     <label><input type="checkbox" name="help" id="help"> Show help</label><br>
     <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label><br>
-    <label><button id="generateUrl">Generate Config URL</button>
+    <button id="generateUrl">Generate Config URL</button>
       <input type="text" id="generatedUrl" name="generatedUrl" />
-    </label>
   </fieldset>
 </form>
 
