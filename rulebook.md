@@ -335,6 +335,9 @@ function setValue(id) {
 
 // This is the page initialization code
 $(function () {
+  // Obviously, we have JavaScript if this is running.
+  $("#nojsform").hide();
+
   // queryparam exists?
   var qs = window.location.search;
   if (!!qs) {
@@ -345,9 +348,7 @@ $(function () {
     }
     // Disable configuration, since this is preconfigured.
     // But they can choose to remove the configuration if desired.
-    $("#configform").hide();
     $("#preconfigform").show();
-    
   } else {
     // state exists?
     if (window.sessionStorage){
@@ -355,6 +356,8 @@ $(function () {
         setValue(id);
       }
     }
+    // Show the real config form
+    $("#configform").show();
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
@@ -362,7 +365,7 @@ $(function () {
 
 </script>
 
-<form id="configform">
+<form id="configform" style="display: none;">
   <fieldset id="configbox">
     <legend>Configuration:</legend>
     <label><input type="checkbox" name="pegasus" id="pegasus"> Pegasus</label><br>
@@ -410,6 +413,16 @@ $(function () {
     Click here to go back to the configurable rulebook.</a></p>
   </fieldset>
 </form>
+
+<form id="nojsform" >
+  <fieldset id="preconfigbox">
+    <legend>Configuration:</legend>
+    <p>JavaScript is either not enabled or not working. The rules for 
+    including every expansion, with no variants enabled, will
+    be shown instead, along with the rules for each possible ending. </p>
+  </fieldset>
+</form>
+
 
 <div class="help" markdown="1">
 ## Help

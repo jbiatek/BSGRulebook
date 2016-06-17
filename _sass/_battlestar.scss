@@ -1,0 +1,20 @@
+/**
+ * Default configuration when JavaScript isn't available.
+ * Everything is visible by default, so we just need to turn 
+ * off the stuff that we don't want. 
+ *
+ * By default, we'll try to give them as much official information
+ * as possible. These are the classes that are hidden when you 
+ * check all the non-variant options.  
+ */
+
+.noallendings, .nokobol, .nonewcaprica, .noioniannebula, .nosearchforhome, 
+.nopegasus, .forceexodus, .noexodus, .nopersonalgoal, .nofinalfive, 
+.nocylonfleet, .allyseasons, .forcepegasus, .nodaybreak, .nocylonleader, 
+.nosympathizer, .sympatheticcylon, .forceoverlay, .forcemotive, .highlight, 
+.generatedUrl, .noexpansion, .noexecution, .noexodusloyalty, .notreachery, 
+.noinfiltrator, .agenda, .noallies, .nooverlay, .help {
+    display: none;
+}
+
+
