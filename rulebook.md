@@ -343,6 +343,11 @@ $(function () {
     for (var i=0; i < qs.length; i++) {
       setValue(qs[i]);
     }
+    // Disable configuration, since this is preconfigured.
+    // But they can choose to remove the configuration if desired.
+    $("#configform").hide();
+    $("#preconfigform").show();
+    
   } else {
     // state exists?
     if (window.sessionStorage){
@@ -358,7 +363,7 @@ $(function () {
 </script>
 
 <form id="configform">
-  <fieldset>
+  <fieldset id="configbox">
     <legend>Configuration:</legend>
     <label><input type="checkbox" name="pegasus" id="pegasus"> Pegasus</label><br>
       <div style="margin-left: 20px" class="pegasus">
@@ -395,6 +400,14 @@ $(function () {
     <label>Share this configuration: 
       <input style="width: 100%;" type="text" id="generatedUrl" name="generatedUrl" />
     </label>
+  </fieldset>
+</form>
+
+<form id="preconfigform" style="display: none;">
+  <fieldset id="preconfigbox">
+    <legend>Configuration:</legend>
+    <p>This link was pre-configured. <a href="{{ site.baseurl}}rulebook.html">
+    Click here to go back to the configurable rulebook.</a></p>
   </fieldset>
 </form>
 
