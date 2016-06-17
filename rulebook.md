@@ -288,17 +288,28 @@ function flipSwitches () {
   
   // Save to local storage
   save();
+  
+  // Update the share URL box
+  var url = window.location.origin + window.location.pathname + "?" + buildStateString();
+  $('#generatedUrl').val(url);
+
 }
 
 function save() {
   if (window.sessionStorage){
-    $('input,option').each(function(index, element) {
-      if (readCheckbox('#'+$(this).attr('id') )) {
-        window.sessionStorage.setItem($(this).attr('id'), "1");
-      } else {
-        window.sessionStorage.removeItem($(this).attr('id'));
-      }
-    });  
+    try {
+      $('input,option').each(function(index, element) {
+        if (readCheckbox('#'+$(this).attr('id') )) { 
+          window.sessionStorage.setItem($(this).attr('id'), "1");
+        } else {
+          window.sessionStorage.removeItem($(this).attr('id'));
+        }
+      });  
+    } catch (err) {
+      // Probably not allowed. That's okay, this
+      // feature is optional so silently failing
+      // is okay. 
+    }
   }
 }
 
@@ -340,12 +351,6 @@ function init() {
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
-
-  $('#generateUrl').click(function(e) {
-    e.preventDefault();
-    var url = window.location.origin + window.location.pathname + "?" + buildStateString();
-    $('#generatedUrl').val(url);
-  });
 }
 
 //var oldLoad = window.onload;
@@ -385,7 +390,7 @@ window.onload = function () {
         <option value="allendings" id="allendings">Variant: Show rules for ALL endings</option>
       </select>
     </label>
-    <hr style="margin-top: 10px; margin-bottom: 10px;">
+    <hr>
     <label><input type="checkbox" name="nosympathizer" id="nosympathizer"> Use official "No Sympathizer" variant</label><br>
     <label><input type="checkbox" name="sympatheticcylon" id="sympatheticcylon"><span class="nopegasus"> Variant:</span> Use <span class="pegasus">official</span> "Sympathetic Cylon" variant <span class="nopegasus">without Pegasus</span></label><br>
     <label><input type="checkbox" name="forceoverlay" id="forceoverlay"> Variant: Use a Cylon Locations overlay</label><br>
@@ -393,8 +398,10 @@ window.onload = function () {
     <label><input type="checkbox" name="variants" id="variants"> Show other official game variants</label><br>
     <label><input type="checkbox" name="help" id="help"> Show help</label><br>
     <label><input type="checkbox" name="highlight" id="highlight"> Highlight modified rules</label><br>
-    <button id="generateUrl">Generate Config URL</button>
-      <input type="text" id="generatedUrl" name="generatedUrl" />
+    <hr>
+    <label>Share this configuration: 
+      <input style="width: 100%;" type="text" id="generatedUrl" name="generatedUrl" />
+    </label>
   </fieldset>
 </form>
 
