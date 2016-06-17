@@ -2,6 +2,7 @@
 layout: page
 title: Dynamic BSG rulebook
 toc: true
+toc_stop_autofire: true
 ---
 
 <script type="text/javascript">
@@ -284,7 +285,7 @@ function flipSwitches () {
   $('#basestardamage').attr('rowspan', rowspan);
     
   // Step 5: Refresh the table of contents.
-  $('#toc').toc({showEffect: 'none'});
+  $('#toc').toc({showSpeed: 0});
   
   // Save to local storage
   save();
@@ -332,7 +333,8 @@ function setValue(id) {
   $('#'+id).prop('selected', true);
 }
 
-function init() {
+// This is the page initialization code
+$(function () {
   // queryparam exists?
   var qs = window.location.search;
   if (!!qs) {
@@ -351,16 +353,7 @@ function init() {
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
-}
-
-//var oldLoad = window.onload;
-window.onload = function () {
-  //if (oldLoad) {
-  //  oldLoad();
-  //  $('#toc').toc();
-  //}
-  init();
-};
+});
 
 </script>
 

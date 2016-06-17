@@ -12,10 +12,12 @@
   {% if page.toc%}
   <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="{{ site.baseurl }}/js/toc.js"></script>
+  {% unless page.toc_stop_autofire %}
   <script type="text/javascript">
   $(document).ready(function() {
       $('#toc').toc();
   });
   </script>
+  {% endunless %}
   {% endif %}
 </head>
