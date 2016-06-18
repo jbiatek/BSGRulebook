@@ -99,8 +99,15 @@ function validateForm() {
   
   if (readCheckbox('#daybreak')) {
     enable('#searchforhome');
+    if ( ! $('#searchforhome').is(':selected')
+         && ! $('#allendings').is(':selected')) {
+      enable('#forcedemetrius');
+    } else {
+      forbidCheckbox('#forcedemetrius');
+    }
   } else {
     forbidMenu('#searchforhome');
+    forbidCheckbox('#forcedemetrius');
   }
   if (readCheckbox('#pegasus') || readCheckbox('#daybreak')) {
     enable('#cylonleader');
@@ -253,6 +260,15 @@ function flipSwitches () {
     hideThese.push('overlay');
   }
   
+  if (readCheckbox('#searchforhome')
+        || readCheckbox('#forcedemetrius')
+        || readCheckbox('#allendings')) {
+    showThese.push('demetrius');
+    hideThese.push('nodemetrius');
+  } else {
+    showThese.push('nodemetrius');
+    hideThese.push('demetrius');
+  }
   
   // Step 3: Show all the classes that need showing. 
   for (i in showThese) {
@@ -381,6 +397,9 @@ $(function () {
         <label><input type="checkbox" name="forcepegasus" id="forcepegasus"> Variant: use regular Loyalty Deck instead of "extra card"</label>
       </div>
     <label><input type="checkbox" name="daybreak" id="daybreak"> Daybreak</label><br>
+      <div style="margin-left: 20px" class="daybreak">
+        <label><input type="checkbox" name="forcedemetrius" id="forcedemetrius"> Variant: use the Demetrius board & Mission cards regardless of ending</label>
+      </div>
     <label><input type="checkbox" name="cylonleader" id="cylonleader"> Cylon Leader chosen</label><br>
     <label>Ending:
       <select id="ending">
@@ -627,6 +646,9 @@ To add the Daybreak expansion:
 - Add in the new Skill cards, including the "Mutiny" Treachery cards, which are a new type. <span class="pegasus">Note that the Daybreak and Pegasus Treachery cards are *not* intended to be mixed. When playing both expansions, use the Daybreak Treachery cards and remove the Pegasus Treachery cards from the game. </span>
 - Give each player 1 miracle token. 
 
+<div class="nosearchforhome demetrius" markdown="1">
+Place the Demetrius board to the left of the main game board and leave room for the Rebel Basestar board, which may be set up later as the result of a Mission. The Mission deck is shuffled and placed near Demetrius. 
+</div>
 
 </div>
 
@@ -877,8 +899,8 @@ For these expansions, these are some of the important new rules in effect:
   </li>
   <li class="daybreak">Assault raptors are piloted and can attack like vipers. They can't be "risked", but they can stay in space during jumps.</li>
   <li class="newcaprica">During and after the New Caprica phase, players may not use Colonial One.</li>
-  <li class="searchforhome">The Demetrius is a new ship where Missions can be attempted. A second Mission cannot be attempted until the fleet jumps. If a Mission gains distance, that distance is added immediately. The Skill Checks on Missions are not affected by any cards or character abilities, but limits on how many cards a player can add still apply.</li>
-  <li class="searchforhome">The Rebel Basestar is added to the game after a certain Mission is completed.</li>
+  <li class="demetrius">The Demetrius is a new ship where Missions can be attempted. A second Mission cannot be attempted until the fleet jumps. If a Mission gains distance, that distance is added immediately. The Skill Checks on Missions are not affected by any cards or character abilities, but limits on how many cards a player can add still apply.</li>
+  <li class="demetrius">The Rebel Basestar is added to the game after a certain Mission is completed.</li>
   <li>Revealed Cylon players must draw 2 cards of different types at the start of their turn.</li>
   <li>When a Cylon uses the Caprica location, the "Prepare for Jump" icon is <em>not</em> ignored.</li>
   <li>The hand of Quorum cards also has a 10 card limit, enforced at the end of each player's turn just like Skill cards.</li>
@@ -1110,11 +1132,11 @@ If a player chooses a character after an execution that corresponds with an Ally
 
 </div>
 
-<div class="searchforhome" markdown="1">
+<div class="demetrius" markdown="1">
 
 ### Demetrius & Missions
 
-Demetrius is used in the "Search for Home" ending. Its locations cannot be damaged. 
+Demetrius is another ship, and can be travelled to the same way as ships like Colonial One. Its locations cannot be damaged. 
 
 To activate a Mission, place the top card of the Mission deck face up on the "Active Mission" space. It is immediately resolved. Missions have the following restrictions:
 
@@ -1705,7 +1727,7 @@ When "FTL Control" is used to jump, the *current player* must first roll a die, 
 The procedure for jumping is:
 
 <ol>
-  <li class="searchforhome">Follow the instructions on the Active Mission space.</li>
+  <li class="demetrius">Follow the instructions on the Active Mission space.</li>
   <li class="cylonfleet">Move all Cylon ships to the respective space area on the Cylon Fleet board. When moving a damaged basestar, discard any damage tokens attached to it. Centurions remain where they are on the Boarding Party track.</li>
   <li class="cylonfleet">Return all <em>vipers</em> to the Reserves, but leave all civilian ships in place. Pilots who were flying ships move to the Hangar Deck. <span class="daybreak">Pilots of assault raptors may choose to remain in space, and the current player may choose to leave unmanned assault raptors in space.</span></li>
   <li class="nocylonfleet">All ships on the game board are removed and returned to their respective pile, the Reserves, etc. unless otherwise specified. Pilots who were flying ships move to the Hanger Deck. Centurions are <em>not</em> removed. <span class="daybreak">The current player may choose to leave unmanned assault raptors in space, and pilots of assault raptors may choose to remain in space.</span></li>
