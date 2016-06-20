@@ -430,6 +430,50 @@ $(function () {
     <legend>Configuration:</legend>
     <p>This link was pre-configured. <a href="{{ site.baseurl}}rulebook.html">
     Click here to go back to the configurable rulebook.</a></p>
+
+    <p>
+    This configuration includes:</p>
+    <ul>
+      <li class="pegasus"> Pegasus
+        <ul> 
+          <li>Pegasus expansion</li>
+          <li class="forceexodus">Variant: use "extra card" style Loyalty deck from Exodus</li>
+        </ul>
+      </li>
+      <li class="exodus"> Exodus
+        <ul>
+          <li>Exodus expansion</li>
+          <li class="personalgoal"> Personal Goal cards</li>
+          <li class="finalfive"> Final Five cards</li>
+          <li class="cylonfleet"> Cylon Fleet board</li>
+          <li class="allyseasons"> Variant: Allies for All Seasons</li>
+          <li class="forcepegasus"> Variant: use regular Loyalty Deck instead of "extra card"</li>
+        </ul>
+      </li>
+      <li class="daybreak"> Daybreak
+        <ul>
+          <li>Daybreak expansion</li>
+          <li class="forcedemetrius"> Variant: use the Demetrius board & Mission cards regardless of ending</li>
+          <li class="cylonleader"> Cylon Leader chosen</li>
+        </ul>
+      </li>
+      <li class="nosympathizer"> Official "No Sympathizer" variant</li>
+      <li class="sympatheticcylon"><span class="nopegasus"> Variant:</span> Use <span class="pegasus">official</span> "Sympathetic Cylon" variant <span class="nopegasus">without Pegasus</span></li>
+      <li class="forceoverlay"> Variant: Use a Cylon Locations overlay</li>
+      <li class="forcemotive"> Variant: Replace Agenda cards with Motives from Daybreak</li>
+      <li class="variants"> Show other official game variants</li>
+      <li class="help"> Show help</li>
+      <li class="highlight"> Highlight modified rules</li>
+      <li>Ending:
+        <ul>
+          <li class="kobol">Kobol</li>
+          <li class="newcaprica">New Caprica</li>
+          <li class="ioniannebula">Ionian Nebula</li>
+          <li class="searchforhome">Search for Home (Earth)</li>
+          <li class="allendings">Variant: Show rules for ALL endings</li>
+        </ul>
+      </li>
+    </ul> 
   </fieldset>
 </form>
 
