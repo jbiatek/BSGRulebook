@@ -2098,11 +2098,11 @@ Players may use any action they wish in the Brig. <span class="pegasus">They are
 
 #### Choosing players for Sickbay/Brig
 
-In general, players may make choices even if they know that they cannot fulfill the consequences of that choice. However, when choosing a character to send to the Brig or Sickbay, the end result must be a character moving from somewhere else to that location *if possible*. Characters with restricted movement (like being in the Brig, Helo's "Stranded", or a revealed Cylon) and characters that are already in that location are *not* valid targets to be sent to Sickbay or the Brig. 
+In general, players are allowed to make choices even if they know that they cannot actually fulfill the consequences of that choice. However, one exception is targeting players to be sent to the Brig or Sickbay. Players who are incapable of moving to the indicated location for any reason are *not* allowed to be chosen as the target. This includes any character with restricted movement (characters that are in the Brig, Helo while he is "Stranded", revealed Cylons) and characters already in that location. If possible, a character must be targeted that can actually be moved from somewhere else to the indicated location. 
 
-If no player exists who can be sent to the Brig or Sickbay, the overall effect can still be chosen, and the result is that nothing happens. If a subsequent effect depended on which character was chosen (for example, "Choose a character to send to Sickbay, then look at one of their Loyalty cards"), the subsequent effect is also skipped because no player could be chosen. 
+If no characters exist that can be legally targeted, the effect is resolved and nothing happens. If a subsequent effect depended on which character was chosen (for example, "Choose a character to send to Sickbay, then look at one of their Loyalty cards"), the subsequent effect is also skipped because no player could be chosen. 
 
-If such an effect targets a specific player, like the President, and that player cannot be moved or is already in that location, the effect can still be chosen, and the result is that nothing happens. For example, if given a choice between "Lose 2 morale" and "send the President to Sickbay", but the President is in the Brig, the second option can be chosen to avoid losing morale. 
+Note that this restriction only applies to choosing *which* character gets moved. Players are still allowed to select the "choose a character to send to the Brig/Sickbay" option even if they know that there are no legal targets. Similarly, if the option does not offer a choice, like "Send the President to Sickbay", the option can still be chosen if the specified target is not capable of being moved. Again, the result is that nothing happens. 
 
 #### Colonial One
 
