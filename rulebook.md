@@ -494,7 +494,7 @@ Use the checkboxes and menus above to select a configuration of Battlestar Galac
 
 ### All endings
 
-Many variants exist that add *all* the endings to the game. None of them are included here, but you can still use this rulebook for such a game by selecting "all endings". This will show all of the official rules for every ending. Whichever variant you are usings will tell you how to proceed through all the endings, but when you need to resolve "normal" gameplay events and issues they will be available.
+Many variants exist that add *all* the endings to the game. None of them are included here, but you can still use this rulebook for such a game by selecting "all endings". This will show all of the official rules for every ending. Whichever variant you are using will tell you how to proceed through all the endings, but when you need to resolve "normal" gameplay events and issues they will be available.
 
 ### Agendas and Motives
 
@@ -502,7 +502,7 @@ Pegasus and Daybreak both added Cylon Leaders, but the way that Cylon Leaders wi
 
 - Give the Cylon Leader a Hostile (for a 5 or 7 player game) or Sympathetic (4 or 6 player game) Agenda card when the first round of Loyalty cards goes out.
 - Ignore any mention of Motive cards in the rules. 
-- The holder of the Agenda card wins or loses at the end of the game based on the text of the Agenda card. 
+- Use the text of the Agenda card to determine whether the Cylon Leader wins or loses at the end of the game. 
 
 ### Sympathizer variants
 
@@ -2104,11 +2104,11 @@ If no characters exist that can be legally targeted, the effect is resolved and 
 
 Note that this restriction only applies to choosing *which* character gets moved. Players are still allowed to select the "choose a character to send to the Brig/Sickbay" option even if they know that there are no legal targets. Similarly, if the option does not offer a choice, like "Send the President to Sickbay", the option can still be chosen if the specified target is not capable of being moved. Again, the result is that nothing happens. 
 
+<div class="daybreak" markdown="1">
 #### Colonial One
 
-If Colonial One is destroyed by a game effect, flip the overlay over to reveal the "Colonial One Destroyed" side. (These effects are only included in Daybreak which includes the overlay.) Any characters on board are sent to Sickbay, and the locations on Colonial One are inaccessible for the rest of the game.
-
-During the New Caprica phase, Colonial One is not accessible. (In the show, the Cylons were using it as a base of operations, and it was the last ship to escape, so story-wise it only becomes accessible after the game is over.)
+If Colonial One is destroyed by a game effect, flip the overlay over to reveal the "Colonial One Destroyed" side. Any characters on board are sent to Sickbay, and the locations on Colonial One are inaccessible for the rest of the game.
+</div>
 
 
 <div class="exodus nopegasus nodaybreak" markdown="1">
@@ -2148,7 +2148,7 @@ The humans reach New Caprica and attempt to settle there. However, they are disc
 1. If this distance was reached via a jump, go through the [normal jump procedure](#jumping-the-fleet) including resetting the fleet marker. <span class="daybreak">Assault raptors are not allowed to remain in space for this jump.</span>
     - If the destination is "Gas Cloud", the Admiral examines the New Caprica Crisis deck after it is ready, not the old Crisis deck.
     - The Destination card could put ships back on the main game board after the jump. Leave them where they are unless instructed otherwise. 
-2. If it was not reached via a jump (for example earning distance through a Skill check), just reset the fleet marker. 
+2. If this distance was not reached via a jump, reset the fleet marker. 
 4. Remove the Crisis deck from the game. The New Caprica Crisis deck will be used in its place for the rest of the game. Shuffle it and place it next to the board. 
 5. The New Caprica game board is placed above the Pegasus game board.
 6. All human players are moved to "Resistance HQ", including any in the Brig. Piloted vipers are returned to the Reserves. 
@@ -2200,17 +2200,17 @@ When a character is on a New Caprica location:
 
 Just like the Brig, a Cylon who reveals in Detention does not get to use the ability on their Loyalty card. Similar to the Brig, when the board says that a player who passes the Skill check may move to "any location", it actually means any location _on New Caprica_.
 
-Unlike the Brig, the Admiral does not lose their title when sent to Detention. Players still draw a Crisis card in Detention. 
+Unlike the Brig, the Admiral does not lose their title when sent to Detention. <span class="cylonfleet">Neither does the CAG. </span>Players still draw a Crisis card in Detention. 
 
 If Romo Lampkin is on New Caprica and uses "Attorney", he instead moves a character from Detention to a location on New Caprica and steals their Skill cards. 
 
 #### Before Galactica returns
 
-Players are only allowed to move to New Caprica locations. All other locations are completely inaccessible, and cannot be moved to or activated remotely. The Galactica space areas, <span class="cylonfleet">Cylon Fleet board, </span> and any Cylon ships or Centurions in them are not affected by any game mechanics. 
+Players are only allowed to move to New Caprica locations. All other locations are completely inaccessible, and cannot be moved to or activated remotely. The Galactica space areas<span class="cylonfleet">, Cylon Fleet board, </span> and any Cylon ships or Centurions in them are not affected by *any* game mechanics. 
 
 Game effects that would normally send a player to the Resurrection Ship instead send them to the Medical Center. This includes ending Infiltration, execution, and revealing as a Cylon. It is not possible to begin Infiltrating because that would require first moving to the Human Fleet location. 
 
-Resolve New Caprica Crisis cards the same way as regular Crisis cards, but ignore the "evacuation icon" and any Cylon ship activation that is not "Occupation Forces". In addition, ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. 
+Resolve New Caprica Crisis cards [the same way as regular Crisis cards](#crisis-card-resolution), but ignore the "evacuation icon" and any Cylon ship activation that is not "Occupation Forces". In addition, ignore anything that says to place, move, destroy, repair, or damage any ships including vipers, Galactica, and Pegasus. Civilian ships cannot be placed in space areas. 
 
 The fleet marker advances when the "Prepare for Jump" icon appears, as usual. When it reaches "Auto Jump", do not follow the normal jump procedure. Instead, [Galactica returns and the final battle is set up.](#after-galactica-returns)
 
