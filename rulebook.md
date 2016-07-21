@@ -630,13 +630,19 @@ When an expansion includes a "fancy" version of an existing component, such as t
 - Two vipers below Galactica (one in each space area with the launch tube icon)
 - Two civilian ships behind Galactica (right space area). 
 
-<p class="overlay nopegasus nodaybreak">One or more variants is turned on which requires a Cylon Locations overlay. Take one from either Pegasus or Daybreak, and cover the normal Cylon Locations with the overlay, with the side that says "Cylon Locations" face up. </p>
+<div class="overlay nopegasus nodaybreak" markdown="1">
+![A Cylon Locations overlay](images/overlay.png)
+
+One or more variants is turned on which requires a Cylon Locations overlay. Take one from either Pegasus or Daybreak, and cover the normal Cylon Locations with the overlay, with the side that says "Cylon Locations" face up. 
+</div>
 
 <div class="pegasus" markdown="1">
 
 ### Pegasus
 
 To add the Pegasus expansion, first remove the existing "Investigative Committee" cards from the base game's Politics deck. Pegasus includes a new set of "Investigative Committee" cards that *don't* show the Destiny deck's cards. 
+
+<img class="nodaybreak" src="images/overlay.png" alt="A Cylon Locations overlay">
 
 Put the Battlestar Pegasus board to the right of the main board so that the space for the Treachery skill card deck lines up with the other Skill card decks. <span class="nodaybreak">Put the "Cylon Locations" overlay on top of the main board's Cylon Locations.</span><span class="daybreak">Do not use the Pegasus "Cylon Locations" overlay, the Daybreak one will be used instead.</span>
 
