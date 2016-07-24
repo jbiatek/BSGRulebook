@@ -456,9 +456,9 @@ $(function () {
         <ul>
           <li>Daybreak expansion</li>
           <li class="forcedemetrius"> Variant: use the Demetrius board & Mission cards regardless of ending</li>
-          <li class="cylonleader"> Cylon Leader chosen</li>
         </ul>
       </li>
+      <li class="cylonleader"> Cylon Leader chosen</li>
       <li class="nosympathizer"> Official "No Sympathizer" variant</li>
       <li class="sympatheticcylon"><span class="nopegasus"> Variant:</span> Use <span class="pegasus">official</span> "Sympathetic Cylon" variant <span class="nopegasus">without Pegasus</span></li>
       <li class="forceoverlay"> Variant: Use a Cylon Locations overlay</li>
@@ -645,6 +645,9 @@ One or more variants is turned on which requires a Cylon Locations overlay. Take
 <div class="pegasus" markdown="1">
 
 ### Pegasus
+
+
+![Investigative Committee card](images/ic.png)
 
 To add the Pegasus expansion, first remove the existing "Investigative Committee" cards from the base game's Politics deck. Pegasus includes a new set of "Investigative Committee" cards that *don't* show the Destiny deck's cards. 
 
