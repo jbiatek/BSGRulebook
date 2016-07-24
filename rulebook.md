@@ -869,20 +869,21 @@ If playing with 4 or 6 players, the "No Sympathizer" variant rules will apply to
 If playing with 4 or 6 players, get the "You Are a Sympathizer" card, and set it aside. Don't add it to the Loyalty deck yet. It is added to the Loyalty deck *after* the first round of cards go out. 
 </p>
 
-Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are now removed from the game without revealing them. 
-
-The Loyalty deck is now complete. Shuffle it and distribute 1 card to every player<span class="cylonleader"> except for the Cylon Leader</span>. As per his weakness, Gaius Baltar (Political) receives 2 Loyalty cards instead of 1. <span class="nodaybreak nocylonleader nonosympathizer">After the first round is dealt, add any cards that were set aside to be added later, like the Sympathizer or Sympathetic Cylon.</span>
-
-<p class="cylonleader agenda" markdown="1">
-In a 4 or 6 player game, give the Cylon Leader a random Agenda card from the Sympathetic Agenda deck. (This deck has Caprica Six on the back.) In a 5 or 7 player game, give the Cylon Leader a random Agenda card from the Hostile Agenda deck. (This deck has a Centurion on the back.)
-</p>
-
 <p class="motive nodaybreak notreachery" markdown="1">
 The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" and "Fight with Honor" cards from the game before any are dealt out. (They refer to Mutiny cards and Treachery cards, respectively, both of which are not in this game.)
 </p>
 
 <p class="motive nodaybreak treachery" markdown="1">
 The Motive deck needs to have some cards removed for this variant. Find and remove the "Make an Ally" card from the game. (It refers to Mutiny cards, which aren't in this game.) To balance out the deck, find all 7 cards with Cylon allegiance and remove 1 at random from the game. 
+</p>
+
+
+Keep the "Not a Cylon" deck, taking care to keep it separate from the actual Loyalty deck. It might be used later to add more cards to the Loyalty deck. The unused cards from the "Cylon" deck are now removed from the game without revealing them. 
+
+The Loyalty deck is now complete. Shuffle it and distribute 1 card to every player<span class="cylonleader"> except for the Cylon Leader</span>. As per his weakness, Gaius Baltar (Political) receives 2 Loyalty cards instead of 1. <span class="nodaybreak nocylonleader nonosympathizer">After the first round is dealt, add any cards that were set aside to be added later, like the Sympathizer or Sympathetic Cylon.</span>
+
+<p class="cylonleader agenda" markdown="1">
+In a 4 or 6 player game, give the Cylon Leader a random Agenda card from the Sympathetic Agenda deck. (This deck has Caprica Six on the back.) In a 5 or 7 player game, give the Cylon Leader a random Agenda card from the Hostile Agenda deck. (This deck has a Centurion on the back.)
 </p>
 
 <p class="cylonleader motive" markdown="1">
@@ -1441,7 +1442,7 @@ In order to win, at the end of the game the Sympathetic Cylon must have revealed
 After revealing, they also draw a Sympathetic Agenda card (the ones with 4-6 and Caprica Six on the back). The Sympathetic Cylon must meet all the conditions on the card to win at the end of the game. They are also allowed to [Infiltrate](#infiltrating) by using an action at the "Human Fleet" location.
 </p>
 
-The Sympathetic Cylon does not use their old human character sheet. It is disregarded just like a standard Cylon player. While Infiltrating, since they no longer have a Skill set, they draw in the normal fashion for a Cylon, drawing their choice of Skill cards<span class="expansion"> of different types</span>, but with a 1 card bonus, for a total of 3 Skill cards <span class="expansion">of different types</span>. 
+The Sympathetic Cylon does not use their old human character sheet. It is disregarded just like a standard Cylon player. While Infiltrating, since they no longer have a Skill set, they draw in the normal fashion for a Cylon, drawing their choice of Skill cards<span class="expansion"> of different types</span>, but with a 1 card bonus, for a total of 3 Skill cards<span class="expansion"> of different types</span>. 
 
 </div>
 
@@ -1888,7 +1889,7 @@ With the Cylon Fleet board, a nuke targets an entire space area:
 
 </div>
 
-When a human combat ship is destroyed, it is removed from the game. If it was piloted, that character is moved to Sickbay. Cylon ships are never permanently destroyed, they are always returned to the pile next to the board. 
+When a human combat ship is destroyed, it is removed from the game. If it was piloted, that character is moved to Sickbay. Cylon ships are not permanently destroyed by an attack, they are just returned to the pile next to the board. 
 
 #### Basestar damage
 
