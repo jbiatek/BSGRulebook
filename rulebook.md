@@ -352,7 +352,8 @@ function setValue(id) {
 // This is the page initialization code
 $(function () {
   // Obviously, we have JavaScript if this is running.
-  $("#nojsform").hide();
+  $(".nojs").hide();
+  $(".js").show();
 
   // queryparam exists?
   var qs = window.location.search;
@@ -364,7 +365,8 @@ $(function () {
     }
     // Disable configuration, since this is preconfigured.
     // But they can choose to remove the configuration if desired.
-    $("#preconfigform").show();
+    $(".preconfigured").show();
+    $(".nopreconfigured").hide();
   } else {
     // state exists?
     if (window.sessionStorage){
@@ -425,7 +427,7 @@ $(function () {
   </fieldset>
 </form>
 
-<form id="preconfigform" style="display: none;">
+<form id="preconfigform" class="preconfigured" style="display: none;">
   <fieldset id="preconfigbox">
     <legend>Configuration:</legend>
     <p>This link was pre-configured. <a href="{{ site.baseurl}}rulebook.html">
@@ -477,7 +479,7 @@ $(function () {
   </fieldset>
 </form>
 
-<form id="nojsform" >
+<form id="nojsform" class="nojs">
   <fieldset id="preconfigbox">
     <legend>Configuration:</legend>
     <p>JavaScript is either not enabled or not working. The rules for 
@@ -536,6 +538,10 @@ Some game mechanics depend on the Exodus version, like Personal Goal cards and s
 
 
 {% include toc.html %}
+
+<div id="statictoc" class="nojs">
+<i>Jump to...</i> <ol><li><a href="#introduction">Introduction</a></li><li><a href="#the-basics">The basics</a><ol><li><a href="#strategy">Strategy</a></li></ol></li><li><a href="#game-setup">Game setup</a><ol><li><a href="#game-board">Game board</a></li><li><a href="#pegasus">Pegasus</a></li><li><a href="#exodus">Exodus</a></li><li><a href="#daybreak">Daybreak</a></li><li><a href="#kobol-ending">Kobol ending</a></li><li><a href="#new-caprica-ending">New Caprica ending</a></li><li><a href="#ionian-nebula-ending">Ionian Nebula ending</a></li><li><a href="#search-for-home-ending">Search for Home ending</a></li><li><a href="#choosing-characters">Choosing characters</a></li><li><a href="#loyalty-deck">Loyalty Deck</a></li><li><a href="#first-hand-of-cards">First hand of cards</a></li><li><a href="#ionian-nebula-additional-setup">Ionian Nebula additional setup</a></li><li><a href="#rule-reminders">Rule reminders</a></li></ol></li><li><a href="#playing-the-game">Playing The Game</a><ol><li><a href="#game-turn">Game turn</a></li><li><a href="#player-terminology">Player terminology</a></li><li><a href="#secrecy">Secrecy</a></li><li><a href="#resolving-rule-conflicts">Resolving rule conflicts</a></li><li><a href="#component-limitations">Component limitations</a></li><li><a href="#die-rolls">Die rolls</a></li><li><a href="#timing">Timing</a></li><li><a href="#resources">Resources</a></li><li><a href="#trauma-tokens">Trauma Tokens</a><ol><li><a href="#trauma-tokens-on-locations">Trauma tokens on locations</a></li></ol></li><li><a href="#ally-cards">Ally cards</a><ol><li><a href="#placing-a-new-ally">Placing a new Ally</a></li><li><a href="#ally-replaced-with-player-or-location-damaged">Ally replaced with player, or location damaged</a></li></ol></li><li><a href="#demetrius--missions">Demetrius &amp; Missions</a></li><li><a href="#rebel-basestar-human-or-cylon">Rebel Basestar (human or Cylon)</a></li><li><a href="#character-sheets">Character sheets</a></li><li><a href="#once-per-game">Once per game</a></li><li><a href="#loyalty-cards">Loyalty cards</a><ol><li><a href="#personal-goal-cards">Personal Goal cards</a></li><li><a href="#final-five-cards">Final Five cards</a></li><li><a href="#the-mutineer">The Mutineer</a></li></ol></li><li><a href="#mutiny-cards">Mutiny cards</a><ol><li><a href="#drawing-a-second-mutiny-card">Drawing a second Mutiny card</a></li><li><a href="#discarding-treachery-cards-and-gaining-mutiny-cards">Discarding Treachery cards and gaining Mutiny cards</a></li></ol></li><li><a href="#cylon-players">Cylon Players</a><ol><li><a href="#cylon-reveal-resolution">Cylon Reveal resolution</a></li></ol></li><li><a href="#titles">Titles</a><ol><li><a href="#president">President</a></li><li><a href="#admiral">Admiral</a></li><li><a href="#cag-commander-air-group">CAG (Commander, Air Group)</a></li></ol></li><li><a href="#lines-of-succession">Lines of Succession</a></li><li><a href="#actions--abilities">Actions &amp; Abilities</a><ol><li><a href="#movement-actions">Movement actions</a></li></ol></li><li><a href="#moves">Moves</a><ol><li><a href="#sabotage-treachery-card-interrupt">“Sabotage” Treachery card interrupt</a></li><li><a href="#moves-versus-movement-actions">Moves versus Movement actions</a></li></ol></li><li><a href="#skill-cards">Skill Cards</a><ol><li><a href="#skill-check-abilities">Skill Check Abilities</a></li><li><a href="#reckless-cards-and-abilities">Reckless cards and abilities</a></li><li><a href="#types">Types</a></li><li><a href="#destiny-deck">Destiny Deck</a></li></ol></li><li><a href="#crisis-card-resolution">Crisis card resolution</a></li><li><a href="#event-crisis-cards">Event Crisis cards</a></li><li><a href="#super-crisis-cards">Super Crisis Cards</a></li><li><a href="#skill-check-resolution">Skill Check resolution</a></li><li><a href="#activating-cylon-ships">Activating Cylon ships</a><ol><li><a href="#activating-a-raider">Activating a raider</a></li><li><a href="#activating-heavy-raiders-and-centurions">Activating heavy raiders and Centurions</a></li></ol></li><li><a href="#jumping-the-fleet">Jumping the fleet</a></li><li><a href="#sleeper-agent-phase">Sleeper Agent phase</a><ol><li><a href="#revealed-cylons-during-the-sleeper-agent-phase">Revealed Cylons during the Sleeper Agent phase</a></li></ol></li><li><a href="#combat-ship-attack-table">Combat ship attack table</a><ol><li><a href="#basestar-damage">Basestar damage</a></li><li><a href="#damaging-galactica">Damaging Galactica</a></li><li><a href="#damaging-pegasus">Damaging Pegasus</a></li><li><a href="#scar">Scar</a></li></ol></li><li><a href="#human-combat-ships">Human combat ships</a><ol><li><a href="#civilian-ships">Civilian ships</a><ol><li><a href="#drawing-and-destroying">Drawing and destroying</a></li></ol></li><li><a href="#raptors">Raptors</a></li><li><a href="#vipers">Vipers</a></li><li><a href="#mark-vii-vipers">Mark VII Vipers</a></li><li><a href="#assault-raptors">Assault raptors</a></li><li><a href="#piloting">Piloting</a></li></ol></li><li><a href="#execution">Execution</a><ol><li><a href="#finishing-a-cylon-execution">Finishing a Cylon execution</a></li><li><a href="#finishing-a-human-execution">Finishing a human execution</a></li></ol></li><li><a href="#character-ability-notes">Character ability notes</a></li><li><a href="#location-notes">Location notes</a><ol><li><a href="#commmand">Commmand</a></li><li><a href="#the-brig">The Brig</a></li><li><a href="#choosing-players-for-sickbaybrig">Choosing players for Sickbay/Brig</a></li><li><a href="#colonial-one">Colonial One</a></li><li><a href="#cylon-fleet-location">Cylon Fleet location</a></li><li><a href="#basestar-bridge">Basestar Bridge</a></li></ol></li></ol></li><li><a href="#ending-the-game">Ending the game</a><ol><li><a href="#new-caprica-phase">New Caprica phase</a><ol><li><a href="#new-caprica-phase-setup">New Caprica phase setup</a></li><li><a href="#new-caprica-phase-rules">New Caprica phase rules</a><ol><li><a href="#occupation-forces">Occupation Forces</a></li><li><a href="#preparing-civilian-ships">Preparing civilian ships</a></li><li><a href="#brig-versus-detention">Brig versus Detention</a></li></ol></li><li><a href="#before-galactica-returns">Before Galactica returns</a></li><li><a href="#after-galactica-returns">After Galactica returns</a></li><li><a href="#evacuating-new-caprica">Evacuating New Caprica</a></li></ol></li><li><a href="#ionian-nebula-crossroads-phase">Ionian Nebula: Crossroads Phase</a><ol><li><a href="#battle-of-the-ionian-nebula">Battle of the Ionian Nebula</a></li><li><a href="#crossroads">Crossroads</a></li><li><a href="#the-trialboxing-the-line">The Trial/Boxing the Line</a></li><li><a href="#elimination">Elimination</a></li></ol></li><li><a href="#human-loss">Human loss</a></li><li><a href="#final-jump">Final jump</a></li></ol></li></ol>
+</div>
 
 ## Introduction
 
@@ -769,11 +775,11 @@ First, build two decks of Loyalty cards: the "You Are a Cylon" and the "You Are 
 
 <span class="finalfive">Next, add the Final Five<span class="personalgoal"> and Personal Goal</span> cards to the "Not a Cylon" deck.</span><span class="personalgoal nofinalfive">Next, add the Personal Goal cards to the "Not a Cylon" deck.</span>
 
-<p class="treachery" markdown="1">These instructions assume that <span class="cylonleader">**one player is playing a Cylon Leader**</span><span class="nocylonleader">**no one is playing as a Cylon Leader**</span>. If this is not the case, <a href="javascript:toggleCL()">click this link</a> or go to the top of the page and change the Cylon Leader option.</p>
+<p class="treachery js" markdown="1">These instructions assume that <span class="cylonleader">**one player is playing a Cylon Leader**</span><span class="nocylonleader">**no one is playing as a Cylon Leader**</span>. <span class="nopreconfigured">If this is not the case, <a href="javascript:toggleCL()">click this link</a> or go to the top of the page and change the Cylon Leader option.</span></p>
 
 Shuffle both decks separately, then form the initial Loyalty deck according to this table:
 
-<div class="nocylonleader noexodusloyalty" markdown="1">
+<div class="nocylonleader noexodusloyalty js" markdown="1">
 
 | Players |  Cylon cards | Not a Cylon cards | 
 | ------- | ------------ | ----------------- |
@@ -783,7 +789,7 @@ Shuffle both decks separately, then form the initial Loyalty deck according to t
 |    6    |      2       |         9         | 
 
 </div>
-<div class="cylonleader noexodusloyalty" markdown="1">
+<div class="cylonleader noexodusloyalty js" markdown="1">
 
 | Players |  Cylon cards | Not a Cylon cards | 
 | ------- | ------------ | ----------------- |
@@ -793,7 +799,7 @@ Shuffle both decks separately, then form the initial Loyalty deck according to t
 |    7    |      2       |        10         | 
 
 </div>
-<div class="nocylonleader exodusloyalty" markdown="1">
+<div class="nocylonleader exodusloyalty js" markdown="1">
 
 | Players |  Cylon cards | Not a Cylon cards | 
 | ------- | ------------ | ----------------- |
@@ -803,7 +809,7 @@ Shuffle both decks separately, then form the initial Loyalty deck according to t
 |    6    |      2       |         10        | 
 
 </div>
-<div class="cylonleader exodusloyalty" markdown="1">
+<div class="cylonleader exodusloyalty js" markdown="1">
 
 | Players |  Cylon cards | Not a Cylon cards | 
 | ------- | ------------ | ----------------- |
@@ -813,6 +819,28 @@ Shuffle both decks separately, then form the initial Loyalty deck according to t
 |    7    |      2       |        11         | 
 
 </div>
+<div class="nojs" markdown="1">
+
+If no one is playing as a Cylon Leader:
+
+| Players |  Cylon cards | Not a Cylon cards | 
+| ------- | ------------ | ----------------- |
+|    3    |      1       |         6         | 
+|    4    |      1       |         7         | 
+|    5    |      2       |         9         | 
+|    6    |      2       |         10        | 
+
+If a player is a Cylon Leader:
+
+| Players |  Cylon cards | Not a Cylon cards | 
+| ------- | ------------ | ----------------- |
+|    4    |      1       |         6         | 
+|    5    |      1       |         8         | 
+|    6    |      2       |         9         | 
+|    7    |      2       |        11         | 
+
+</div>
+
 
 If a player chose Sharon "Boomer" Valerii (Pilot), add 1 more "Not a Cylon" card. 
 
