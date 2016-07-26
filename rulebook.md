@@ -1111,11 +1111,14 @@ Otherwise, in general when multiple players want to perform abilities in the sam
 
 When playing a card, it ceases to be "yours" or "in your hand" when resolution of the card text begins. For example, if you have 5 cards in your hand, then play a card like Pegasus's "Support the People" which allows players with 4 or less cards in hand to do something, you count as having 4 cards. <span class="daybreak">This also means that players are not sent to the Brig if they draw a Mutiny card as a result of playing a Mutiny card.</span> Technically, it counts as discarded at that point as well (unless the text indicates that it should be kept in play), although in practice players will probably want to keep it on the board while the card is resolved. This shouldn't make any difference unless the discard pile needs to be reshuffled while the card is being resolved. If this happens, the played card should be included in the shuffled deck. 
 
+If multiple players are instructed to do something that involves drawing cards, start with the player who initiated the action, if applicable, otherwise the current player, and proceed clockwise until each player has completed the instruction. If the instruction involves multiple steps, each player performs all of the steps. For example, when following "All players discard 1 Skill card and draw 1 Treachery card", the current player does their discard and draw, then the next player discards and draws, and so on. 
+
+If multiple players are instructed to discard cards with no card drawing involved, the discard happens simultaneously. In other words, each player must select the card(s) that they will discard before seeing the other discarded cards. 
+
 Players must be given a reasonable opportunity to use abilities. For example, you may not rush to put cards into a Skill check to prevent players from using a card that can only be played before cards are added. 
 
 The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are resolved first when activating Cylon ships. 
 
-When "all players" are instructed to do something, unless otherwise specified the current player goes first, moving in clockwise order. 
 
 ### Resources
 
@@ -1215,9 +1218,9 @@ Allies are not reused, so if the deck is depleted no more Allies are placed.
 
 If a player chooses a character after an execution that corresponds with an Ally currently on the board, or if a location containing an Ally is damaged or destroyed, the Ally is removed from the game <span class="ioniannebula">(without revealing the Trauma token)</span> and a new non-duplicate Ally is drawn. 
 
-<p class="ioniannebula" markdown="1">The Cylon player with the most Trauma tokens chooses one of *their own* tokens to place on the new Ally. If there is a tie for most tokens, the current player chooses which Cylon player places the token. If there are no Cylon players with tokens, draw a random token from the pool to place on the Ally. </p>
+<p class="ioniannebula" markdown="1">The Cylon player with the most Trauma tokens chooses one of *their own* tokens to place on the new Ally. If there is a tie for most tokens, break the tie based on which player is closest to taking a game turn (or, in other words, the first player starting from the current player and proceeding clockwise). If there are no Cylon players with tokens, draw a random token from the pool to place on the Ally. </p>
 
-<p class="allyseasons" markdown="1">After this occurs, the Cylon player with the most Trauma tokens may look at the entire Mood Pool and exchange one token from the Mood Pool with one of their own. If there is a tie for most tokens, the current player selects which tied player examines the pool. If there are no Cylon players with tokens, nothing happens.</p>
+<p class="allyseasons" markdown="1">After this occurs, the Cylon player with the most Trauma tokens may look at the entire Mood Pool and exchange one token from the Mood Pool with one of their own. If there is a tie for most tokens, break the tie based on which player is closest to taking a game turn (or, in other words, the first player starting from the current player and proceeding clockwise). If there are no Cylon players with tokens, nothing happens.</p>
 
 </div>
 
@@ -2028,7 +2031,9 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 #### First steps
 
-If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. <span class="exodusloyalty">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished.</span>
+If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. 
+
+<p class="exodusloyalty">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished. <span class="allies">If an Ally executed you, replace the Ally <a href="#ally-replaced-with-player-or-location-damaged">as if it were in a location that got damaged</a> after your execution is finished.</span></p>
 
 After that, the execution proceeds differently based on whether you are actually a human or not. 
 
@@ -2083,7 +2088,7 @@ You cannot use a new character's ability on the effect that executed the previou
 
 ### Character ability notes
 
-When Helo re-rolls a die that had "Strategic Planning" applied to it, the re-roll also receives +2 to the result. Players may also choose to apply "Strategic Planning" to the re-roll if it wasn't used originally. 
+When Helo uses "ECO Officer" to re-roll a die that had "Strategic Planning" applied to it, the re-roll also receives +2 to the result. Players may also choose to apply "Strategic Planning" to the re-roll if it wasn't used originally. 
 
 Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone] Chooses" Crisis. He cannot, however, influence any choices that must be made *within* that box. For example, if the chosen box says that the President must either give up their title or go to the Brig, Helo does not have the power to influence the President's decision. 
 
@@ -2112,6 +2117,8 @@ Athena's "For Love" ability cannot be used in the following cases:
 - A player with no Skill cards wants to move to another ship
 - A Super Crisis card is being resolved
 - A player is discarding to resolve a character ability, like Kat's "Hotshot", Hoshi's "Dutiful", and Anders's "Star Player". 
+
+If Athena draws "Sabotage" while multiple players are discarding, she cannot use it on a Treachery card that is being simultaneously discarded. See the [Timing section](#timing) for more information about when a discard is "simultaneous". 
 
 <p class="newcaprica" markdown="1">Athena's "Resolute" ability can activate either the human or Cylon action on a New Caprica location.</p>
 
