@@ -770,6 +770,8 @@ Each character has a category: Political, Military, Pilot, and Support. Support 
 
 Once all characters are chosen, distribute titles to the highest in the [lines of succession](#lines-of-succession). 
 
+
+
 ### Loyalty Deck
 
 ![The back of the Loyalty cards](images/loyalty.png)
@@ -1038,9 +1040,13 @@ If, at any time during a turn, the fleet earns more distance, finish resolving t
 
 ### Player terminology
 
-The word "player" refers to any player in the game, human or Cylon. A "human player" is a player who is either truly human, or a hidden Cylon. A "Cylon player" is a player who has revealed as a Cylon<span class="cylonleader"> (or a Cylon Leader who is not Infiltrating)</span>. If a player has both a "You Are a Cylon" and a "You Are Not a Cylon" card, they are a Cylon. 
+The word "player" refers to any player in the game, human or Cylon. A "Cylon player" is a player who has revealed as a Cylon. Any player that is not a "Cylon player" is a "human player", even if they are secretly a Cylon. 
 
-Players who have a hidden "You Are a Cylon" card are secretly Cylons, but until they reveal they follow all the rules for human players (and should probably pretend to be human until the time comes to reveal). Even if a player is very obviously sabotaging the humans, or even admits to being a Cylon, they are treated as a human player until they reveal their Cylon card. Cylons always win or lose with the Cylon team, even if they never reveal themselves. 
+<p class="cylonleader">Cylon Leaders are Cylon players as well, unless they Infiltrate.</p>
+
+If a player has both a "You Are a Cylon" and a "You Are Not a Cylon" card, they are a hidden Cylon. 
+
+Players who have a hidden "You Are a Cylon" card are secretly Cylons, but until they reveal they follow all the rules for human players (and should probably pretend to be human until the time comes to reveal). Even if a player is very obviously sabotaging the humans, or even admits to being a Cylon, they are still a "human player" until they reveal their Cylon card. Cylons always win or lose with the Cylon team, even if they never reveal themselves. 
 
 ### Secrecy
 
@@ -1051,6 +1057,7 @@ As a game of hidden agendas and secrets, secrecy is very important. Without any 
 - When players get to look at the top card of a deck, they may not disclose specific information about that card. This also applies when a player is allowed to look at another's Loyalty card. 
 - Players may not reveal the specifics of civilian ships that they have seen. 
 - Revealed Cylons may not say which Super Crisis card(s) they have.
+- When a card is directed to be placed at the bottom of a deck, players may not look at it. It was put there to be kept secret. 
 
 Players are always allowed to speculate and accuse players of being Cylons or humans, and are also allowed to lie. If a player sees another's Loyalty card, they may disclose (or lie about) whether it was a Cylon or not (but not specific information, like what the reveal power was). 
 
@@ -1100,7 +1107,7 @@ Die rolls can be changed by game effects, but the result cannot be made greater 
 
 This rulebook is very specific about the separate phases of resolving various cards and events, so if two players wish to use "interrupting" abilities at the same time, refer to the appropriate procedure. There may be guidance about which ability occurs first, or it may indicate that the two abilities actually occur in different steps. Skill Checks, in particular, have a [surprising number of steps](#skill-check-resolution) where different abilities can apply. 
 
-Otherwise, in general when multiple players want to perform abilities in the same "timing window", a timing conflict occurs, or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the withdrawn ability was on a card being played, the player takes the card back. 
+Otherwise, in general when multiple players want to perform abilities in the same "timing window" or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the withdrawn ability was on a card being played, the player takes the card back. 
 
 When playing a card, it ceases to be "yours" or "in your hand" when resolution of the card text begins. For example, if you have 5 cards in your hand, then play a card like Pegasus's "Support the People" which allows players with 4 or less cards in hand to do something, you count as having 4 cards. <span class="daybreak">This also means that players are not sent to the Brig if they draw a Mutiny card as a result of playing a Mutiny card.</span> Technically, it counts as discarded at that point as well (unless the text indicates that it should be kept in play), although in practice players will probably want to keep it on the board while the card is resolved. This shouldn't make any difference unless the discard pile needs to be reshuffled while the card is being resolved. If this happens, the played card should be included in the shuffled deck. 
 
@@ -1250,7 +1257,7 @@ Each character's sheet lists these items:
 - Type. Used for selecting a well-rounded group of characters to start.
 - Abilities. These include
     - A standard ability, which may be an action or a passive trait.
-    - A "once-per-game" ability, which can only be used once per game (but see ["Once per game"](#once-per-game) below). 
+    - A "once-per-game" ability, which <span class="nodaybreak">can only be used once per game</span><span class="daybreak">is actually a bit of a misnomer with Daybreak, see ["Once per game"](#once-per-game) below</span>. 
     - A negative ability which must be followed during the game.
 - Skill Set. These are the types of cards that your character draws. 
     - The numbers indicate how many of each type to draw at the start of your turn. For "multi-skills" like "1 Leadership/Engineering", you may choose between the two types while drawing. 
@@ -1478,9 +1485,9 @@ The hand of Quorum cards belongs to the human fleet as a whole, but is controlle
 
 #### Admiral
 
-The Admiral controls the human fleet's nuke tokens and can use them with the Action on the title card. The Admiral also chooses the destination when a jump occurs, and makes choices that specify the Admiral. <span class="nocylonfleet">In addition, if a game effect states that a civilian ship is to be placed, but does not specify a specific area, the Admiral may choose any area.</span>
+The Admiral controls the human fleet's nuke tokens and can use them with the action on the title card. The Admiral also chooses the destination when a jump occurs, and makes choices that specify the Admiral. <span class="nocylonfleet">In addition, if a game effect states that a civilian ship is to be placed, but does not say which space area, the Admiral may choose any area.</span>
 
-If the Admiral is in the Brig, they are stripped of their title. The highest human player in the line of succession then claims it. The Admiral does not regain their title automatically upon leaving the Brig. If all eligible players are in the Brig, the title goes to the highest in the line of succession until a player leaves the Brig. <span class="newcaprica">The Admiral still retains their title if they are sent to Detention on New Caprica.</span>
+If the Admiral is in the Brig, they are stripped of their title. The new Admiral is the highest human player in the line of succession who is not in the Brig. The previous Admiral does not regain their title automatically upon leaving the Brig. If all eligible players are in the Brig, the title goes to the highest in the line of succession until a player leaves the Brig. <span class="newcaprica">The Admiral still retains their title if they are sent to Detention on New Caprica.</span>
 
 <div class="cylonfleet" markdown="1">
 
@@ -1599,7 +1606,7 @@ To create the Destiny deck, take two of each type of Skill Card <span class="tre
 
 Each Cylon Attack Crisis has 3 steps:
 
-1. Activate: Fully resolve the indicated Cylon ship activation before adding new ships to the board.
+1. Activate: Fully resolve the indicated [Cylon ship activation](#activating-cylon-ships) before adding new ships to the board.
 2. Setup: Place new ships on the board as shown in the image. The text lists the exact numbers. 
 3. Special Rule: The given special rule now applies. If the rule does not say to "keep this card in play", the Crisis card is discarded afterward.   
 
@@ -2019,6 +2026,8 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 ### Execution
 
+#### First steps
+
 If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. <span class="exodusloyalty">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished.</span>
 
 After that, the execution proceeds differently based on whether you are actually a human or not. 
@@ -2028,7 +2037,7 @@ After that, the execution proceeds differently based on whether you are actually
 
 If you are a hidden Cylon, reveal <em>one</em> “You Are a Cylon” card and keep the rest of your Loyalty cards face down. Do not take the action on that card. <span class="allyseasons">Take 1 Trauma token from the pile (not the Mood Pool).</span> Follow <a href="#cylon-reveal-resolution">the rest of the normal procedure for revealing</a> as a Cylon, but do not draw a Super Crisis card.
 
-If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, follow the above instructions for a hidden Cylon but ignore all instructions involving Loyalty cards. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
+If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, move to the “Resurrection Ship” location. If piloting a ship, that ship is returned to the Reserves. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
 
 #### Finishing a human execution
 
@@ -2057,7 +2066,7 @@ If your new character is one of these, there are some additional rules and clari
   </li>
   <li>Helo: Start out “Stranded” even though it is not the beginning of the game.</li>
   <li>Apollo: Start in a viper from the reserves. If none are available, start in the Hangar Deck.</li>
-  <li>Gaius Baltar:
+  <li>Gaius Baltar (Political):
     <ul>
       <li>If before the Sleeper Agent phase, shuffle 1 “Not a Cylon” card into the Loyalty deck and draw 1 Loyalty card.</li>
       <li class="noexodusloyalty">If after the Sleeper Agent phase, Gaius may not use his Cylon Detector ability.</li>
@@ -2078,37 +2087,29 @@ When Helo re-rolls a die that had "Strategic Planning" applied to it, the re-rol
 
 Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone] Chooses" Crisis. He cannot, however, influence any choices that must be made *within* that box. For example, if the chosen box says that the President must either give up their title or go to the Brig, Helo does not have the power to influence the President's decision. 
 
-<div class="pegasus" markdown="1">
-
 If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later. Always follow [the normal rules for "drawing and destroying" civilian ships](#drawing-and-destroying). 
 
 When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. She also cannot defeat Scar with a "Hot Shot", because he can only be destroyed by a die roll. 
 
-If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). Even if, during her "Manipulative" turn, she becomes President again, or passes the Skill check at "Administration", she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
+If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). Even if, during her "Manipulative" turn, she gains or regains the title "legitimately", for example using "Administration", she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
 
 <p class="allies" markdown="1">Ellen Tigh's "Politically Adroit" is simultaneous with the instruction to encounter an Ally, since both occur "at the end of your Movement step". As always, the current player (in this case, Ellen Tigh herself) may choose which order they are resolved in. If encountering an Ally causes a move, she may use "Adroit" in her new location if she hasn't already.</p>
 
-</div>
 
-<p class="exodus" markdown="1">
 Hoshi's<span class="pegasus"> "Reluctant" weakness also applies to Movement actions on Skill cards, because any restrictions on actions also apply to Movement actions. His</span> "Dutiful" ability can be used once for *each* location listed. So, for example, if he used his "Organized" once-per-game on those 3 locations, he could also use "Dutiful" each time on them.
-</p>
-
-<div class="daybreak" markdown="1">
 
 Tom Zarek (Military)'s "Necessary Steps" applies to all players, even himself, and even applies at the start of the game when he draws a Mutiny card due to his "Disreputable" weakness. 
 
-Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability creates a new, additional option on "[Someone] Chooses" cards, whereas Helo's forces a player to choose a specific box to resolve. Lee could use "Different Path" to create a new option (and presumably choose it), and Helo could force his choice to something else. But if Helo uses "Moral Compass", Lee cannot then use "Different Path" to change away from Helo's choice, because "Different Path" would simply add a new option, not force Helo to actually use it. 
+Lee Adama (Political)'s "Choose a Different Path" and Helo's "Moral Compass" both apply to "[Someone] Chooses" decisions. Lee's ability allows him to create and select a new, additional box on "[Someone] Chooses" cards, whereas Helo's allows him to intervene when a box is chosen and force a different one to be chosen instead. Lee could use "Different Path" to choose his special option, and Helo could subsequently force his choice back to any of the original choices. If Helo uses "Moral Compass" first, Lee cannot use "Different Path" to override Helo because Lee's choice has already been set, and it is too late to select the new option even if it were added. 
 
 Doc Cottle can use *abilities* on Engineering cards, just not *actions*<span class="pegasus"> (and by extension, not Movement actions either)</span>. 
-
-</div>
 
 <div class="cylonleader" markdown="1">
 
 Athena's "For Love" ability cannot be used in the following cases:
 
 - A player is discarding down to their hand limit (as mentioned on the sheet)
+- A player with no Skill cards wants to move to another ship
 - A Super Crisis card is being resolved
 - A player is discarding to resolve a character ability, like Kat's "Hotshot", Hoshi's "Dutiful", and Anders's "Star Player". 
 
