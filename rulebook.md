@@ -1097,9 +1097,7 @@ When a deck runs out of cards, shuffle its discard pile to create a new deck. <s
 
 ### Die rolls
 
-Various events during the game depend on the results of a die roll. Normally, when a player initiates an action that requires a die roll, that player performs the roll. This is important for characters with the ability to affect "their" die rolls, like Kat. Be careful to check whether an ability specifies "on your turn" as well. 
-
-The rulebook states that when activating the "FTL Control" location, the *current player* rolls to see if population is lost, not the player using the location, making it an exception to this rule. 
+Various events during the game depend on the results of a die roll. When a player initiates an action that requires a die roll, that player performs the roll, even if they are not the current player. This is important for characters with the ability to affect "their" die rolls. Be careful to check whether an ability specifies "on your turn" or "during *your* action step" as well. 
 
 Die rolls can be changed by game effects, but the result cannot be made greater than 8 or less than 1. Effects that modify die rolls do *not* apply when a die roll is skipped, such as Kat's "Hot Shot" ability.
 
@@ -2094,7 +2092,7 @@ Helo's "Moral Compass" allows him to choose which box is resolved on a "[Someone
 
 If Helena Cain uses "Blind Jump" while a "Mission Specialist" is assigned, ignore the "Mission Specialist" instructions for that jump, leaving it in place for later. Always follow [the normal rules for "drawing and destroying" civilian ships](#drawing-and-destroying). 
 
-When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. She also cannot defeat Scar with a "Hot Shot", because he can only be destroyed by a die roll. 
+When "Kat" uses her "Hot Shot" ability, there is no die roll, so cards that affect die rolls cannot be used. An attack on a basestar with structural damage does not get +2 with "Hot Shot" for the same reason. She also cannot defeat Scar with a "Hot Shot", because he can only be destroyed by a die roll. Kat cannot use this ability outside of her regular action step on her turn, and she also cannot use this ability if another player is taking an action during her action step (for example, if she used an Executive Order). 
 
 If Ellen Tigh steals a title using "Manipulative" but then loses it before the end of her turn, she is no longer capable of following the instruction to return it and it therefore stays with whoever now has it. If she attempts to return it but the player it belonged to is no longer capable of holding the title, it goes to the first in the appropriate [line of succession](#lines-of-succession). Even if, during her "Manipulative" turn, she gains or regains the title "legitimately", for example using "Administration", she must still follow the instruction to return the title at the end of her turn. She cannot use "Manipulative" to become Admiral if she is in the Brig. 
 
@@ -2138,7 +2136,7 @@ The wording on Command should actually be "Perform up to 2 unmanned viper activa
 
 Players may only move out of the Brig if they pass the Brig's Skill Check, or an effect says to move a player and *specifically* mentions the Brig. For example, a card that says "send the President to Sickbay" cannot be used to transfer the President from the Brig. If, however, it said "move a character from the Brig to Sickbay", such a move would be allowed. In particular, Kat's "Stim Junkie" and Lee Adama's "Alert Viper Pilot" cannot be used to escape the Brig. 
 
-The text on the board says that characters can move to "any location" after passing the Skill check, but the base game rules specify on page 18 that they can move to any location *on Galactica*. 
+The text on the board says that characters can move to "any location" after passing the Skill check, but the base game rules specify on page 18 that they can move to any location *on Galactica*. (That page also incorrectly refers to the player taking the action as the "current player".)
 
 Players may use any action they wish in the Brig. <span class="pegasus">They are also allowed to use Movement actions during their Movement phase.</span> The only restrictions that apply to them are the move restriction and the number of cards they may play into Skill checks. 
 
