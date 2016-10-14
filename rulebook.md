@@ -376,6 +376,10 @@ $(function () {
     }
     // Show the real config form
     $("#configform").show();
+    // There is no preconfiguration here. Set CSS accordingly.
+    $(".preconfigured").hide();
+    $(".nopreconfigured").show();
+
   }
   $('#configform').change(flipSwitches);
   flipSwitches();
@@ -920,7 +924,7 @@ To setup for Allies for All Seasons, just before starting the game:
 - Draw and place Ally cards and their respective tokens until 3 are placed on the board. If an Ally is a duplicate of an existing player's character, remove it from the game and re-draw. 
 - Each player draws 4 Trauma tokens, and contributes 1 to create the Mood Pool.
 
-Human players want the overall Mood to be benevolent, but also want their own tokens to be benevolent toward the end of the game. Cylons are the exact opposite. 
+Human players want the overall Mood to be benevolent, but also want their own tokens to be benevolent toward the end of the game. Cylons are the exact opposite: they want an antagonistic mood, as well as antagonistic tokens for themselves. 
 
 During the game, any player who is sent to the Brig or Sickbay must also draw a Trauma token. A hidden Cylon who is executed must also draw a Trauma token. 
 
@@ -1099,6 +1103,8 @@ When a deck runs out of cards, shuffle its discard pile to create a new deck. <s
 
 Various events during the game depend on the results of a die roll. When a player initiates an action that requires a die roll, that player performs the roll, even if they are not the current player. This is important for characters with the ability to affect "their" die rolls. Be careful to check whether an ability specifies "on your turn" or "during *your* action step" as well. 
 
+When an ability allows a die roll to be redone, any abilities that were played before the first roll, such as "Strategic Planning", are still in effect for the re-roll. Players can choose to add new effects to the new roll as well (for example, playing "Strategic Planning" if it wasn't played before). 
+
 Die rolls can be changed by game effects, but the result cannot be made greater than 8 or less than 1. Effects that modify die rolls do *not* apply when a die roll is skipped, such as Kat's "Hot Shot" ability.
 
 ### Timing
@@ -1107,7 +1113,9 @@ This rulebook is very specific about the separate phases of resolving various ca
 
 Otherwise, in general when multiple players want to perform abilities in the same "timing window" or a choice needs to be made about what order things happen in, the choice is up to the current player. For example, if two players want to use abilities before a Skill Check, the current player chooses which one happens first. The rejected ability is either withdrawn or that player may still choose to use it after the first is resolved. If the withdrawn ability was on a card being played, the player takes the card back. 
 
-When playing a card, it ceases to be "yours" or "in your hand" when resolution of the card text begins. For example, if you have 5 cards in your hand, then play a card like Pegasus's "Support the People" which allows players with 4 or less cards in hand to do something, you count as having 4 cards. <span class="daybreak">This also means that players are not sent to the Brig if they draw a Mutiny card as a result of playing a Mutiny card.</span> Technically, it counts as discarded at that point as well (unless the text indicates that it should be kept in play), although in practice players will probably want to keep it on the board while the card is resolved. This shouldn't make any difference unless the discard pile needs to be reshuffled while the card is being resolved. If this happens, the played card should be included in the shuffled deck. 
+The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are resolved first when activating Cylon ships. 
+
+When playing a card, it ceases to be "yours" or "in your hand" when resolution of the card text begins. For example, if you have 5 cards in your hand, then play a card like Pegasus's "Support the People" which allows players with 4 or less cards in hand to do something, you count as having 4 cards. <span class="daybreak">This also means that players are not sent to the Brig if they draw a Mutiny card as a result of playing a Mutiny card.</span> Technically, as soon as a card is played it should be discarded (unless the text indicates that it should be kept in play), although in practice players will probably want to keep it on the board while the card is resolved. This shouldn't make any difference unless the discard pile needs to be reshuffled while the card is being resolved. If this happens, the played card should be included in the shuffled deck. 
 
 If multiple players are instructed to do something that involves drawing cards, start with the player who initiated the action, if applicable, otherwise the current player, and proceed clockwise until each player has completed the instruction. If the instruction involves multiple steps, each player performs all of the steps. For example, when following "All players discard 1 Skill card and draw 1 Treachery card", the current player does their discard and draw, then the next player discards and draws, and so on. 
 
@@ -1115,7 +1123,6 @@ If multiple players are instructed to discard cards with no card drawing involve
 
 Players must be given a reasonable opportunity to use abilities. For example, you may not rush to put cards into a Skill check to prevent players from using a card that can only be played before cards are added. 
 
-The current player also chooses which components to place and which to skip if there is [a shortage](#component-limitations), and which space areas are resolved first when activating Cylon ships. 
 
 
 ### Resources
@@ -1309,7 +1316,7 @@ Personal Goals can be revealed as an action as long as certain conditions are me
 
 If a human player has not revealed it by the end of the game, the resource listed on the card is reduced. This could cause the humans to lose at the last minute. 
 
-<p class="nopegasus nodaybreak" markdown="1">If a revealed Cylon keeps a Personal Goal card hidden, resources are *not* lost at the end of the game, so it is almost certainly in their best interest to pass it off using the "Resurrection Ship" location.</p>
+If a revealed Cylon keeps a Personal Goal card hidden, resources are *not* lost at the end of the game, so it is probably in their best interest to pass it off <span class="nooverlay">using the "Resurrection Ship" location</span><span class="overlay">by revealing as a Cylon before distance 7 is reached.</span>
 
 </div>
 
@@ -1511,7 +1518,7 @@ Unlike in real life, players do not gain titles solely because they are the high
 
 ### Actions & Abilities
 
-Cards, character sheets, and locations have various actions and abilities that are available to players to use. Players may play cards to use their abilities, use abilities on their own character sheets, and use the action for their current location. A pilot may also use an action to activate the viper that they are piloting. 
+Cards, character sheets, and locations have various actions and abilities that are available to players to use. Players may play cards to use their abilities, use abilities on their own character sheets or on title cards that they hold, and use the action for their current location. A pilot may also use an action to activate the viper that they are piloting. 
 
 An action will be indicated by the word "Action:", and can be used only when a player is granted an action. Other abilities indicate when they can be played and the effect that they will have. 
 
@@ -1752,7 +1759,7 @@ If there are not enough tokens to place ships on the board, the current player c
 
 When these icons appear on a Crisis card, do the following:
 
-- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). The current player chooses the order of space areas. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a raider on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
+- Activate raiders: [Each Cylon raider is activated once](#activating-a-raider). Resolve one space area at a time, with the current player choosing the order of space areas. If there are no raiders on the board, each basestar launches two new raiders. If there are no raiders and no basestars on the board, <span class="cylonfleet">place a raider on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
 - Launch raiders: Each basestar launches 3 raiders. If there are no basestars, <span class="cylonfleet">place a basestar on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>.
 - Activate heavy raiders and Centurions: Follow [the procedure for activating heavy raiders and Centurions](#activating-heavy-raiders-and-centurions). If there are no basestars, centurions, or heavy raiders, <span class="cylonfleet">place a heavy raider on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
 - Activate basestars: Each basestar [attacks Galactica](#combat-ship-attack-table). If there are no basestars, <span class="cylonfleet">place a basestar on the Cylon Fleet board as specified below</span><span class="nocylonfleet">nothing happens</span>. 
@@ -1768,7 +1775,7 @@ To place a ship on the Cylon Fleet board:
 2. If there is an appropriate ship in the normal stock, then roll a die and place that ship in the Cylon space area with that number.
     - This die roll **may** be affected by game effects or abilities. 
 3. Otherwise, if the stock of appropriate ships is depleted:
-    - Find the highest numbered Cylon space area containing the appropriate ship, and move *all* ships from that space area to the corresponding area on the main board.
+    - Find the highest numbered Cylon space area containing the appropriate ship, and move *all* ships from that Cylon space area to the corresponding area on the main board.
     - If the appropriate ship is not on the Cylon Fleet board at all, no ships move over.
 4. Finally, advance the Cylon pursuit marker one space. 
     - If it has reached a space with civilian ships underneath it, the CAG must place the indicated number of civilian ships on the main board. 
@@ -1810,7 +1817,7 @@ If a heavy raider would normally enter a viper launch tube, but there are no Cen
 
 The human fleet normally jumps by either activating the "FTL Control" location on Galactica, or having the fleet token reach "Auto-Jump". 
 
-When "FTL Control" is used to jump, the *current player* must first roll a die, and on a 6 or lower, the population indicated by the current Jump Preparation space is lost (either -3 or -1). After this is finished, the jump can begin. 
+When "FTL Control" is used to jump, the player activating it must first roll a die, and on a 6 or lower, the population indicated by the current Jump Preparation space is lost (either -3 or -1). After this is finished, the jump can begin. (The base game rulebook incorrectly refers to the player activating "FTL Control" as the "current player".)
 
 <p class="pegasus" markdown="1">When the "Lured Into a Trap" Super Crisis card is in play, handle the executions *after* the jump is resolved. The executions still occur during <a href="#final-jump">the final jump</a>, and could cause <a href="#human-loss">the humans to lose</a>. </p>
 
@@ -2031,22 +2038,21 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. 
 
-<p class="exodusloyalty">If you were the current player when you were executed, skip your remaining move, action, and Crisis steps after the execution is finished. <span class="allies">If an Ally executed you, replace the Ally <a href="#ally-replaced-with-player-or-location-damaged">as if it were in a location that got damaged</a> after your execution is finished.</span></p>
+<p class="exodusloyalty">If you were the current player when you were executed, resolve the execution and then skip your remaining move, action, and Crisis steps. <span class="allies">If an Ally executed you, replace the Ally <a href="#ally-replaced-with-player-or-location-damaged">as if it were in a location that got damaged</a> after your execution is finished.</span></p>
 
 After that, the execution proceeds differently based on whether you are actually a human or not. 
-
 
 #### Finishing a Cylon execution
 
 If you are a hidden Cylon, reveal <em>one</em> “You Are a Cylon” card and keep the rest of your Loyalty cards face down. Do not take the action on that card. <span class="allyseasons">Take 1 Trauma token from the pile (not the Mood Pool).</span> Follow <a href="#cylon-reveal-resolution">the rest of the normal procedure for revealing</a> as a Cylon, but do not draw a Super Crisis card.
 
-If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, move to the “Resurrection Ship” location. If piloting a ship, that ship is returned to the Reserves. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
+If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has already revealed, move to the “Resurrection Ship” location<span class="allyseasons"> and take 1 Trauma token from the pile (not the Mood Pool)</span>. If piloting a ship, that ship is returned to the Reserves. <span class="cylonleader">As always, Cylon Leaders <em>do not reveal their agenda or motive!</em></span>
 
 #### Finishing a human execution
 
 <ol>
   <li>Reveal <em>all</em> your Loyalty cards, showing that none are Cylon cards. <span class="finalfive">For “Final Five” cards, resolve the text for execution.</span></li>
-  <li>The fleet loses 1 morale. <span class="pegasus">(If this causes Dee to be executed, resolve her execution after this one is finished.)</span></li>
+  <li>The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)</li>
   <li>Return your character and token(s) to the box, removing them from the game. <span class="allies">Discard any Trauma tokens.</span></li>
   <li class="exodusloyalty">Discard all of your loyalty cards.</li>
   <li class="noexodusloyalty">If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 new Loyalty card.</li>
@@ -2144,7 +2150,7 @@ Players may use any action they wish in the Brig. <span class="pegasus">They are
 
 In general, players are allowed to make choices even if they know that they cannot actually fulfill the consequences of that choice. However, one exception is targeting players to be sent to the Brig or Sickbay. Players who are incapable of moving to the indicated location for any reason are *not* allowed to be chosen as the target. This includes any character with restricted movement (characters that are in the Brig, Helo while he is "Stranded", revealed Cylons) and characters already in that location. If possible, a character must be targeted that can actually be moved from somewhere else to the indicated location. 
 
-If no characters exist that can be legally targeted, the effect is resolved and nothing happens. If a subsequent effect depended on which character was chosen (for example, "Choose a character to send to Sickbay, then look at one of their Loyalty cards"), the subsequent effect is also skipped because no player could be chosen. 
+If no characters exist that can be legally targeted, nothing happens and gameplay continues. If a subsequent effect depended on which character was chosen (for example, "Choose a character to send to Sickbay, then look at one of their Loyalty cards"), the subsequent effect is also skipped because no player could be chosen. 
 
 Note that this restriction only applies to choosing *which* character gets moved. Players are still allowed to select the "choose a character to send to the Brig/Sickbay" option even if they know that there are no legal targets. Similarly, if the option does not offer a choice, like "Send the President to Sickbay", the option can still be chosen if the specified target is not capable of being moved. Again, the result is that nothing happens. 
 
@@ -2166,7 +2172,7 @@ In the Exodus rulebook on page 9, the Caprica location's behavior is changed: do
 
 When choosing to "activate all Cylon ships of one type", the chosen activation is [resolved exactly as it is when it appears on a Crisis card](#activating-cylon-ships), including moving Centurions if heavy raiders are activated<span class="cylonfleet"> and placing ships on the Cylon Fleet board</span>.
 
-The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if launching the ships happens to trigger [the regular component limitation rules](#component-limitations). Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
+The other option, "launch 2 raiders and 1 heavy raider from each basestar" does exactly that and nothing more. <span class="cylonfleet">The Cylon Fleet board is only involved if launching the ships happens to trigger [the normal component limitation rules](#component-limitations). Basestars on the Cylon Fleet board do *not* launch ships as a result of this action, only basestars on the main board. Since it is not an "Activate Cylon Ships" icon that is being resolved, the Pursuit track is not advanced and Cylon Fleet space areas are not moved over to the main board. </span>
 
 <div class="cylonfleet" markdown="1">
 #### Basestar Bridge
