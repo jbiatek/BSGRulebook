@@ -549,7 +549,7 @@ Some game mechanics depend on the Exodus version, like Personal Goal cards and s
 
 ## Introduction
 
-This rulebook is intended to be a single resource for the official rules of Battlestar Galactica by Fantasy Flight Games, including its 3 expansions. The goals are for it to be complete and unambiguous, incorporating the published rules included with the games as well as clarifications and rulings made later, so that no one has to dig through 4 rulebooks, errata, official FAQs, unofficial FAQs, and rulings by FFG employees in response to customer questions. 
+This rulebook is intended to be a single resource for the official rules of [Battlestar Galactica by Fantasy Flight Games](https://www.fantasyflightgames.com/en/products/battlestar-galactica/), including its 3 expansions. The goals are for it to be complete and unambiguous, incorporating the published rules included with the games as well as clarifications and rulings made later, so that no one has to dig through 4 rulebooks, errata, official FAQs, [unofficial FAQs](https://boardgamegeek.com/wiki/page/Battlestar_Galactica_FAQ), and rulings by FFG employees in response to customer questions. 
 
 For beginning players, it's probably best to use the official base game rulebook to learn the game. This rulebook has lots of detail, even when all the expansions are turned off, which is probably going to hurt more than help. But if you are playing the game and have a question that the official rulebook doesn't seem to answer, take a look. An experienced player should be able to use this to teach new players the game, since they can explain the basics themselves and know what details can be ignored to start. 
 
@@ -1587,7 +1587,11 @@ Only one Reckless card may be played per Skill check. "Restore Order" cannot be 
 
 #### Types
 <ul>
-<li>Politics: This skill represents a character’s ability to control morale and help the fleet overcome crises. This is the most common skill type required by Crisis Cards. Some politics cards also provide the ability to allow a player draw Skill Cards from outside his skill set.</li><li>Leadership: This skill represents a character’s ability to take charge of situations and command other individuals. This is the second-most common skill type required by Crisis Cards. Some leadership cards allow players to move other characters and grant them a bonus action.</li><li>Tactics: This skill type represents a character’s ability to plan missions as well as to physically overcome obstacles. Tactics cards allow players to gain bonuses to die rolls as well as scout the galaxy for new destinations.</li><li>Piloting: This skill represents a character’s ability to fly vipers. Piloting cards allow players to reroll enemy attack rolls as well as gain additional attacks.</li><li>Engineering: This skill represents a character’s strength in the mechanical and scientific fields. Some engineering cards allow players to repair vipers and locations aboard Galactica.</li>
+<li>Politics: This skill represents a character’s ability to control morale and help the fleet overcome crises. This is the most common skill type required by Crisis Cards. Some politics cards also provide the ability to allow a player draw Skill Cards from outside his skill set.</li>
+<li>Leadership: This skill represents a character’s ability to take charge of situations and command other individuals. This is the second-most common skill type required by Crisis Cards. Some leadership cards allow players to move other characters and grant them a bonus action.</li>
+<li>Tactics: This skill type represents a character’s ability to plan missions as well as to physically overcome obstacles. Tactics cards allow players to gain bonuses to die rolls as well as scout the galaxy for new destinations.</li>
+<li>Piloting: This skill represents a character’s ability to fly vipers. Piloting cards allow players to reroll enemy attack rolls as well as gain additional attacks.</li>
+<li>Engineering: This skill represents a character’s strength in the mechanical and scientific fields. Some engineering cards allow players to repair vipers and locations aboard Galactica.</li>
 <li class="treachery">Treachery: This skill represents nefarious and underhanded tactics. Unlike other Skill types, it is primarily used by Cylon players. </li>
 </ul>
 
