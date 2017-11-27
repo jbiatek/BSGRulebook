@@ -1870,7 +1870,7 @@ Upon reaching this distance or more, deal 1 Loyalty card to every player<span cl
 	<tr><td> Heavy raider or Centurion </td> <td> 7–8: Destroyed</td></tr>
 	<tr><td rowspan="3" id="basestardamage"> Basestar      </td> 
 	                         <td>With viper: 8 to damage           </td></tr>
-	    <tr class="daybreak"><td>With assualt raptor: 7–8 to damage</td></tr>
+	    <tr class="daybreak"><td>With assault raptor: 7–8 to damage</td></tr>
 	                     <tr><td>With Galactica: 5-8 to damage     </td></tr> 
 	<tr class="nocylonfleet"><td>With a nuke:	                             <ul>
 	                               <li>1–2: Damaged twice</li>
