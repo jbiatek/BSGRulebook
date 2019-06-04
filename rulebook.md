@@ -2360,7 +2360,7 @@ All the endings are turned on, so you are probably playing some sort of "mega ga
 </p>
 
 <p class="nonewcaprica noallendings" markdown="1">
-After the final distance indicated on the Objective card is reached, the next time the fleet jumps will end the game. When this happens the [normal jump procedure](#jumping-the-fleet) is skipped, so there is no "Remove Ships" step and no Destination card is drawn. The "FTL Control" location does still trigger a population loss if the die roll is 6 or lower, since this happens before the the jump. 
+After the final distance indicated on the Objective card is reached, the next time the fleet jumps will end the game. When this happens the [normal jump procedure](#jumping-the-fleet) is skipped, so there is no "Remove Ships" step and no Destination card is drawn. The "FTL Control" location does still trigger a population loss if the die roll is 6 or lower, since this happens before the jump. 
 </p>
 
 <div class="newcaprica noallendings" markdown="1">
