@@ -345,8 +345,23 @@ function buildStateString() {
 
 // enable this id (check it or select it)
 function setValue(id) {
-  $('#'+id).prop('checked', true);
-  $('#'+id).prop('selected', true);
+  if (!/^[a-zA-Z][a-zA-Z0-9\-\_]+$/.test(id)) {
+    return false;
+  }
+  var el = $('#'+id);
+  
+  if (el.length === 0) {
+    return false;
+  }
+  
+  if (el.is('option') || el.is('input')) {
+    el.prop('checked', true);
+    el.prop('selected', true);
+
+    return true;
+  }
+  
+  return false;
 }
 
 // This is the page initialization code
@@ -355,14 +370,20 @@ $(function () {
   $(".nojs").hide();
   $(".js").show();
 
+  var foundConfig = false;
   // queryparam exists?
   var qs = window.location.search;
   if (!!qs) {
     // use querystring to set values
     qs = qs.replace("?", '').split('&');
     for (var i=0; i < qs.length; i++) {
-      setValue(qs[i]);
+      if (setValue(qs[i])) {
+        foundConfig = true;
+      }
     }
+  }
+  
+  if (foundConfig) {
     // Disable configuration, since this is preconfigured.
     // But they can choose to remove the configuration if desired.
     $(".preconfigured").show();
