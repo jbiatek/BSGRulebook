@@ -1370,7 +1370,7 @@ This card is sometimes added to the Loyalty deck after the first round of cards 
 
 The Mutineer is treated as a "Not a Cylon" card. The player with this card is referred to as "The Mutineer". 
 
-Whenever a human player receives the Mutineer card, they must reveal the card. If it was received from the Loyalty deck, not another player, they must then draw another Loyalty card to replace it. Then, they must draw 1 Mutiny card and are stripped of any titles that they hold, giving them to the character highest in the [line of succession](#lines-of-succession) not including themselves. (This only happens when receiving the card. The Mutineer is allowed to gain or lose titles after that as normal.)
+Whenever a human player receives the Mutineer card, they must reveal the card. If it was received from the Loyalty deck, not another player, they must then draw another Loyalty card. Then, they must draw 1 Mutiny card and are stripped of any titles that they hold, giving them to the character highest in the [line of succession](#lines-of-succession) not including themselves. (This only happens when receiving the card. The Mutineer is allowed to gain or lose titles after that as normal.)
 
 When resolving the Crisis card drawn at the end of their turn, if the Mutineer resolves a "Prepare for Jump" icon, they must draw 1 Mutiny card.
 
