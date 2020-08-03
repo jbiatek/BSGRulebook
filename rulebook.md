@@ -1592,7 +1592,7 @@ Cylon players are not allowed to use the text abilities on Skill Cards<span clas
 
 #### Skill Check Abilities
 
-When the "Skill Check Ability" icon appears next to the strength of a Skill card, the text of the card is triggered only when it is revealed as a part of a Skill Check. Additional copies of the same card are not resolved. Since Skill Check Abilities are played anonymously, both human and Cylon players can contribute them to Skill Checks<span class="treachery">whether they are Treachery or non-Treachery</span>. 
+When the "Skill Check Ability" icon appears next to the strength of a Skill card, the text of the card is triggered only when it is revealed as a part of a Skill Check. Additional copies of the same card are not resolved. Since Skill Check Abilities are played anonymously, both human and Cylon players can contribute them to Skill Checks<span class="treachery"> whether they are Treachery or non-Treachery</span>. 
 
 <div class="pegasus" markdown="1">
 
